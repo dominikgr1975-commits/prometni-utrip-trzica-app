@@ -1,0 +1,4783 @@
+{
+  "description": "Dnevno število vozil na lokaciji CABLEX, vse smeri, po vrstah vozil",
+  "location": {
+    "id": "CABLEX",
+    "name": "TC25 Tržič - Cablex",
+    "latitude": 46.357972,
+    "longitude": 14.296889
+  },
+  "interval": "1 day",
+  "source": "Kibana CSV export",
+  "period": {
+    "from": "2025-07-15",
+    "to": "2026-07-15"
+  },
+  "vehicleTypes": [
+    "Osebni avtomobil",
+    "Kombinirano vozilo",
+    "Težje tovorno vozilo",
+    "Tovorno vozilo s prikolico",
+    "Enosledno vozilo",
+    "Nerazpoznana vozila"
+  ],
+  "records": [
+    {
+      "date": "2025-07-15",
+      "totalVehicles": 4166,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3905,
+        "Kombinirano vozilo": 196,
+        "Težje tovorno vozilo": 56,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": true
+    },
+    {
+      "date": "2025-07-16",
+      "totalVehicles": 8998,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8374,
+        "Kombinirano vozilo": 430,
+        "Težje tovorno vozilo": 175,
+        "Tovorno vozilo s prikolico": 19,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-17",
+      "totalVehicles": 9077,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8312,
+        "Kombinirano vozilo": 558,
+        "Težje tovorno vozilo": 182,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-18",
+      "totalVehicles": 9519,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8681,
+        "Kombinirano vozilo": 603,
+        "Težje tovorno vozilo": 217,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-19",
+      "totalVehicles": 7489,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7115,
+        "Kombinirano vozilo": 308,
+        "Težje tovorno vozilo": 57,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-20",
+      "totalVehicles": 5029,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4791,
+        "Kombinirano vozilo": 215,
+        "Težje tovorno vozilo": 23,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-21",
+      "totalVehicles": 8740,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7955,
+        "Kombinirano vozilo": 555,
+        "Težje tovorno vozilo": 209,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-22",
+      "totalVehicles": 8770,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8035,
+        "Kombinirano vozilo": 530,
+        "Težje tovorno vozilo": 181,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-23",
+      "totalVehicles": 8853,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8054,
+        "Kombinirano vozilo": 581,
+        "Težje tovorno vozilo": 205,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-24",
+      "totalVehicles": 8682,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7910,
+        "Kombinirano vozilo": 546,
+        "Težje tovorno vozilo": 209,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-25",
+      "totalVehicles": 8749,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8122,
+        "Kombinirano vozilo": 441,
+        "Težje tovorno vozilo": 158,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-26",
+      "totalVehicles": 6215,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5958,
+        "Kombinirano vozilo": 204,
+        "Težje tovorno vozilo": 47,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-27",
+      "totalVehicles": 4041,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3885,
+        "Kombinirano vozilo": 130,
+        "Težje tovorno vozilo": 25,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-28",
+      "totalVehicles": 8583,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7930,
+        "Kombinirano vozilo": 471,
+        "Težje tovorno vozilo": 157,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-29",
+      "totalVehicles": 8399,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7721,
+        "Kombinirano vozilo": 512,
+        "Težje tovorno vozilo": 153,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-30",
+      "totalVehicles": 8833,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8074,
+        "Kombinirano vozilo": 558,
+        "Težje tovorno vozilo": 185,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-07-31",
+      "totalVehicles": 8983,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8257,
+        "Kombinirano vozilo": 523,
+        "Težje tovorno vozilo": 188,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-01",
+      "totalVehicles": 8697,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8049,
+        "Kombinirano vozilo": 458,
+        "Težje tovorno vozilo": 158,
+        "Tovorno vozilo s prikolico": 32,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-02",
+      "totalVehicles": 6184,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5869,
+        "Kombinirano vozilo": 245,
+        "Težje tovorno vozilo": 62,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-03",
+      "totalVehicles": 4006,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3805,
+        "Kombinirano vozilo": 168,
+        "Težje tovorno vozilo": 33,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-04",
+      "totalVehicles": 8407,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7664,
+        "Kombinirano vozilo": 521,
+        "Težje tovorno vozilo": 194,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-05",
+      "totalVehicles": 8353,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7571,
+        "Kombinirano vozilo": 541,
+        "Težje tovorno vozilo": 216,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-06",
+      "totalVehicles": 8157,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7585,
+        "Kombinirano vozilo": 386,
+        "Težje tovorno vozilo": 176,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-07",
+      "totalVehicles": 8596,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7886,
+        "Kombinirano vozilo": 514,
+        "Težje tovorno vozilo": 181,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-08",
+      "totalVehicles": 8746,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8104,
+        "Kombinirano vozilo": 452,
+        "Težje tovorno vozilo": 175,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-09",
+      "totalVehicles": 4337,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4081,
+        "Kombinirano vozilo": 206,
+        "Težje tovorno vozilo": 43,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-10",
+      "totalVehicles": 5063,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4832,
+        "Kombinirano vozilo": 199,
+        "Težje tovorno vozilo": 31,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-11",
+      "totalVehicles": 8986,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8243,
+        "Kombinirano vozilo": 531,
+        "Težje tovorno vozilo": 194,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-12",
+      "totalVehicles": 8895,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8170,
+        "Kombinirano vozilo": 500,
+        "Težje tovorno vozilo": 203,
+        "Tovorno vozilo s prikolico": 22,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-13",
+      "totalVehicles": 9136,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8415,
+        "Kombinirano vozilo": 507,
+        "Težje tovorno vozilo": 197,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-14",
+      "totalVehicles": 9766,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9059,
+        "Kombinirano vozilo": 495,
+        "Težje tovorno vozilo": 192,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-15",
+      "totalVehicles": 5227,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4971,
+        "Kombinirano vozilo": 213,
+        "Težje tovorno vozilo": 40,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-16",
+      "totalVehicles": 7423,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7094,
+        "Kombinirano vozilo": 270,
+        "Težje tovorno vozilo": 52,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-17",
+      "totalVehicles": 4298,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4091,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 35,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-18",
+      "totalVehicles": 9538,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8764,
+        "Kombinirano vozilo": 541,
+        "Težje tovorno vozilo": 212,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-19",
+      "totalVehicles": 9615,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8812,
+        "Kombinirano vozilo": 579,
+        "Težje tovorno vozilo": 200,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-20",
+      "totalVehicles": 9541,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8742,
+        "Kombinirano vozilo": 601,
+        "Težje tovorno vozilo": 182,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-21",
+      "totalVehicles": 8775,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8155,
+        "Kombinirano vozilo": 436,
+        "Težje tovorno vozilo": 175,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-22",
+      "totalVehicles": 9491,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8788,
+        "Kombinirano vozilo": 512,
+        "Težje tovorno vozilo": 179,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-23",
+      "totalVehicles": 7582,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7213,
+        "Kombinirano vozilo": 310,
+        "Težje tovorno vozilo": 49,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-24",
+      "totalVehicles": 4867,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4641,
+        "Kombinirano vozilo": 191,
+        "Težje tovorno vozilo": 32,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-25",
+      "totalVehicles": 9708,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8843,
+        "Kombinirano vozilo": 625,
+        "Težje tovorno vozilo": 215,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-26",
+      "totalVehicles": 9852,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8991,
+        "Kombinirano vozilo": 609,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-27",
+      "totalVehicles": 9683,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8815,
+        "Kombinirano vozilo": 620,
+        "Težje tovorno vozilo": 220,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-28",
+      "totalVehicles": 9856,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8959,
+        "Kombinirano vozilo": 671,
+        "Težje tovorno vozilo": 209,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-29",
+      "totalVehicles": 9948,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9226,
+        "Kombinirano vozilo": 512,
+        "Težje tovorno vozilo": 192,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-30",
+      "totalVehicles": 7282,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6960,
+        "Kombinirano vozilo": 258,
+        "Težje tovorno vozilo": 59,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-08-31",
+      "totalVehicles": 5493,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5234,
+        "Kombinirano vozilo": 224,
+        "Težje tovorno vozilo": 33,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-01",
+      "totalVehicles": 10117,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9179,
+        "Kombinirano vozilo": 653,
+        "Težje tovorno vozilo": 249,
+        "Tovorno vozilo s prikolico": 36,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-02",
+      "totalVehicles": 9587,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8882,
+        "Kombinirano vozilo": 442,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-03",
+      "totalVehicles": 8467,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7706,
+        "Kombinirano vozilo": 524,
+        "Težje tovorno vozilo": 213,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-04",
+      "totalVehicles": 10432,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9475,
+        "Kombinirano vozilo": 673,
+        "Težje tovorno vozilo": 260,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-05",
+      "totalVehicles": 10335,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9350,
+        "Kombinirano vozilo": 706,
+        "Težje tovorno vozilo": 251,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-06",
+      "totalVehicles": 8231,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7686,
+        "Kombinirano vozilo": 454,
+        "Težje tovorno vozilo": 84,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-07",
+      "totalVehicles": 7344,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6777,
+        "Kombinirano vozilo": 403,
+        "Težje tovorno vozilo": 161,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-08",
+      "totalVehicles": 10079,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9106,
+        "Kombinirano vozilo": 648,
+        "Težje tovorno vozilo": 289,
+        "Tovorno vozilo s prikolico": 36,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-09",
+      "totalVehicles": 9728,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8821,
+        "Kombinirano vozilo": 637,
+        "Težje tovorno vozilo": 250,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-10",
+      "totalVehicles": 6656,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6223,
+        "Kombinirano vozilo": 263,
+        "Težje tovorno vozilo": 160,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-11",
+      "totalVehicles": 10016,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9259,
+        "Kombinirano vozilo": 534,
+        "Težje tovorno vozilo": 199,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-12",
+      "totalVehicles": 9960,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9209,
+        "Kombinirano vozilo": 509,
+        "Težje tovorno vozilo": 230,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-13",
+      "totalVehicles": 7558,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7149,
+        "Kombinirano vozilo": 338,
+        "Težje tovorno vozilo": 65,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-14",
+      "totalVehicles": 4635,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4427,
+        "Kombinirano vozilo": 163,
+        "Težje tovorno vozilo": 42,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-15",
+      "totalVehicles": 10354,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9464,
+        "Kombinirano vozilo": 612,
+        "Težje tovorno vozilo": 250,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-16",
+      "totalVehicles": 9141,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8477,
+        "Kombinirano vozilo": 463,
+        "Težje tovorno vozilo": 187,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-17",
+      "totalVehicles": 9688,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8835,
+        "Kombinirano vozilo": 632,
+        "Težje tovorno vozilo": 206,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-18",
+      "totalVehicles": 10150,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9226,
+        "Kombinirano vozilo": 651,
+        "Težje tovorno vozilo": 250,
+        "Tovorno vozilo s prikolico": 23,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-19",
+      "totalVehicles": 10132,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9233,
+        "Kombinirano vozilo": 617,
+        "Težje tovorno vozilo": 252,
+        "Tovorno vozilo s prikolico": 30,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-20",
+      "totalVehicles": 7666,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7216,
+        "Kombinirano vozilo": 361,
+        "Težje tovorno vozilo": 86,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-21",
+      "totalVehicles": 5547,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5303,
+        "Kombinirano vozilo": 213,
+        "Težje tovorno vozilo": 31,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-22",
+      "totalVehicles": 10132,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9203,
+        "Kombinirano vozilo": 647,
+        "Težje tovorno vozilo": 255,
+        "Tovorno vozilo s prikolico": 27,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-23",
+      "totalVehicles": 8654,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8007,
+        "Kombinirano vozilo": 431,
+        "Težje tovorno vozilo": 200,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 1
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-24",
+      "totalVehicles": 8828,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8234,
+        "Kombinirano vozilo": 397,
+        "Težje tovorno vozilo": 172,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-25",
+      "totalVehicles": 9764,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8977,
+        "Kombinirano vozilo": 536,
+        "Težje tovorno vozilo": 227,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-26",
+      "totalVehicles": 10206,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9376,
+        "Kombinirano vozilo": 577,
+        "Težje tovorno vozilo": 229,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-27",
+      "totalVehicles": 7622,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7205,
+        "Kombinirano vozilo": 344,
+        "Težje tovorno vozilo": 70,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-28",
+      "totalVehicles": 4841,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4581,
+        "Kombinirano vozilo": 224,
+        "Težje tovorno vozilo": 34,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-29",
+      "totalVehicles": 9738,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8793,
+        "Kombinirano vozilo": 678,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 30,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-09-30",
+      "totalVehicles": 9788,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8817,
+        "Kombinirano vozilo": 714,
+        "Težje tovorno vozilo": 233,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-01",
+      "totalVehicles": 9907,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8976,
+        "Kombinirano vozilo": 663,
+        "Težje tovorno vozilo": 242,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-02",
+      "totalVehicles": 9945,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8996,
+        "Kombinirano vozilo": 699,
+        "Težje tovorno vozilo": 228,
+        "Tovorno vozilo s prikolico": 22,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-03",
+      "totalVehicles": 10123,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9032,
+        "Kombinirano vozilo": 800,
+        "Težje tovorno vozilo": 264,
+        "Tovorno vozilo s prikolico": 27,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-04",
+      "totalVehicles": 7964,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7316,
+        "Kombinirano vozilo": 549,
+        "Težje tovorno vozilo": 93,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-05",
+      "totalVehicles": 3403,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3254,
+        "Kombinirano vozilo": 122,
+        "Težje tovorno vozilo": 24,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-06",
+      "totalVehicles": 10016,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9051,
+        "Kombinirano vozilo": 695,
+        "Težje tovorno vozilo": 246,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-07",
+      "totalVehicles": 9729,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8736,
+        "Kombinirano vozilo": 703,
+        "Težje tovorno vozilo": 257,
+        "Tovorno vozilo s prikolico": 33,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-08",
+      "totalVehicles": 9896,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8945,
+        "Kombinirano vozilo": 663,
+        "Težje tovorno vozilo": 270,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-09",
+      "totalVehicles": 9685,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8781,
+        "Kombinirano vozilo": 635,
+        "Težje tovorno vozilo": 239,
+        "Tovorno vozilo s prikolico": 30,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-10",
+      "totalVehicles": 10359,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9482,
+        "Kombinirano vozilo": 598,
+        "Težje tovorno vozilo": 249,
+        "Tovorno vozilo s prikolico": 30,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-11",
+      "totalVehicles": 7367,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6900,
+        "Kombinirano vozilo": 393,
+        "Težje tovorno vozilo": 70,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-12",
+      "totalVehicles": 4912,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4616,
+        "Kombinirano vozilo": 256,
+        "Težje tovorno vozilo": 40,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-13",
+      "totalVehicles": 10105,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9140,
+        "Kombinirano vozilo": 683,
+        "Težje tovorno vozilo": 255,
+        "Tovorno vozilo s prikolico": 27,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-14",
+      "totalVehicles": 9078,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8188,
+        "Kombinirano vozilo": 644,
+        "Težje tovorno vozilo": 229,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-15",
+      "totalVehicles": 9272,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8371,
+        "Kombinirano vozilo": 623,
+        "Težje tovorno vozilo": 260,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-16",
+      "totalVehicles": 10128,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9132,
+        "Kombinirano vozilo": 714,
+        "Težje tovorno vozilo": 249,
+        "Tovorno vozilo s prikolico": 33,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-17",
+      "totalVehicles": 9045,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8162,
+        "Kombinirano vozilo": 628,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-18",
+      "totalVehicles": 7790,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7324,
+        "Kombinirano vozilo": 378,
+        "Težje tovorno vozilo": 86,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-19",
+      "totalVehicles": 4811,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4586,
+        "Kombinirano vozilo": 181,
+        "Težje tovorno vozilo": 43,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-20",
+      "totalVehicles": 10061,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9073,
+        "Kombinirano vozilo": 726,
+        "Težje tovorno vozilo": 241,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-21",
+      "totalVehicles": 9443,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8770,
+        "Kombinirano vozilo": 427,
+        "Težje tovorno vozilo": 226,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-22",
+      "totalVehicles": 9839,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9066,
+        "Kombinirano vozilo": 525,
+        "Težje tovorno vozilo": 225,
+        "Tovorno vozilo s prikolico": 23,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-23",
+      "totalVehicles": 8957,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8228,
+        "Kombinirano vozilo": 485,
+        "Težje tovorno vozilo": 223,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 1
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-24",
+      "totalVehicles": 10337,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9542,
+        "Kombinirano vozilo": 553,
+        "Težje tovorno vozilo": 224,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-25",
+      "totalVehicles": 7612,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7178,
+        "Kombinirano vozilo": 353,
+        "Težje tovorno vozilo": 76,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-26",
+      "totalVehicles": 4091,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3954,
+        "Kombinirano vozilo": 120,
+        "Težje tovorno vozilo": 15,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-27",
+      "totalVehicles": 9058,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8151,
+        "Kombinirano vozilo": 614,
+        "Težje tovorno vozilo": 265,
+        "Tovorno vozilo s prikolico": 28,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-28",
+      "totalVehicles": 8873,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8229,
+        "Kombinirano vozilo": 405,
+        "Težje tovorno vozilo": 226,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-29",
+      "totalVehicles": 9056,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8527,
+        "Kombinirano vozilo": 307,
+        "Težje tovorno vozilo": 198,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-30",
+      "totalVehicles": 10267,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9808,
+        "Kombinirano vozilo": 245,
+        "Težje tovorno vozilo": 199,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-10-31",
+      "totalVehicles": 5379,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5275,
+        "Kombinirano vozilo": 82,
+        "Težje tovorno vozilo": 18,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-01",
+      "totalVehicles": 5440,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5398,
+        "Kombinirano vozilo": 21,
+        "Težje tovorno vozilo": 21,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-02",
+      "totalVehicles": 4098,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4036,
+        "Kombinirano vozilo": 41,
+        "Težje tovorno vozilo": 20,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-03",
+      "totalVehicles": 10277,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9744,
+        "Kombinirano vozilo": 285,
+        "Težje tovorno vozilo": 228,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-04",
+      "totalVehicles": 9441,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8955,
+        "Kombinirano vozilo": 286,
+        "Težje tovorno vozilo": 186,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-05",
+      "totalVehicles": 9911,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9322,
+        "Kombinirano vozilo": 369,
+        "Težje tovorno vozilo": 210,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-06",
+      "totalVehicles": 9854,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9342,
+        "Kombinirano vozilo": 306,
+        "Težje tovorno vozilo": 186,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-07",
+      "totalVehicles": 10038,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9498,
+        "Kombinirano vozilo": 315,
+        "Težje tovorno vozilo": 208,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-08",
+      "totalVehicles": 7266,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7040,
+        "Kombinirano vozilo": 159,
+        "Težje tovorno vozilo": 65,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-09",
+      "totalVehicles": 4645,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4572,
+        "Kombinirano vozilo": 48,
+        "Težje tovorno vozilo": 25,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-10",
+      "totalVehicles": 9852,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9277,
+        "Kombinirano vozilo": 331,
+        "Težje tovorno vozilo": 221,
+        "Tovorno vozilo s prikolico": 23,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-11",
+      "totalVehicles": 7658,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7205,
+        "Kombinirano vozilo": 254,
+        "Težje tovorno vozilo": 187,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-12",
+      "totalVehicles": 9777,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9138,
+        "Kombinirano vozilo": 358,
+        "Težje tovorno vozilo": 260,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-13",
+      "totalVehicles": 9954,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9367,
+        "Kombinirano vozilo": 336,
+        "Težje tovorno vozilo": 228,
+        "Tovorno vozilo s prikolico": 23,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-14",
+      "totalVehicles": 10449,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9896,
+        "Kombinirano vozilo": 338,
+        "Težje tovorno vozilo": 204,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-15",
+      "totalVehicles": 7579,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7350,
+        "Kombinirano vozilo": 132,
+        "Težje tovorno vozilo": 90,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-16",
+      "totalVehicles": 4042,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3983,
+        "Kombinirano vozilo": 38,
+        "Težje tovorno vozilo": 21,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-17",
+      "totalVehicles": 8525,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8144,
+        "Kombinirano vozilo": 213,
+        "Težje tovorno vozilo": 157,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-18",
+      "totalVehicles": 9722,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9246,
+        "Kombinirano vozilo": 285,
+        "Težje tovorno vozilo": 179,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-19",
+      "totalVehicles": 10031,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9442,
+        "Kombinirano vozilo": 358,
+        "Težje tovorno vozilo": 214,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-20",
+      "totalVehicles": 10447,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9980,
+        "Kombinirano vozilo": 263,
+        "Težje tovorno vozilo": 183,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-21",
+      "totalVehicles": 10143,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9681,
+        "Kombinirano vozilo": 272,
+        "Težje tovorno vozilo": 181,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-22",
+      "totalVehicles": 7415,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7251,
+        "Kombinirano vozilo": 103,
+        "Težje tovorno vozilo": 56,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-23",
+      "totalVehicles": 4388,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4331,
+        "Kombinirano vozilo": 34,
+        "Težje tovorno vozilo": 21,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-24",
+      "totalVehicles": 9944,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9480,
+        "Kombinirano vozilo": 263,
+        "Težje tovorno vozilo": 190,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-25",
+      "totalVehicles": 8732,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8378,
+        "Kombinirano vozilo": 181,
+        "Težje tovorno vozilo": 164,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-26",
+      "totalVehicles": 9868,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9304,
+        "Kombinirano vozilo": 324,
+        "Težje tovorno vozilo": 208,
+        "Tovorno vozilo s prikolico": 32,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-27",
+      "totalVehicles": 9958,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9384,
+        "Kombinirano vozilo": 337,
+        "Težje tovorno vozilo": 215,
+        "Tovorno vozilo s prikolico": 22,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-28",
+      "totalVehicles": 10748,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10140,
+        "Kombinirano vozilo": 350,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-29",
+      "totalVehicles": 7752,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7553,
+        "Kombinirano vozilo": 150,
+        "Težje tovorno vozilo": 46,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-11-30",
+      "totalVehicles": 4464,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4395,
+        "Kombinirano vozilo": 52,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-01",
+      "totalVehicles": 10022,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9512,
+        "Kombinirano vozilo": 301,
+        "Težje tovorno vozilo": 197,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-02",
+      "totalVehicles": 9778,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9170,
+        "Kombinirano vozilo": 390,
+        "Težje tovorno vozilo": 200,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-03",
+      "totalVehicles": 8542,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8100,
+        "Kombinirano vozilo": 260,
+        "Težje tovorno vozilo": 169,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-04",
+      "totalVehicles": 8337,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7932,
+        "Kombinirano vozilo": 237,
+        "Težje tovorno vozilo": 153,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-05",
+      "totalVehicles": 9601,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9126,
+        "Kombinirano vozilo": 259,
+        "Težje tovorno vozilo": 202,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-06",
+      "totalVehicles": 7593,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7411,
+        "Kombinirano vozilo": 119,
+        "Težje tovorno vozilo": 57,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-07",
+      "totalVehicles": 4387,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4324,
+        "Kombinirano vozilo": 34,
+        "Težje tovorno vozilo": 28,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-08",
+      "totalVehicles": 10174,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9611,
+        "Kombinirano vozilo": 330,
+        "Težje tovorno vozilo": 213,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-09",
+      "totalVehicles": 9513,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9011,
+        "Kombinirano vozilo": 293,
+        "Težje tovorno vozilo": 196,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-10",
+      "totalVehicles": 10015,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9508,
+        "Kombinirano vozilo": 308,
+        "Težje tovorno vozilo": 185,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-11",
+      "totalVehicles": 9753,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9263,
+        "Kombinirano vozilo": 281,
+        "Težje tovorno vozilo": 197,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-12",
+      "totalVehicles": 10336,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9806,
+        "Kombinirano vozilo": 302,
+        "Težje tovorno vozilo": 212,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-13",
+      "totalVehicles": 7849,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7657,
+        "Kombinirano vozilo": 123,
+        "Težje tovorno vozilo": 64,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-14",
+      "totalVehicles": 4561,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4480,
+        "Kombinirano vozilo": 52,
+        "Težje tovorno vozilo": 28,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-15",
+      "totalVehicles": 9934,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9419,
+        "Kombinirano vozilo": 331,
+        "Težje tovorno vozilo": 172,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-16",
+      "totalVehicles": 9627,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9105,
+        "Kombinirano vozilo": 314,
+        "Težje tovorno vozilo": 195,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-17",
+      "totalVehicles": 10079,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9649,
+        "Kombinirano vozilo": 238,
+        "Težje tovorno vozilo": 182,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-18",
+      "totalVehicles": 10179,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9702,
+        "Kombinirano vozilo": 283,
+        "Težje tovorno vozilo": 180,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-19",
+      "totalVehicles": 10825,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10333,
+        "Kombinirano vozilo": 266,
+        "Težje tovorno vozilo": 213,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-20",
+      "totalVehicles": 8369,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8194,
+        "Kombinirano vozilo": 116,
+        "Težje tovorno vozilo": 55,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-21",
+      "totalVehicles": 4301,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4219,
+        "Kombinirano vozilo": 55,
+        "Težje tovorno vozilo": 26,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-22",
+      "totalVehicles": 10617,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10142,
+        "Kombinirano vozilo": 262,
+        "Težje tovorno vozilo": 197,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-23",
+      "totalVehicles": 10698,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10207,
+        "Kombinirano vozilo": 289,
+        "Težje tovorno vozilo": 187,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-24",
+      "totalVehicles": 9236,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8922,
+        "Kombinirano vozilo": 152,
+        "Težje tovorno vozilo": 157,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-25",
+      "totalVehicles": 3388,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3352,
+        "Kombinirano vozilo": 19,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-26",
+      "totalVehicles": 4369,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4304,
+        "Kombinirano vozilo": 47,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-27",
+      "totalVehicles": 5206,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5106,
+        "Kombinirano vozilo": 59,
+        "Težje tovorno vozilo": 38,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-28",
+      "totalVehicles": 3552,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3492,
+        "Kombinirano vozilo": 41,
+        "Težje tovorno vozilo": 19,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-29",
+      "totalVehicles": 8355,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8060,
+        "Kombinirano vozilo": 167,
+        "Težje tovorno vozilo": 124,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-30",
+      "totalVehicles": 8434,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8143,
+        "Kombinirano vozilo": 167,
+        "Težje tovorno vozilo": 117,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2025-12-31",
+      "totalVehicles": 7256,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7013,
+        "Kombinirano vozilo": 124,
+        "Težje tovorno vozilo": 118,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-01",
+      "totalVehicles": 2855,
+      "vehicleTypes": {
+        "Osebni avtomobil": 2833,
+        "Kombinirano vozilo": 16,
+        "Težje tovorno vozilo": 6,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-02",
+      "totalVehicles": 3676,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3624,
+        "Kombinirano vozilo": 27,
+        "Težje tovorno vozilo": 22,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-03",
+      "totalVehicles": 6484,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6374,
+        "Kombinirano vozilo": 78,
+        "Težje tovorno vozilo": 32,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-04",
+      "totalVehicles": 3437,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3389,
+        "Kombinirano vozilo": 32,
+        "Težje tovorno vozilo": 16,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-05",
+      "totalVehicles": 1466,
+      "vehicleTypes": {
+        "Osebni avtomobil": 1372,
+        "Kombinirano vozilo": 59,
+        "Težje tovorno vozilo": 35,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-06",
+      "totalVehicles": 7016,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6642,
+        "Kombinirano vozilo": 241,
+        "Težje tovorno vozilo": 125,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-07",
+      "totalVehicles": 7693,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7311,
+        "Kombinirano vozilo": 214,
+        "Težje tovorno vozilo": 161,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-08",
+      "totalVehicles": 9361,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8946,
+        "Kombinirano vozilo": 254,
+        "Težje tovorno vozilo": 150,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-09",
+      "totalVehicles": 9627,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9236,
+        "Kombinirano vozilo": 235,
+        "Težje tovorno vozilo": 138,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-10",
+      "totalVehicles": 7021,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6879,
+        "Kombinirano vozilo": 87,
+        "Težje tovorno vozilo": 53,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-11",
+      "totalVehicles": 4103,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4035,
+        "Kombinirano vozilo": 45,
+        "Težje tovorno vozilo": 23,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-12",
+      "totalVehicles": 9741,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9282,
+        "Kombinirano vozilo": 265,
+        "Težje tovorno vozilo": 162,
+        "Tovorno vozilo s prikolico": 32,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-13",
+      "totalVehicles": 7096,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6757,
+        "Kombinirano vozilo": 226,
+        "Težje tovorno vozilo": 105,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-14",
+      "totalVehicles": 9943,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9488,
+        "Kombinirano vozilo": 292,
+        "Težje tovorno vozilo": 150,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-15",
+      "totalVehicles": 8558,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8137,
+        "Kombinirano vozilo": 236,
+        "Težje tovorno vozilo": 173,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-16",
+      "totalVehicles": 10288,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9806,
+        "Kombinirano vozilo": 291,
+        "Težje tovorno vozilo": 178,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-17",
+      "totalVehicles": 7241,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7096,
+        "Kombinirano vozilo": 85,
+        "Težje tovorno vozilo": 52,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-18",
+      "totalVehicles": 4047,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3989,
+        "Kombinirano vozilo": 32,
+        "Težje tovorno vozilo": 25,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-19",
+      "totalVehicles": 9763,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9200,
+        "Kombinirano vozilo": 340,
+        "Težje tovorno vozilo": 206,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-20",
+      "totalVehicles": 9471,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8876,
+        "Kombinirano vozilo": 365,
+        "Težje tovorno vozilo": 212,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-21",
+      "totalVehicles": 9578,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8972,
+        "Kombinirano vozilo": 401,
+        "Težje tovorno vozilo": 185,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-22",
+      "totalVehicles": 9520,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8969,
+        "Kombinirano vozilo": 374,
+        "Težje tovorno vozilo": 157,
+        "Tovorno vozilo s prikolico": 20,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-23",
+      "totalVehicles": 9410,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8944,
+        "Kombinirano vozilo": 276,
+        "Težje tovorno vozilo": 177,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-24",
+      "totalVehicles": 6983,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6883,
+        "Kombinirano vozilo": 53,
+        "Težje tovorno vozilo": 46,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-25",
+      "totalVehicles": 3060,
+      "vehicleTypes": {
+        "Osebni avtomobil": 2984,
+        "Kombinirano vozilo": 60,
+        "Težje tovorno vozilo": 16,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-26",
+      "totalVehicles": 9831,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9420,
+        "Kombinirano vozilo": 236,
+        "Težje tovorno vozilo": 157,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-27",
+      "totalVehicles": 9112,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8593,
+        "Kombinirano vozilo": 313,
+        "Težje tovorno vozilo": 187,
+        "Tovorno vozilo s prikolico": 19,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-28",
+      "totalVehicles": 9091,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8736,
+        "Kombinirano vozilo": 192,
+        "Težje tovorno vozilo": 153,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-29",
+      "totalVehicles": 9745,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9325,
+        "Kombinirano vozilo": 248,
+        "Težje tovorno vozilo": 159,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-30",
+      "totalVehicles": 10250,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9762,
+        "Kombinirano vozilo": 264,
+        "Težje tovorno vozilo": 205,
+        "Tovorno vozilo s prikolico": 19,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-01-31",
+      "totalVehicles": 7216,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7030,
+        "Kombinirano vozilo": 121,
+        "Težje tovorno vozilo": 63,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-01",
+      "totalVehicles": 4244,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4178,
+        "Kombinirano vozilo": 49,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-02",
+      "totalVehicles": 9661,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9087,
+        "Kombinirano vozilo": 343,
+        "Težje tovorno vozilo": 221,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-03",
+      "totalVehicles": 8630,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8241,
+        "Kombinirano vozilo": 218,
+        "Težje tovorno vozilo": 159,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-04",
+      "totalVehicles": 9372,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9040,
+        "Kombinirano vozilo": 155,
+        "Težje tovorno vozilo": 168,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-05",
+      "totalVehicles": 9761,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9414,
+        "Kombinirano vozilo": 165,
+        "Težje tovorno vozilo": 168,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-06",
+      "totalVehicles": 10079,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9756,
+        "Kombinirano vozilo": 163,
+        "Težje tovorno vozilo": 149,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-07",
+      "totalVehicles": 7008,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6916,
+        "Kombinirano vozilo": 50,
+        "Težje tovorno vozilo": 41,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-08",
+      "totalVehicles": 4314,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4285,
+        "Kombinirano vozilo": 14,
+        "Težje tovorno vozilo": 15,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-09",
+      "totalVehicles": 9627,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9312,
+        "Kombinirano vozilo": 167,
+        "Težje tovorno vozilo": 134,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-10",
+      "totalVehicles": 9420,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9140,
+        "Kombinirano vozilo": 138,
+        "Težje tovorno vozilo": 134,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-11",
+      "totalVehicles": 9677,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9400,
+        "Kombinirano vozilo": 155,
+        "Težje tovorno vozilo": 113,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-12",
+      "totalVehicles": 10027,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9671,
+        "Kombinirano vozilo": 186,
+        "Težje tovorno vozilo": 159,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-13",
+      "totalVehicles": 10289,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9841,
+        "Kombinirano vozilo": 280,
+        "Težje tovorno vozilo": 162,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-14",
+      "totalVehicles": 7465,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7376,
+        "Kombinirano vozilo": 44,
+        "Težje tovorno vozilo": 43,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-15",
+      "totalVehicles": 4341,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4305,
+        "Kombinirano vozilo": 20,
+        "Težje tovorno vozilo": 13,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-16",
+      "totalVehicles": 6783,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6539,
+        "Kombinirano vozilo": 130,
+        "Težje tovorno vozilo": 105,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-17",
+      "totalVehicles": 8802,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8550,
+        "Kombinirano vozilo": 137,
+        "Težje tovorno vozilo": 112,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-18",
+      "totalVehicles": 9048,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8753,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 118,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-19",
+      "totalVehicles": 6871,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6602,
+        "Kombinirano vozilo": 158,
+        "Težje tovorno vozilo": 105,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-20",
+      "totalVehicles": 9342,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9077,
+        "Kombinirano vozilo": 123,
+        "Težje tovorno vozilo": 128,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-21",
+      "totalVehicles": 7276,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7183,
+        "Kombinirano vozilo": 55,
+        "Težje tovorno vozilo": 37,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-22",
+      "totalVehicles": 4191,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4161,
+        "Kombinirano vozilo": 21,
+        "Težje tovorno vozilo": 8,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-23",
+      "totalVehicles": 10198,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9856,
+        "Kombinirano vozilo": 182,
+        "Težje tovorno vozilo": 147,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-24",
+      "totalVehicles": 9531,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9227,
+        "Kombinirano vozilo": 168,
+        "Težje tovorno vozilo": 128,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-25",
+      "totalVehicles": 9993,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9660,
+        "Kombinirano vozilo": 188,
+        "Težje tovorno vozilo": 127,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-26",
+      "totalVehicles": 9952,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9642,
+        "Kombinirano vozilo": 172,
+        "Težje tovorno vozilo": 131,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-27",
+      "totalVehicles": 10609,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10295,
+        "Kombinirano vozilo": 170,
+        "Težje tovorno vozilo": 137,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-02-28",
+      "totalVehicles": 7764,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7686,
+        "Kombinirano vozilo": 46,
+        "Težje tovorno vozilo": 31,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-01",
+      "totalVehicles": 4516,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4486,
+        "Kombinirano vozilo": 18,
+        "Težje tovorno vozilo": 11,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-02",
+      "totalVehicles": 10084,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9752,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 144,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-03",
+      "totalVehicles": 9513,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9169,
+        "Kombinirano vozilo": 166,
+        "Težje tovorno vozilo": 169,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-04",
+      "totalVehicles": 9884,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9546,
+        "Kombinirano vozilo": 177,
+        "Težje tovorno vozilo": 152,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-05",
+      "totalVehicles": 10039,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9713,
+        "Kombinirano vozilo": 173,
+        "Težje tovorno vozilo": 148,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-06",
+      "totalVehicles": 10519,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10191,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 146,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-07",
+      "totalVehicles": 8250,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8114,
+        "Kombinirano vozilo": 79,
+        "Težje tovorno vozilo": 55,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-08",
+      "totalVehicles": 5438,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5383,
+        "Kombinirano vozilo": 35,
+        "Težje tovorno vozilo": 20,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-09",
+      "totalVehicles": 10737,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10400,
+        "Kombinirano vozilo": 190,
+        "Težje tovorno vozilo": 136,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-10",
+      "totalVehicles": 9729,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9386,
+        "Kombinirano vozilo": 159,
+        "Težje tovorno vozilo": 174,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-11",
+      "totalVehicles": 8968,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8692,
+        "Kombinirano vozilo": 161,
+        "Težje tovorno vozilo": 108,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-12",
+      "totalVehicles": 10185,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9864,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 141,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-13",
+      "totalVehicles": 10412,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10067,
+        "Kombinirano vozilo": 175,
+        "Težje tovorno vozilo": 156,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-14",
+      "totalVehicles": 7362,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7271,
+        "Kombinirano vozilo": 52,
+        "Težje tovorno vozilo": 36,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-15",
+      "totalVehicles": 4507,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4470,
+        "Kombinirano vozilo": 23,
+        "Težje tovorno vozilo": 13,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-16",
+      "totalVehicles": 10011,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9691,
+        "Kombinirano vozilo": 173,
+        "Težje tovorno vozilo": 129,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-17",
+      "totalVehicles": 9853,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9534,
+        "Kombinirano vozilo": 167,
+        "Težje tovorno vozilo": 145,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-18",
+      "totalVehicles": 10243,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9942,
+        "Kombinirano vozilo": 153,
+        "Težje tovorno vozilo": 142,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-19",
+      "totalVehicles": 10427,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10139,
+        "Kombinirano vozilo": 161,
+        "Težje tovorno vozilo": 122,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-20",
+      "totalVehicles": 10948,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10649,
+        "Kombinirano vozilo": 158,
+        "Težje tovorno vozilo": 130,
+        "Tovorno vozilo s prikolico": 11,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-21",
+      "totalVehicles": 7672,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7602,
+        "Kombinirano vozilo": 41,
+        "Težje tovorno vozilo": 28,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-22",
+      "totalVehicles": 5752,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5700,
+        "Kombinirano vozilo": 35,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-23",
+      "totalVehicles": 10361,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9989,
+        "Kombinirano vozilo": 202,
+        "Težje tovorno vozilo": 152,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-24",
+      "totalVehicles": 9441,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9117,
+        "Kombinirano vozilo": 162,
+        "Težje tovorno vozilo": 154,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-25",
+      "totalVehicles": 10499,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10160,
+        "Kombinirano vozilo": 189,
+        "Težje tovorno vozilo": 143,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-26",
+      "totalVehicles": 7971,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7759,
+        "Kombinirano vozilo": 113,
+        "Težje tovorno vozilo": 90,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-27",
+      "totalVehicles": 8749,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8539,
+        "Kombinirano vozilo": 101,
+        "Težje tovorno vozilo": 103,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-28",
+      "totalVehicles": 7823,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7729,
+        "Kombinirano vozilo": 64,
+        "Težje tovorno vozilo": 26,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-29",
+      "totalVehicles": 4537,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4500,
+        "Kombinirano vozilo": 26,
+        "Težje tovorno vozilo": 10,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-30",
+      "totalVehicles": 10268,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9927,
+        "Kombinirano vozilo": 173,
+        "Težje tovorno vozilo": 154,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-03-31",
+      "totalVehicles": 10097,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9832,
+        "Kombinirano vozilo": 146,
+        "Težje tovorno vozilo": 114,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-01",
+      "totalVehicles": 10009,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9701,
+        "Kombinirano vozilo": 174,
+        "Težje tovorno vozilo": 126,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-02",
+      "totalVehicles": 10357,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10067,
+        "Kombinirano vozilo": 148,
+        "Težje tovorno vozilo": 133,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-03",
+      "totalVehicles": 10660,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10337,
+        "Kombinirano vozilo": 182,
+        "Težje tovorno vozilo": 133,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-04",
+      "totalVehicles": 7607,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7511,
+        "Kombinirano vozilo": 56,
+        "Težje tovorno vozilo": 39,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-05",
+      "totalVehicles": 4558,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4535,
+        "Kombinirano vozilo": 10,
+        "Težje tovorno vozilo": 12,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-06",
+      "totalVehicles": 4832,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4787,
+        "Kombinirano vozilo": 28,
+        "Težje tovorno vozilo": 15,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-07",
+      "totalVehicles": 10115,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9808,
+        "Kombinirano vozilo": 171,
+        "Težje tovorno vozilo": 121,
+        "Tovorno vozilo s prikolico": 15,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-08",
+      "totalVehicles": 9930,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9620,
+        "Kombinirano vozilo": 180,
+        "Težje tovorno vozilo": 126,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-09",
+      "totalVehicles": 10258,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9923,
+        "Kombinirano vozilo": 188,
+        "Težje tovorno vozilo": 138,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-10",
+      "totalVehicles": 10402,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10053,
+        "Kombinirano vozilo": 217,
+        "Težje tovorno vozilo": 118,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-11",
+      "totalVehicles": 8024,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7913,
+        "Kombinirano vozilo": 74,
+        "Težje tovorno vozilo": 37,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-12",
+      "totalVehicles": 4683,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4638,
+        "Kombinirano vozilo": 20,
+        "Težje tovorno vozilo": 24,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-13",
+      "totalVehicles": 9908,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9571,
+        "Kombinirano vozilo": 177,
+        "Težje tovorno vozilo": 143,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-14",
+      "totalVehicles": 9812,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9489,
+        "Kombinirano vozilo": 157,
+        "Težje tovorno vozilo": 159,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-15",
+      "totalVehicles": 10331,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10017,
+        "Kombinirano vozilo": 167,
+        "Težje tovorno vozilo": 140,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-16",
+      "totalVehicles": 10086,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9784,
+        "Kombinirano vozilo": 165,
+        "Težje tovorno vozilo": 131,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-17",
+      "totalVehicles": 10485,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10255,
+        "Kombinirano vozilo": 137,
+        "Težje tovorno vozilo": 92,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-18",
+      "totalVehicles": 7970,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7913,
+        "Kombinirano vozilo": 34,
+        "Težje tovorno vozilo": 22,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-19",
+      "totalVehicles": 4719,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4696,
+        "Kombinirano vozilo": 15,
+        "Težje tovorno vozilo": 8,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-20",
+      "totalVehicles": 9965,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9730,
+        "Kombinirano vozilo": 121,
+        "Težje tovorno vozilo": 108,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-21",
+      "totalVehicles": 10047,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9809,
+        "Kombinirano vozilo": 149,
+        "Težje tovorno vozilo": 81,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-22",
+      "totalVehicles": 10178,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9951,
+        "Kombinirano vozilo": 141,
+        "Težje tovorno vozilo": 77,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-23",
+      "totalVehicles": 10315,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10046,
+        "Kombinirano vozilo": 154,
+        "Težje tovorno vozilo": 109,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-24",
+      "totalVehicles": 10503,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10256,
+        "Kombinirano vozilo": 137,
+        "Težje tovorno vozilo": 103,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-25",
+      "totalVehicles": 7861,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7789,
+        "Kombinirano vozilo": 37,
+        "Težje tovorno vozilo": 35,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-26",
+      "totalVehicles": 4298,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4272,
+        "Kombinirano vozilo": 24,
+        "Težje tovorno vozilo": 2,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-27",
+      "totalVehicles": 4254,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4213,
+        "Kombinirano vozilo": 28,
+        "Težje tovorno vozilo": 10,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-28",
+      "totalVehicles": 8551,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8334,
+        "Kombinirano vozilo": 141,
+        "Težje tovorno vozilo": 66,
+        "Tovorno vozilo s prikolico": 10,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-29",
+      "totalVehicles": 7710,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7515,
+        "Kombinirano vozilo": 119,
+        "Težje tovorno vozilo": 73,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-04-30",
+      "totalVehicles": 9481,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9325,
+        "Kombinirano vozilo": 86,
+        "Težje tovorno vozilo": 67,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-01",
+      "totalVehicles": 3878,
+      "vehicleTypes": {
+        "Osebni avtomobil": 3856,
+        "Kombinirano vozilo": 14,
+        "Težje tovorno vozilo": 8,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-02",
+      "totalVehicles": 4256,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4216,
+        "Kombinirano vozilo": 23,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-03",
+      "totalVehicles": 4197,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4176,
+        "Kombinirano vozilo": 14,
+        "Težje tovorno vozilo": 7,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-04",
+      "totalVehicles": 10386,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10186,
+        "Kombinirano vozilo": 104,
+        "Težje tovorno vozilo": 88,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-05",
+      "totalVehicles": 9679,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9429,
+        "Kombinirano vozilo": 144,
+        "Težje tovorno vozilo": 100,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-06",
+      "totalVehicles": 9506,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9271,
+        "Kombinirano vozilo": 135,
+        "Težje tovorno vozilo": 94,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-07",
+      "totalVehicles": 9975,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9779,
+        "Kombinirano vozilo": 116,
+        "Težje tovorno vozilo": 78,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-08",
+      "totalVehicles": 10673,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10403,
+        "Kombinirano vozilo": 143,
+        "Težje tovorno vozilo": 119,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-09",
+      "totalVehicles": 9000,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8922,
+        "Kombinirano vozilo": 47,
+        "Težje tovorno vozilo": 31,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-10",
+      "totalVehicles": 5959,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5921,
+        "Kombinirano vozilo": 23,
+        "Težje tovorno vozilo": 14,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-11",
+      "totalVehicles": 8457,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8204,
+        "Kombinirano vozilo": 147,
+        "Težje tovorno vozilo": 90,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-12",
+      "totalVehicles": 9107,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8914,
+        "Kombinirano vozilo": 109,
+        "Težje tovorno vozilo": 76,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-13",
+      "totalVehicles": 10035,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9808,
+        "Kombinirano vozilo": 140,
+        "Težje tovorno vozilo": 79,
+        "Tovorno vozilo s prikolico": 8,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-14",
+      "totalVehicles": 8234,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8080,
+        "Kombinirano vozilo": 106,
+        "Težje tovorno vozilo": 44,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-15",
+      "totalVehicles": 8926,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8729,
+        "Kombinirano vozilo": 125,
+        "Težje tovorno vozilo": 68,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-16",
+      "totalVehicles": 7241,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7196,
+        "Kombinirano vozilo": 28,
+        "Težje tovorno vozilo": 17,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-17",
+      "totalVehicles": 4741,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4716,
+        "Kombinirano vozilo": 18,
+        "Težje tovorno vozilo": 7,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-18",
+      "totalVehicles": 10076,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9915,
+        "Kombinirano vozilo": 108,
+        "Težje tovorno vozilo": 48,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-19",
+      "totalVehicles": 9716,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9548,
+        "Kombinirano vozilo": 112,
+        "Težje tovorno vozilo": 50,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-20",
+      "totalVehicles": 7707,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7544,
+        "Kombinirano vozilo": 108,
+        "Težje tovorno vozilo": 48,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-21",
+      "totalVehicles": 9904,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9712,
+        "Kombinirano vozilo": 130,
+        "Težje tovorno vozilo": 59,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-22",
+      "totalVehicles": 10524,
+      "vehicleTypes": {
+        "Osebni avtomobil": 10345,
+        "Kombinirano vozilo": 128,
+        "Težje tovorno vozilo": 48,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-23",
+      "totalVehicles": 7747,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7700,
+        "Kombinirano vozilo": 33,
+        "Težje tovorno vozilo": 14,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-24",
+      "totalVehicles": 4114,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4102,
+        "Kombinirano vozilo": 9,
+        "Težje tovorno vozilo": 3,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-25",
+      "totalVehicles": 9048,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8906,
+        "Kombinirano vozilo": 102,
+        "Težje tovorno vozilo": 36,
+        "Tovorno vozilo s prikolico": 4,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-26",
+      "totalVehicles": 8583,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8444,
+        "Kombinirano vozilo": 103,
+        "Težje tovorno vozilo": 35,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-27",
+      "totalVehicles": 8843,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8713,
+        "Kombinirano vozilo": 90,
+        "Težje tovorno vozilo": 37,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-28",
+      "totalVehicles": 8924,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8816,
+        "Kombinirano vozilo": 71,
+        "Težje tovorno vozilo": 36,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-29",
+      "totalVehicles": 9330,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9195,
+        "Kombinirano vozilo": 100,
+        "Težje tovorno vozilo": 32,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-30",
+      "totalVehicles": 6957,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6848,
+        "Kombinirano vozilo": 88,
+        "Težje tovorno vozilo": 21,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-05-31",
+      "totalVehicles": 4490,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4303,
+        "Kombinirano vozilo": 148,
+        "Težje tovorno vozilo": 37,
+        "Tovorno vozilo s prikolico": 2,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-01",
+      "totalVehicles": 10274,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9452,
+        "Kombinirano vozilo": 553,
+        "Težje tovorno vozilo": 243,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-02",
+      "totalVehicles": 10037,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9115,
+        "Kombinirano vozilo": 643,
+        "Težje tovorno vozilo": 253,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-03",
+      "totalVehicles": 8963,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8333,
+        "Kombinirano vozilo": 457,
+        "Težje tovorno vozilo": 164,
+        "Tovorno vozilo s prikolico": 9,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-04",
+      "totalVehicles": 10735,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9845,
+        "Kombinirano vozilo": 612,
+        "Težje tovorno vozilo": 256,
+        "Tovorno vozilo s prikolico": 22,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-05",
+      "totalVehicles": 10043,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9403,
+        "Kombinirano vozilo": 436,
+        "Težje tovorno vozilo": 186,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-06",
+      "totalVehicles": 7704,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7246,
+        "Kombinirano vozilo": 390,
+        "Težje tovorno vozilo": 65,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-07",
+      "totalVehicles": 5375,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5129,
+        "Kombinirano vozilo": 211,
+        "Težje tovorno vozilo": 34,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-08",
+      "totalVehicles": 10304,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9504,
+        "Kombinirano vozilo": 558,
+        "Težje tovorno vozilo": 218,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-09",
+      "totalVehicles": 9625,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8772,
+        "Kombinirano vozilo": 585,
+        "Težje tovorno vozilo": 247,
+        "Tovorno vozilo s prikolico": 21,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-10",
+      "totalVehicles": 9343,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8653,
+        "Kombinirano vozilo": 468,
+        "Težje tovorno vozilo": 195,
+        "Tovorno vozilo s prikolico": 27,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-11",
+      "totalVehicles": 10413,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9466,
+        "Kombinirano vozilo": 677,
+        "Težje tovorno vozilo": 237,
+        "Tovorno vozilo s prikolico": 33,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-12",
+      "totalVehicles": 8155,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7402,
+        "Kombinirano vozilo": 518,
+        "Težje tovorno vozilo": 204,
+        "Tovorno vozilo s prikolico": 31,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-13",
+      "totalVehicles": 8244,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7788,
+        "Kombinirano vozilo": 357,
+        "Težje tovorno vozilo": 94,
+        "Tovorno vozilo s prikolico": 5,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-14",
+      "totalVehicles": 5053,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4809,
+        "Kombinirano vozilo": 202,
+        "Težje tovorno vozilo": 42,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-15",
+      "totalVehicles": 10176,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9209,
+        "Kombinirano vozilo": 661,
+        "Težje tovorno vozilo": 268,
+        "Tovorno vozilo s prikolico": 38,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-16",
+      "totalVehicles": 10096,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9186,
+        "Kombinirano vozilo": 635,
+        "Težje tovorno vozilo": 248,
+        "Tovorno vozilo s prikolico": 27,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-17",
+      "totalVehicles": 10186,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9347,
+        "Kombinirano vozilo": 586,
+        "Težje tovorno vozilo": 241,
+        "Tovorno vozilo s prikolico": 12,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-18",
+      "totalVehicles": 10090,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9271,
+        "Kombinirano vozilo": 580,
+        "Težje tovorno vozilo": 213,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-19",
+      "totalVehicles": 10336,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9511,
+        "Kombinirano vozilo": 566,
+        "Težje tovorno vozilo": 235,
+        "Tovorno vozilo s prikolico": 24,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-20",
+      "totalVehicles": 7693,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7355,
+        "Kombinirano vozilo": 280,
+        "Težje tovorno vozilo": 51,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-21",
+      "totalVehicles": 4981,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4753,
+        "Kombinirano vozilo": 192,
+        "Težje tovorno vozilo": 35,
+        "Tovorno vozilo s prikolico": 1,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-22",
+      "totalVehicles": 10035,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9199,
+        "Kombinirano vozilo": 596,
+        "Težje tovorno vozilo": 211,
+        "Tovorno vozilo s prikolico": 29,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-23",
+      "totalVehicles": 9869,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9044,
+        "Kombinirano vozilo": 558,
+        "Težje tovorno vozilo": 230,
+        "Tovorno vozilo s prikolico": 37,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-24",
+      "totalVehicles": 10797,
+      "vehicleTypes": {
+        "Osebni avtomobil": 9979,
+        "Kombinirano vozilo": 592,
+        "Težje tovorno vozilo": 210,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-25",
+      "totalVehicles": 5276,
+      "vehicleTypes": {
+        "Osebni avtomobil": 5005,
+        "Kombinirano vozilo": 225,
+        "Težje tovorno vozilo": 43,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-26",
+      "totalVehicles": 8753,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8118,
+        "Kombinirano vozilo": 458,
+        "Težje tovorno vozilo": 164,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-27",
+      "totalVehicles": 7170,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6832,
+        "Kombinirano vozilo": 271,
+        "Težje tovorno vozilo": 61,
+        "Tovorno vozilo s prikolico": 6,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-28",
+      "totalVehicles": 4674,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4465,
+        "Kombinirano vozilo": 177,
+        "Težje tovorno vozilo": 32,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-29",
+      "totalVehicles": 9434,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8699,
+        "Kombinirano vozilo": 513,
+        "Težje tovorno vozilo": 181,
+        "Tovorno vozilo s prikolico": 41,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-06-30",
+      "totalVehicles": 9235,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8504,
+        "Kombinirano vozilo": 515,
+        "Težje tovorno vozilo": 191,
+        "Tovorno vozilo s prikolico": 25,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-01",
+      "totalVehicles": 7684,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7112,
+        "Kombinirano vozilo": 408,
+        "Težje tovorno vozilo": 148,
+        "Tovorno vozilo s prikolico": 16,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-02",
+      "totalVehicles": 9440,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8701,
+        "Kombinirano vozilo": 496,
+        "Težje tovorno vozilo": 217,
+        "Tovorno vozilo s prikolico": 26,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-03",
+      "totalVehicles": 9609,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8802,
+        "Kombinirano vozilo": 557,
+        "Težje tovorno vozilo": 205,
+        "Tovorno vozilo s prikolico": 45,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-04",
+      "totalVehicles": 7619,
+      "vehicleTypes": {
+        "Osebni avtomobil": 7184,
+        "Kombinirano vozilo": 347,
+        "Težje tovorno vozilo": 81,
+        "Tovorno vozilo s prikolico": 7,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-05",
+      "totalVehicles": 4994,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4748,
+        "Kombinirano vozilo": 194,
+        "Težje tovorno vozilo": 52,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-06",
+      "totalVehicles": 8981,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8033,
+        "Kombinirano vozilo": 662,
+        "Težje tovorno vozilo": 245,
+        "Tovorno vozilo s prikolico": 41,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-07",
+      "totalVehicles": 7343,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6762,
+        "Kombinirano vozilo": 409,
+        "Težje tovorno vozilo": 154,
+        "Tovorno vozilo s prikolico": 18,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-08",
+      "totalVehicles": 9054,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8299,
+        "Kombinirano vozilo": 538,
+        "Težje tovorno vozilo": 204,
+        "Tovorno vozilo s prikolico": 13,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-09",
+      "totalVehicles": 9455,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8686,
+        "Kombinirano vozilo": 544,
+        "Težje tovorno vozilo": 208,
+        "Tovorno vozilo s prikolico": 17,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-10",
+      "totalVehicles": 9747,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8939,
+        "Kombinirano vozilo": 554,
+        "Težje tovorno vozilo": 225,
+        "Tovorno vozilo s prikolico": 29,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-11",
+      "totalVehicles": 7118,
+      "vehicleTypes": {
+        "Osebni avtomobil": 6796,
+        "Kombinirano vozilo": 265,
+        "Težje tovorno vozilo": 54,
+        "Tovorno vozilo s prikolico": 3,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-12",
+      "totalVehicles": 4886,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4676,
+        "Kombinirano vozilo": 170,
+        "Težje tovorno vozilo": 40,
+        "Tovorno vozilo s prikolico": 0,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-13",
+      "totalVehicles": 9447,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8697,
+        "Kombinirano vozilo": 521,
+        "Težje tovorno vozilo": 192,
+        "Tovorno vozilo s prikolico": 37,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-14",
+      "totalVehicles": 8723,
+      "vehicleTypes": {
+        "Osebni avtomobil": 8036,
+        "Kombinirano vozilo": 507,
+        "Težje tovorno vozilo": 166,
+        "Tovorno vozilo s prikolico": 14,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": false
+    },
+    {
+      "date": "2026-07-15",
+      "totalVehicles": 5003,
+      "vehicleTypes": {
+        "Osebni avtomobil": 4519,
+        "Kombinirano vozilo": 333,
+        "Težje tovorno vozilo": 128,
+        "Tovorno vozilo s prikolico": 23,
+        "Enosledno vozilo": 0,
+        "Nerazpoznana vozila": 0
+      },
+      "isPartialDay": true
+    }
+  ]
+}

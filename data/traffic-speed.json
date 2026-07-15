@@ -1,0 +1,37 @@
+{
+  "description": "Povprečna hitrost vozil po vrstah vozil",
+  "version": "1.0",
+  "location": {
+    "code": "CABLEX",
+    "name": "TC25 Tržič - Cablex",
+    "speedLimit": 50,
+    "unit": "km/h"
+  },
+  "vehicleTypes": [
+    {
+      "name": "Osebni avtomobil",
+      "averageSpeed": 44.611,
+      "differenceToLimit": -5.389
+    },
+    {
+      "name": "Kombinirano vozilo",
+      "averageSpeed": 44.072,
+      "differenceToLimit": -5.928
+    },
+    {
+      "name": "Težje tovorno vozilo",
+      "averageSpeed": 41.986,
+      "differenceToLimit": -8.014
+    },
+    {
+      "name": "Tovorno vozilo s prikolico",
+      "averageSpeed": 37.062,
+      "differenceToLimit": -12.938
+    },
+    {
+      "name": "Nerazpoznana vozila",
+      "averageSpeed": 34.500,
+      "differenceToLimit": -15.500
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "description": "Delovno aktivne osebe po občini dela - Tržič",
+  "source": "SURS",
+  "unit": "persons",
+  "employment": [
+    {
+      "year": 2023,
+      "employees": 2316
+    },
+    {
+      "year": 2024,
+      "employees": 2265
+    },
+    {
+      "year": 2025,
+      "employees": 2253
+    }
+  ]
+}

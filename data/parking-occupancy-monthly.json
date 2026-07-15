@@ -1,0 +1,1301 @@
+{
+  "description": "Povprečna mesečna zasedenost pametnih parkirišč Občine Tržič",
+  "version": "1.1",
+  "interval": "1 month",
+  "unit": "percent",
+  "period": {
+    "from": "2023-01",
+    "to": "2026-07"
+  },
+  "parkingLots": [
+    "BPT, Tržič",
+    "Cankarjeva cesta, Tržič",
+    "DTO Tržič",
+    "Sokolnica, Tržič",
+    "Tržnica, Tržič",
+    "Za Mošenikom, Tržič",
+    "Zdravstveni dom, Tržič"
+  ],
+  "data": [
+    {
+      "month": "2023-01",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2023-02",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2023-03",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2023-04",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2023-05",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2023-06",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 86.0
+    },
+    {
+      "month": "2023-07",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 82.0
+    },
+    {
+      "month": "2023-08",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 83.0
+    },
+    {
+      "month": "2023-09",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2023-10",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2023-11",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2023-12",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 88.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 90.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 88.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 83.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 79.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 79.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 89.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 89.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 88.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 88.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 84.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 83.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 80.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 79.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 87.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 85.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 91.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 91.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 92.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 91.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 90.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 91.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 91.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 89.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "Za Mošenikom, Tržič",
+      "occupancyPercent": 86.0
+    },
+    {
+      "month": "2023-01",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 78.0
+    },
+    {
+      "month": "2023-02",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 76.0
+    },
+    {
+      "month": "2023-03",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 73.0
+    },
+    {
+      "month": "2023-04",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2023-05",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 55.0
+    },
+    {
+      "month": "2023-06",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 53.0
+    },
+    {
+      "month": "2023-07",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 57.0
+    },
+    {
+      "month": "2023-08",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 60.0
+    },
+    {
+      "month": "2023-09",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 60.0
+    },
+    {
+      "month": "2023-10",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2023-11",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2023-12",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 56.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 60.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 76.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 78.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 79.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 74.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 77.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 73.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 77.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 81.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 83.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 78.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 81.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 74.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "Tržnica, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2023-01",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2023-02",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 64.0
+    },
+    {
+      "month": "2023-03",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2023-04",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2023-05",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 72.0
+    },
+    {
+      "month": "2023-06",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2023-07",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2023-08",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 58.0
+    },
+    {
+      "month": "2023-09",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2023-10",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2023-11",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2023-12",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 64.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 59.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 64.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 60.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 64.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "Cankarjeva cesta, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2023-01",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 56.0
+    },
+    {
+      "month": "2023-02",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 57.0
+    },
+    {
+      "month": "2023-03",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 59.0
+    },
+    {
+      "month": "2023-04",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 54.0
+    },
+    {
+      "month": "2023-05",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 59.0
+    },
+    {
+      "month": "2023-06",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 58.0
+    },
+    {
+      "month": "2023-07",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 50.0
+    },
+    {
+      "month": "2023-08",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 52.0
+    },
+    {
+      "month": "2023-09",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2023-10",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2023-11",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2023-12",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 58.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 60.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 58.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 55.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 54.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 57.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 55.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 63.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 55.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 67.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 59.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 56.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 69.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 66.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "Zdravstveni dom, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2023-01",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 76.0
+    },
+    {
+      "month": "2023-02",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 80.0
+    },
+    {
+      "month": "2023-03",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 81.0
+    },
+    {
+      "month": "2023-04",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 71.0
+    },
+    {
+      "month": "2023-05",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 78.0
+    },
+    {
+      "month": "2023-06",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 72.0
+    },
+    {
+      "month": "2023-07",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 65.0
+    },
+    {
+      "month": "2023-08",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2023-09",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2023-10",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 77.0
+    },
+    {
+      "month": "2023-11",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 77.0
+    },
+    {
+      "month": "2023-12",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 72.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 68.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 72.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 80.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 77.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 79.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 70.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 23.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 15.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 19.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 25.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 26.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 24.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 23.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 25.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 26.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 26.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 23.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 21.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 20.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 16.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 21.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 24.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 45.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 34.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 29.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 33.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 34.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 38.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "BPT, Tržič",
+      "occupancyPercent": 32.0
+    },
+    {
+      "month": "2024-01",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2024-02",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-03",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 62.0
+    },
+    {
+      "month": "2024-04",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-05",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 61.0
+    },
+    {
+      "month": "2024-06",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 58.0
+    },
+    {
+      "month": "2024-07",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 28.0
+    },
+    {
+      "month": "2024-08",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 25.0
+    },
+    {
+      "month": "2024-09",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 39.0
+    },
+    {
+      "month": "2024-10",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 40.0
+    },
+    {
+      "month": "2024-11",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 47.0
+    },
+    {
+      "month": "2024-12",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 41.0
+    },
+    {
+      "month": "2025-01",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 43.0
+    },
+    {
+      "month": "2025-02",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2025-03",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 43.0
+    },
+    {
+      "month": "2025-04",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 39.0
+    },
+    {
+      "month": "2025-05",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 40.0
+    },
+    {
+      "month": "2025-06",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 33.0
+    },
+    {
+      "month": "2025-07",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 28.0
+    },
+    {
+      "month": "2025-08",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2025-09",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 44.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 40.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 41.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 33.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 31.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 36.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 32.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 31.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "DTO Tržič",
+      "occupancyPercent": 19.0
+    },
+    {
+      "month": "2025-10",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 44.0
+    },
+    {
+      "month": "2025-11",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 44.0
+    },
+    {
+      "month": "2025-12",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2026-01",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2026-02",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2026-03",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2026-04",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 35.0
+    },
+    {
+      "month": "2026-05",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 37.0
+    },
+    {
+      "month": "2026-06",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 34.0
+    },
+    {
+      "month": "2026-07",
+      "parkingName": "Sokolnica, Tržič",
+      "occupancyPercent": 35.0
+    }
+  ]
+}

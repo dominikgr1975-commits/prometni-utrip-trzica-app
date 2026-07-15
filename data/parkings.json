@@ -1,0 +1,69 @@
+{
+  "description": "Pametna parkirišča Občine Tržič",
+  "version": "1.0",
+  "parkingLots": [
+    {
+      "id": 47,
+      "code": "ZD",
+      "name": "Zdravstveni dom Tržič",
+      "type": "public",
+      "capacity": 90,
+      "latitude": 46.36399631768239,
+      "longitude": 14.3073611201159
+    },
+    {
+      "id": 192,
+      "code": "CANKAR",
+      "name": "Cankarjeva ulica",
+      "type": "public",
+      "capacity": 67,
+      "latitude": 46.362982582956796,
+      "longitude": 14.30991698000583
+    },
+    {
+      "id": 137,
+      "code": "BPT",
+      "name": "BPT",
+      "type": "public",
+      "capacity": 54,
+      "latitude": 46.360686755724,
+      "longitude": 14.305827646843698
+    },
+    {
+      "id": 1,
+      "code": "MOSENIK",
+      "name": "Za Mošenikom",
+      "type": "public",
+      "capacity": 44,
+      "latitude": 46.364460574836656,
+      "longitude": 14.30800049814879
+    },
+    {
+      "id": 262,
+      "code": "TRZNICA",
+      "name": "Tržnica",
+      "type": "public",
+      "capacity": 70,
+      "latitude": 46.36360777951813,
+      "longitude": 14.309687269362103
+    },
+    {
+      "id": 950,
+      "code": "DTO",
+      "name": "DTO",
+      "type": "public",
+      "capacity": 60,
+      "latitude": 46.36492444914197,
+      "longitude": 14.312186992055917
+    },
+    {
+      "id": 1359,
+      "code": "SOKOLNICA",
+      "name": "Sokolnica",
+      "type": "public",
+      "capacity": 33,
+      "latitude": 46.359761,
+      "longitude": 14.300838
+    }
+  ]
+}

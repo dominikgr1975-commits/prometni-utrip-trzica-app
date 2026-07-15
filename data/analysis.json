@@ -1,0 +1,752 @@
+{
+  "generatedAt": "2026-07-15T13:14:40",
+  "dataQuality": {
+    "trafficPeriod": {
+      "from": "2025-07-15",
+      "to": "2026-07-15"
+    },
+    "parkingPeriod": {
+      "from": "2023-01",
+      "to": "2026-07"
+    },
+    "weatherPeriod": {
+      "start": "2025-07-15",
+      "end": "2026-07-14"
+    },
+    "overlapMonths": [
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07"
+    ],
+    "limitations": [
+      "Promet je dnevni, parkirišča mesečna, vreme pa urno; povezave so zato ocenjene na mesečni ravni.",
+      "Korelacija ne dokazuje vzročnosti.",
+      "Podatkov o zasedenosti polnilnic še ni, zato simulator trenutno ocenjuje samo parkirišča.",
+      "Za vpliv števila zaposlenih so na voljo le tri letne točke in samo eno polno leto prometa; rezultat je scenarijski, ne statistična napoved."
+    ]
+  },
+  "kpis": {
+    "avgDailyTraffic": 8354,
+    "weekdayAvg": 9312,
+    "weekendAvg": 5958,
+    "parkingAvg": 61.6,
+    "parkingWeightedLatest": 54.2,
+    "employee2025": 2253,
+    "employeeChange2023to2025": -2.7,
+    "holidayTrafficAvg": 4388,
+    "regularWeekdayTrafficAvg": 9512,
+    "eventCount": 14
+  },
+  "monthly": [
+    {
+      "month": "2023-01",
+      "weightedOccupancy": 70.5,
+      "simpleAverage": 72.6,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-02",
+      "weightedOccupancy": 70.1,
+      "simpleAverage": 72.4,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-03",
+      "weightedOccupancy": 70.4,
+      "simpleAverage": 72.6,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-04",
+      "weightedOccupancy": 66.2,
+      "simpleAverage": 68.4,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-05",
+      "weightedOccupancy": 67.8,
+      "simpleAverage": 70.2,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-06",
+      "weightedOccupancy": 64.9,
+      "simpleAverage": 67.2,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-07",
+      "weightedOccupancy": 60.6,
+      "simpleAverage": 63.0,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-08",
+      "weightedOccupancy": 61.8,
+      "simpleAverage": 64.2,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-09",
+      "weightedOccupancy": 65.4,
+      "simpleAverage": 67.0,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-10",
+      "weightedOccupancy": 69.2,
+      "simpleAverage": 71.0,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-11",
+      "weightedOccupancy": 69.5,
+      "simpleAverage": 71.4,
+      "parkingCount": 5
+    },
+    {
+      "month": "2023-12",
+      "weightedOccupancy": 67.8,
+      "simpleAverage": 70.0,
+      "parkingCount": 5
+    },
+    {
+      "month": "2024-01",
+      "weightedOccupancy": 67.6,
+      "simpleAverage": 69.2,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-02",
+      "weightedOccupancy": 66.8,
+      "simpleAverage": 68.5,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-03",
+      "weightedOccupancy": 68.0,
+      "simpleAverage": 69.8,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-04",
+      "weightedOccupancy": 66.1,
+      "simpleAverage": 67.8,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-05",
+      "weightedOccupancy": 66.2,
+      "simpleAverage": 68.2,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-06",
+      "weightedOccupancy": 61.9,
+      "simpleAverage": 63.8,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-07",
+      "weightedOccupancy": 51.3,
+      "simpleAverage": 51.2,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-08",
+      "weightedOccupancy": 49.6,
+      "simpleAverage": 49.3,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-09",
+      "weightedOccupancy": 57.7,
+      "simpleAverage": 57.3,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-10",
+      "weightedOccupancy": 58.3,
+      "simpleAverage": 58.0,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-11",
+      "weightedOccupancy": 58.8,
+      "simpleAverage": 58.7,
+      "parkingCount": 6
+    },
+    {
+      "month": "2024-12",
+      "weightedOccupancy": 56.6,
+      "simpleAverage": 57.0,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-01",
+      "weightedOccupancy": 59.7,
+      "simpleAverage": 59.7,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-02",
+      "weightedOccupancy": 60.8,
+      "simpleAverage": 60.3,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-03",
+      "weightedOccupancy": 62.9,
+      "simpleAverage": 62.3,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-04",
+      "weightedOccupancy": 60.2,
+      "simpleAverage": 59.5,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-05",
+      "weightedOccupancy": 60.4,
+      "simpleAverage": 59.8,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-06",
+      "weightedOccupancy": 56.1,
+      "simpleAverage": 55.7,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-07",
+      "avgDaily": 8060,
+      "total": 128960,
+      "days": 16,
+      "avgTemp": 18.8,
+      "rainMm": 57.9,
+      "snowCm": 0.0,
+      "badWeatherShare": 8.6,
+      "rainHoursShare": 27.0,
+      "avgCloud": 53.1,
+      "hours": 408,
+      "weightedOccupancy": 53.3,
+      "simpleAverage": 52.8,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-08",
+      "avgDaily": 7919.6,
+      "total": 245508,
+      "days": 31,
+      "avgTemp": 19.0,
+      "rainMm": 60.9,
+      "snowCm": 0.0,
+      "badWeatherShare": 3.2,
+      "rainHoursShare": 17.3,
+      "avgCloud": 41.9,
+      "hours": 744,
+      "weightedOccupancy": 52.3,
+      "simpleAverage": 52.0,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-09",
+      "avgDaily": 8846.5,
+      "total": 265396,
+      "days": 30,
+      "avgTemp": 15.7,
+      "rainMm": 169.1,
+      "snowCm": 0.0,
+      "badWeatherShare": 8.6,
+      "rainHoursShare": 28.9,
+      "avgCloud": 61.1,
+      "hours": 720,
+      "weightedOccupancy": 59.6,
+      "simpleAverage": 59.0,
+      "parkingCount": 6
+    },
+    {
+      "month": "2025-10",
+      "avgDaily": 8597.0,
+      "total": 266508,
+      "days": 31,
+      "avgTemp": 9.0,
+      "rainMm": 131.8,
+      "snowCm": 6.0,
+      "badWeatherShare": 7.5,
+      "rainHoursShare": 17.3,
+      "avgCloud": 63.4,
+      "hours": 744,
+      "weightedOccupancy": 57.3,
+      "simpleAverage": 55.9,
+      "parkingCount": 7
+    },
+    {
+      "month": "2025-11",
+      "avgDaily": 8413.9,
+      "total": 252418,
+      "days": 30,
+      "avgTemp": 4.4,
+      "rainMm": 138.2,
+      "snowCm": 9.9,
+      "badWeatherShare": 14.6,
+      "rainHoursShare": 18.6,
+      "avgCloud": 61.8,
+      "hours": 720,
+      "weightedOccupancy": 64.1,
+      "simpleAverage": 62.7,
+      "parkingCount": 7
+    },
+    {
+      "month": "2025-12",
+      "avgDaily": 8222.1,
+      "total": 254886,
+      "days": 31,
+      "avgTemp": 2.2,
+      "rainMm": 13.0,
+      "snowCm": 6.9,
+      "badWeatherShare": 4.7,
+      "rainHoursShare": 6.0,
+      "avgCloud": 67.3,
+      "hours": 744,
+      "weightedOccupancy": 59.4,
+      "simpleAverage": 57.9,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-01",
+      "avgDaily": 7505.9,
+      "total": 232683,
+      "days": 31,
+      "avgTemp": -0.9,
+      "rainMm": 56.0,
+      "snowCm": 21.5,
+      "badWeatherShare": 16.5,
+      "rainHoursShare": 14.4,
+      "avgCloud": 78.2,
+      "hours": 744,
+      "weightedOccupancy": 58.8,
+      "simpleAverage": 57.0,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-02",
+      "avgDaily": 8367.0,
+      "total": 234275,
+      "days": 28,
+      "avgTemp": 4.2,
+      "rainMm": 115.6,
+      "snowCm": 13.6,
+      "badWeatherShare": 12.2,
+      "rainHoursShare": 29.2,
+      "avgCloud": 77.8,
+      "hours": 672,
+      "weightedOccupancy": 60.8,
+      "simpleAverage": 58.6,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-03",
+      "avgDaily": 8864.4,
+      "total": 274795,
+      "days": 31,
+      "avgTemp": 6.2,
+      "rainMm": 28.8,
+      "snowCm": 18.3,
+      "badWeatherShare": 5.9,
+      "rainHoursShare": 10.3,
+      "avgCloud": 55.0,
+      "hours": 744,
+      "weightedOccupancy": 62.2,
+      "simpleAverage": 60.0,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-04",
+      "avgDaily": 8597.0,
+      "total": 257909,
+      "days": 30,
+      "avgTemp": 11.0,
+      "rainMm": 59.5,
+      "snowCm": 0.0,
+      "badWeatherShare": 4.3,
+      "rainHoursShare": 12.9,
+      "avgCloud": 52.1,
+      "hours": 720,
+      "weightedOccupancy": 59.7,
+      "simpleAverage": 57.7,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-05",
+      "avgDaily": 8071.4,
+      "total": 250213,
+      "days": 31,
+      "avgTemp": 14.4,
+      "rainMm": 119.7,
+      "snowCm": 0.0,
+      "badWeatherShare": 7.8,
+      "rainHoursShare": 22.4,
+      "avgCloud": 44.2,
+      "hours": 744,
+      "weightedOccupancy": 61.6,
+      "simpleAverage": 59.7,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-06",
+      "avgDaily": 8769.0,
+      "total": 263069,
+      "days": 30,
+      "avgTemp": 19.8,
+      "rainMm": 133.4,
+      "snowCm": 0.0,
+      "badWeatherShare": 7.8,
+      "rainHoursShare": 24.3,
+      "avgCloud": 45.6,
+      "hours": 720,
+      "weightedOccupancy": 59.1,
+      "simpleAverage": 57.0,
+      "parkingCount": 7
+    },
+    {
+      "month": "2026-07",
+      "avgDaily": 8150,
+      "total": 114100,
+      "days": 14,
+      "avgTemp": 21.6,
+      "rainMm": 25.7,
+      "snowCm": 0.0,
+      "badWeatherShare": 2.7,
+      "rainHoursShare": 24.7,
+      "avgCloud": 37.3,
+      "hours": 336,
+      "weightedOccupancy": 54.2,
+      "simpleAverage": 52.6,
+      "parkingCount": 7
+    }
+  ],
+  "models": {
+    "trafficToParking": {
+      "n": 13,
+      "slope": 0.0036,
+      "intercept": 28.6747,
+      "r": 0.409,
+      "r2": 0.167
+    },
+    "badWeatherToParking": {
+      "n": 13,
+      "slope": 0.3909,
+      "intercept": 55.5072,
+      "r": 0.469,
+      "r2": 0.22
+    },
+    "rainToParking": {
+      "n": 13,
+      "slope": 0.0248,
+      "intercept": 56.5318,
+      "r": 0.359,
+      "r2": 0.129
+    },
+    "cloudToParking": {
+      "n": 13,
+      "slope": 0.1119,
+      "intercept": 52.2845,
+      "r": 0.412,
+      "r2": 0.17
+    },
+    "parkingByName": {
+      "Za Mošenikom, Tržič": {
+        "n": 13,
+        "slope": 0.0016,
+        "intercept": 74.1678,
+        "r": 0.153,
+        "r2": 0.023,
+        "baselineOccupancy": 87.9,
+        "baselineTraffic": 8337.2
+      },
+      "Tržnica, Tržič": {
+        "n": 13,
+        "slope": 0.001,
+        "intercept": 65.5696,
+        "r": 0.069,
+        "r2": 0.005,
+        "baselineOccupancy": 74.1,
+        "baselineTraffic": 8337.2
+      },
+      "Cankarjeva cesta, Tržič": {
+        "n": 13,
+        "slope": 0.0011,
+        "intercept": 55.6532,
+        "r": 0.129,
+        "r2": 0.017,
+        "baselineOccupancy": 64.8,
+        "baselineTraffic": 8337.2
+      },
+      "Zdravstveni dom, Tržič": {
+        "n": 13,
+        "slope": 0.0074,
+        "intercept": 5.1518,
+        "r": 0.62,
+        "r2": 0.384,
+        "baselineOccupancy": 67.2,
+        "baselineTraffic": 8337.2
+      },
+      "BPT, Tržič": {
+        "n": 13,
+        "slope": 0.0043,
+        "intercept": -5.228,
+        "r": 0.209,
+        "r2": 0.044,
+        "baselineOccupancy": 30.6,
+        "baselineTraffic": 8337.2
+      },
+      "DTO Tržič": {
+        "n": 13,
+        "slope": 0.0055,
+        "intercept": -11.9207,
+        "r": 0.348,
+        "r2": 0.121,
+        "baselineOccupancy": 34.0,
+        "baselineTraffic": 8337.2
+      },
+      "Sokolnica, Tržič": {
+        "n": 10,
+        "slope": 0.0017,
+        "intercept": 22.7368,
+        "r": 0.187,
+        "r2": 0.035,
+        "baselineOccupancy": 37.3,
+        "baselineTraffic": 8355.8
+      }
+    },
+    "weatherComparison": {
+      "thresholdBadWeatherShare": 7.8,
+      "goodMonths": [
+        "2025-08",
+        "2025-10",
+        "2025-12",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ],
+      "badMonths": [
+        "2025-07",
+        "2025-09",
+        "2025-11",
+        "2026-01",
+        "2026-02"
+      ],
+      "goodWeatherOccupancy": 58.2,
+      "badWeatherOccupancy": 59.3,
+      "difference": 1.1
+    },
+    "employeeScenario": {
+      "baselineEmployees": 2253,
+      "historicalChangePercent": -2.7,
+      "assumedTrafficElasticity": 0.65,
+      "note": "Scenarij uporablja konservativno predpostavko: 1 % spremembe zaposlenih pomeni približno 0,65 % spremembe delovniškega prometa. To ni dokazano iz trenutnega nabora."
+    }
+  },
+  "trafficSpeed": {
+    "description": "Povprečna hitrost vozil po vrstah vozil",
+    "version": "1.0",
+    "location": {
+      "code": "CABLEX",
+      "name": "TC25 Tržič - Cablex",
+      "speedLimit": 50,
+      "unit": "km/h"
+    },
+    "vehicleTypes": [
+      {
+        "name": "Osebni avtomobil",
+        "averageSpeed": 44.611,
+        "differenceToLimit": -5.389
+      },
+      {
+        "name": "Kombinirano vozilo",
+        "averageSpeed": 44.072,
+        "differenceToLimit": -5.928
+      },
+      {
+        "name": "Težje tovorno vozilo",
+        "averageSpeed": 41.986,
+        "differenceToLimit": -8.014
+      },
+      {
+        "name": "Tovorno vozilo s prikolico",
+        "averageSpeed": 37.062,
+        "differenceToLimit": -12.938
+      },
+      {
+        "name": "Nerazpoznana vozila",
+        "averageSpeed": 34.5,
+        "differenceToLimit": -15.5
+      }
+    ]
+  },
+  "parkings": {
+    "description": "Pametna parkirišča Občine Tržič",
+    "version": "1.0",
+    "parkingLots": [
+      {
+        "id": 47,
+        "code": "ZD",
+        "name": "Zdravstveni dom Tržič",
+        "type": "public",
+        "capacity": 90,
+        "latitude": 46.36399631768239,
+        "longitude": 14.3073611201159
+      },
+      {
+        "id": 192,
+        "code": "CANKAR",
+        "name": "Cankarjeva ulica",
+        "type": "public",
+        "capacity": 67,
+        "latitude": 46.362982582956796,
+        "longitude": 14.30991698000583
+      },
+      {
+        "id": 137,
+        "code": "BPT",
+        "name": "BPT",
+        "type": "public",
+        "capacity": 54,
+        "latitude": 46.360686755724,
+        "longitude": 14.305827646843698
+      },
+      {
+        "id": 1,
+        "code": "MOSENIK",
+        "name": "Za Mošenikom",
+        "type": "public",
+        "capacity": 44,
+        "latitude": 46.364460574836656,
+        "longitude": 14.30800049814879
+      },
+      {
+        "id": 262,
+        "code": "TRZNICA",
+        "name": "Tržnica",
+        "type": "public",
+        "capacity": 70,
+        "latitude": 46.36360777951813,
+        "longitude": 14.309687269362103
+      },
+      {
+        "id": 950,
+        "code": "DTO",
+        "name": "DTO",
+        "type": "public",
+        "capacity": 60,
+        "latitude": 46.36492444914197,
+        "longitude": 14.312186992055917
+      },
+      {
+        "id": 1359,
+        "code": "SOKOLNICA",
+        "name": "Sokolnica",
+        "type": "public",
+        "capacity": 33,
+        "latitude": 46.359761,
+        "longitude": 14.300838
+      }
+    ]
+  },
+  "eventsUpcoming": [
+    {
+      "date": "2026-07-15",
+      "time": "15:07",
+      "title": "ŠOLA ZA BODOČE STARŠE",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 15.07.2026 Ura: 18:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tokratna tematika je Uvod in komunikacija med staršema. Predava Nataša Kavar, dipl. m. s. Prijava in informacije na: natasa.kavar@zd-trzic.si ali tel. št. 040 295 349 Udeležba je brezplačna.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "15:07",
+      "title": "Šola za bodoče starše (termin prvega srečanja v sklopu izobraževanja)",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 15.07.2026 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje Organizator: Zdravstvenovzgojni center ZD Tržič, OSNOVNO ZDRAVSTVO GORENJSKE - OE ZDRAVSTVENI DOM TRŽIČ, Blejska c. 10, Tržič Šola za bodoče starše je brezplačna in poteka v prostorih zdravstvenovzgojnega centra ZD Tržič. Prijave in informacije na: natasa.kavar@zd-trzic.si ali 040 295 349.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+    },
+    {
+      "date": "2026-07-15",
+      "time": "13:07",
+      "title": "Počitniške delavnice",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 13.07.2026 - 17.07.2026 Ura: 10:00 Lokacija: Knjižnica Dr. Toneta Pretnarja in Grad Neuhaus Tip: Za otroke Organizator: Knjižnica Dr. Toneta Pretnarja, Balos 4, 4290 Tržič /// (04) 592 38 83 Od ponedeljka 13.7 . do petka 17.7.2026 , med 10.00 in 12.00.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+    },
+    {
+      "date": "2026-07-16",
+      "time": "16:07",
+      "title": "ŠOLA ZA BODOČE STARŠE",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 16.07.2026 Ura: 17:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tokratna tematika bo Nega dojenčka. Predava Špela Aljančič, dipl. m. s. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349. Udeležba je brezplačna.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-16"
+    },
+    {
+      "date": "2026-07-17",
+      "time": "17:07",
+      "title": "Letni \"piknik\" kino v Parku Radetzky",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 17.07.2026 Ura: 21:00 Lokacija: Park Radetzky, Koroška cesta 24 Tip: Kultura, Zabava Organizator: Občina Tržič in Kino Gledališče Bežigrad V idilični kulisi prenovljenega Parka Radetzky ob dvorcu Neuhaus, ki že stoletja kraljuje nad Tržičem, si boste lahko premierno to poletje ogledali vrhunske kino predstave pod milim nebom. Poleg tematske gostinske ponudbe, bo dodaten čar izkušnji dodala lokacija, kjer se zgodovinsko mestno jedro stika z naravo. V primeru slabe vremenske napovedi, se bodo predstave izvedle v bližnjem Kulturnem centru Tržič.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-17"
+    },
+    {
+      "date": "2026-07-18",
+      "time": "18:07",
+      "title": "Letni \"piknik\" kino v Parku Radetzky",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 18.07.2026 Ura: 21:00 Lokacija: Park Radetzky, Koroška cesta 24 Tip: Kultura, Zabava Organizator: Občina Tržič in Kino Gledališče Bežigrad V idilični kulisi prenovljenega Parka Radetzky ob dvorcu Neuhaus, ki že stoletja kraljuje nad Tržičem, si boste lahko premierno to poletje ogledali vrhunske kino predstave pod milim nebom. Poleg tematske gostinske ponudbe, bo dodaten čar izkušnji dodala lokacija, kjer se zgodovinsko mestno jedro stika z naravo. V primeru slabe vremenske napovedi, se bodo predstave izvedle v bližnjem Kulturnem centru Tržič.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-18"
+    },
+    {
+      "date": "2026-07-21",
+      "time": "21:07",
+      "title": "ŠOLA ZA BODOČE STARŠE",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 21.07.2026 Ura: 18:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas na predavanja oziroma v šolo za bodoče starše, ki bo tokrat obravnavala kar dve temi, in sicer Zdravi zobki in Prehrana in bolezni pri dojenčku. predavali bosta Nataša Kavar dipl. m. s. in Manca Valjavec, dr. med. spec. ped. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349.",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-21"
+    },
+    {
+      "date": "2026-07-22",
+      "time": "22:07",
+      "title": "ŠOLA ZA BODOČE STARŠE",
+      "location": null,
+      "type": null,
+      "organizer": null,
+      "description": "Datum: 22.07.2026 Ura: 17:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tematika tokratnega srečanja bo Porod. Predava Andreja Horžen, dipl. babica. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349",
+      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-22"
+    }
+  ]
+}
