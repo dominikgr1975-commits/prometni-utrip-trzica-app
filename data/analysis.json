@@ -45,7 +45,12 @@
     "employeeChange2023to2025": -2.7,
     "holidayTrafficAvg": 4388,
     "regularWeekdayTrafficAvg": 9512,
-    "eventCount": 14
+    "eventCount": 14,
+    "averageTemperature": 10.4,
+    "rainDays": 207,
+    "averageSpeed": 44.5,
+    "population2025": null,
+    "populationNote": "Podatek o številu prebivalcev še ni priložen."
   },
   "monthly": [
     {
