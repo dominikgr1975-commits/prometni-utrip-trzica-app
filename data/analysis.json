@@ -45,7 +45,12 @@
     "employeeChange2023to2025": -2.7,
     "holidayTrafficAvg": 4388,
     "regularWeekdayTrafficAvg": 9512,
-    "eventCount": 14
+    "eventCount": 14,
+    "averageTemperature": 10.4,
+    "rainDays": 207,
+    "averageSpeed": 44.5,
+    "population2025": 15021,
+    "populationNote": "Občina Tržič"
   },
   "monthly": [
     {
@@ -559,6 +564,11 @@
       "historicalChangePercent": -2.7,
       "assumedTrafficElasticity": 0.65,
       "note": "Scenarij uporablja konservativno predpostavko: 1 % spremembe zaposlenih pomeni približno 0,65 % spremembe delovniškega prometa. To ni dokazano iz trenutnega nabora."
+    },
+    "populationScenario": {
+      "baselinePopulation": 15021,
+      "assumedTrafficElasticity": 0.55,
+      "note": "Scenarij uporablja informativno predpostavko: 1 % spremembe prebivalstva pomeni približno 0,55 % spremembe povprečnega prometa. Povezava ni izračunana iz zgodovinske serije prebivalstva."
     }
   },
   "trafficSpeed": {

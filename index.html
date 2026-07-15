@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Prometni utrip Tržiča – pametna analiza prometa, parkirišč in vremena." />
-  <title>Prometni utrip Tržiča v0.2</title>
+  <title>Prometni utrip Tržiča v0.4</title>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -15,7 +15,7 @@
       <h1>Prometni utrip Tržiča</h1>
       <p class="subtitle">Kaj podatki povedo o prometu, parkiriščih in vplivu vremena?</p>
     </div>
-    <div class="version">v0.2</div>
+    <div class="version">v0.4</div>
   </header>
 
   <main>
@@ -67,6 +67,33 @@
         </div>
         <div class="scenario-output" id="employeeOutput"></div>
       </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">04</span>
+          <h3>Kako povečanje števila zaposlenih vpliva na zasedenost parkirišč?</h3>
+          <label for="employeeParkingSlider">Sprememba zaposlenih: <strong id="employeeParkingSliderValue">0 %</strong></label>
+          <input id="employeeParkingSlider" type="range" min="-15" max="15" step="1" value="0" />
+          <label for="employeeParkingSelect">Izbrano parkirišče</label>
+          <select id="employeeParkingSelect"></select>
+          <p class="helper">Verižni scenarij: zaposleni → delovniški promet → ocenjena zasedenost parkirišča.</p>
+        </div>
+        <div class="scenario-output" id="employeeParkingOutput"></div>
+      </article>
+
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">05</span>
+          <h3>Kaj če se v Tržič priseli več prebivalcev?</h3>
+          <label for="populationSlider">Sprememba prebivalcev: <strong id="populationSliderValue">+500</strong></label>
+          <input id="populationSlider" type="range" min="-1500" max="2000" step="100" value="500" />
+          <label for="populationParkingSelect">Izbrano parkirišče</label>
+          <select id="populationParkingSelect"></select>
+          <p class="helper">Scenarij ocenjuje vpliv prebivalstva na promet in nato na zasedenost izbranega parkirišča.</p>
+        </div>
+        <div class="scenario-output" id="populationOutput"></div>
+      </article>
     </section>
 
     <section class="analysis-panel">
@@ -97,7 +124,7 @@
     <section class="data-section">
       <div>
         <p class="eyebrow">PODATKOVNI VIRI</p>
-        <h2>Kaj je vključeno v v0.2?</h2>
+        <h2>Kaj je vključeno v v0.4?</h2>
       </div>
       <div class="source-grid">
         <div><strong>Promet CABLEX</strong><span>dnevno, 15. 7. 2025–15. 7. 2026</span></div>
@@ -106,6 +133,7 @@
         <div><strong>Zaposleni</strong><span>SURS, 2023–2025</span></div>
         <div><strong>Prazniki</strong><span>OPSI, 2000–2030</span></div>
         <div><strong>Dogodki</strong><span>koledar Občine Tržič</span></div>
+        <div><strong>Prebivalci</strong><span>15.021, informativni podatek za 2025</span></div>
       </div>
     </section>
   </main>
