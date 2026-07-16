@@ -1,569 +1,1910 @@
 {
-  "generatedAt": "2026-07-15T13:14:40",
-  "dataQuality": {
-    "trafficPeriod": {
-      "from": "2025-07-15",
-      "to": "2026-07-15"
+  "version": "0.5",
+  "generatedAt": "2026-07-16T07:59:53.747628+02:00",
+  "kpis": {
+    "avgDailyTraffic": 7795,
+    "parkingAvg": 61.75,
+    "employee2025": 2253,
+    "employeeChange2023to2025": -2.72,
+    "averageTemperature": 10.44,
+    "rainDays": 207,
+    "population2025": 15021,
+    "averageSpeed": 44.36,
+    "trafficYears": 3,
+    "totalParkingCapacity": 418
+  },
+  "trafficWeekly": {
+    "description": "Tedensko število vozil na lokaciji CABLEX, vse smeri, po vrstah vozil",
+    "location": {
+      "id": "CABLEX",
+      "name": "TC25 Tržič - Cablex",
+      "latitude": 46.357972,
+      "longitude": 14.296889
     },
-    "parkingPeriod": {
-      "from": "2023-01",
-      "to": "2026-07"
+    "interval": "1 week",
+    "source": "Kibana CSV export",
+    "period": {
+      "from": "2023-07-31",
+      "to": "2026-07-13"
     },
-    "weatherPeriod": {
-      "start": "2025-07-15",
-      "end": "2026-07-14"
-    },
-    "overlapMonths": [
-      "2025-07",
-      "2025-08",
-      "2025-09",
-      "2025-10",
-      "2025-11",
-      "2025-12",
-      "2026-01",
-      "2026-02",
-      "2026-03",
-      "2026-04",
-      "2026-05",
-      "2026-06",
-      "2026-07"
+    "vehicleTypes": [
+      "Enosledno vozilo",
+      "Kombinirano vozilo",
+      "Nerazpoznana vozila",
+      "Osebni avtomobil",
+      "Težje tovorno vozilo",
+      "Tovorno vozilo s prikolico"
     ],
-    "limitations": [
-      "Promet je dnevni, parkirišča mesečna, vreme pa urno; povezave so zato ocenjene na mesečni ravni.",
-      "Korelacija ne dokazuje vzročnosti.",
-      "Podatkov o zasedenosti polnilnic še ni, zato simulator trenutno ocenjuje samo parkirišča.",
-      "Za vpliv števila zaposlenih so na voljo le tri letne točke in samo eno polno leto prometa; rezultat je scenarijski, ne statistična napoved."
+    "records": [
+      {
+        "week": "2023-07-31",
+        "totalVehicles": 35273,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 945,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 33977,
+          "Težje tovorno vozilo": 313,
+          "Tovorno vozilo s prikolico": 38
+        }
+      },
+      {
+        "week": "2023-08-07",
+        "totalVehicles": 98345,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 6035,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 90886,
+          "Težje tovorno vozilo": 1302,
+          "Tovorno vozilo s prikolico": 122
+        }
+      },
+      {
+        "week": "2023-08-14",
+        "totalVehicles": 92838,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4969,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 86785,
+          "Težje tovorno vozilo": 988,
+          "Tovorno vozilo s prikolico": 96
+        }
+      },
+      {
+        "week": "2023-08-21",
+        "totalVehicles": 105557,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 6440,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 97647,
+          "Težje tovorno vozilo": 1343,
+          "Tovorno vozilo s prikolico": 127
+        }
+      },
+      {
+        "week": "2023-08-28",
+        "totalVehicles": 76039,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4423,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 70389,
+          "Težje tovorno vozilo": 1114,
+          "Tovorno vozilo s prikolico": 113
+        }
+      },
+      {
+        "week": "2023-09-04",
+        "totalVehicles": 67604,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4764,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61782,
+          "Težje tovorno vozilo": 967,
+          "Tovorno vozilo s prikolico": 91
+        }
+      },
+      {
+        "week": "2023-09-11",
+        "totalVehicles": 68654,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4700,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 62670,
+          "Težje tovorno vozilo": 1185,
+          "Tovorno vozilo s prikolico": 99
+        }
+      },
+      {
+        "week": "2023-09-18",
+        "totalVehicles": 95838,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 6054,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 88087,
+          "Težje tovorno vozilo": 1591,
+          "Tovorno vozilo s prikolico": 106
+        }
+      },
+      {
+        "week": "2023-09-25",
+        "totalVehicles": 113994,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 8058,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 103826,
+          "Težje tovorno vozilo": 1962,
+          "Tovorno vozilo s prikolico": 148
+        }
+      },
+      {
+        "week": "2023-10-02",
+        "totalVehicles": 113709,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 7434,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 104179,
+          "Težje tovorno vozilo": 1948,
+          "Tovorno vozilo s prikolico": 148
+        }
+      },
+      {
+        "week": "2023-10-09",
+        "totalVehicles": 72121,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 5015,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 65878,
+          "Težje tovorno vozilo": 1113,
+          "Tovorno vozilo s prikolico": 115
+        }
+      },
+      {
+        "week": "2023-10-16",
+        "totalVehicles": 63978,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4120,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58810,
+          "Težje tovorno vozilo": 971,
+          "Tovorno vozilo s prikolico": 77
+        }
+      },
+      {
+        "week": "2023-10-23",
+        "totalVehicles": 61515,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3233,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57316,
+          "Težje tovorno vozilo": 879,
+          "Tovorno vozilo s prikolico": 87
+        }
+      },
+      {
+        "week": "2023-10-30",
+        "totalVehicles": 46684,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1806,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 44364,
+          "Težje tovorno vozilo": 450,
+          "Tovorno vozilo s prikolico": 63
+        }
+      },
+      {
+        "week": "2023-11-06",
+        "totalVehicles": 62331,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4058,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57311,
+          "Težje tovorno vozilo": 877,
+          "Tovorno vozilo s prikolico": 85
+        }
+      },
+      {
+        "week": "2023-11-13",
+        "totalVehicles": 62699,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4321,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57391,
+          "Težje tovorno vozilo": 903,
+          "Tovorno vozilo s prikolico": 84
+        }
+      },
+      {
+        "week": "2023-11-20",
+        "totalVehicles": 59643,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4208,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54386,
+          "Težje tovorno vozilo": 951,
+          "Tovorno vozilo s prikolico": 98
+        }
+      },
+      {
+        "week": "2023-11-27",
+        "totalVehicles": 58201,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3382,
+          "Nerazpoznana vozila": 2,
+          "Osebni avtomobil": 53837,
+          "Težje tovorno vozilo": 892,
+          "Tovorno vozilo s prikolico": 88
+        }
+      },
+      {
+        "week": "2023-12-04",
+        "totalVehicles": 61988,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4518,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56555,
+          "Težje tovorno vozilo": 817,
+          "Tovorno vozilo s prikolico": 98
+        }
+      },
+      {
+        "week": "2023-12-11",
+        "totalVehicles": 58895,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3084,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54968,
+          "Težje tovorno vozilo": 767,
+          "Tovorno vozilo s prikolico": 76
+        }
+      },
+      {
+        "week": "2023-12-18",
+        "totalVehicles": 62775,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3696,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58287,
+          "Težje tovorno vozilo": 724,
+          "Tovorno vozilo s prikolico": 68
+        }
+      },
+      {
+        "week": "2023-12-25",
+        "totalVehicles": 44922,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2079,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 42449,
+          "Težje tovorno vozilo": 374,
+          "Tovorno vozilo s prikolico": 20
+        }
+      },
+      {
+        "week": "2024-01-01",
+        "totalVehicles": 45208,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2050,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 42705,
+          "Težje tovorno vozilo": 416,
+          "Tovorno vozilo s prikolico": 37
+        }
+      },
+      {
+        "week": "2024-01-08",
+        "totalVehicles": 59768,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4823,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54035,
+          "Težje tovorno vozilo": 836,
+          "Tovorno vozilo s prikolico": 74
+        }
+      },
+      {
+        "week": "2024-01-15",
+        "totalVehicles": 57768,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3544,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53375,
+          "Težje tovorno vozilo": 761,
+          "Tovorno vozilo s prikolico": 88
+        }
+      },
+      {
+        "week": "2024-01-22",
+        "totalVehicles": 60671,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3941,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55784,
+          "Težje tovorno vozilo": 854,
+          "Tovorno vozilo s prikolico": 92
+        }
+      },
+      {
+        "week": "2024-01-29",
+        "totalVehicles": 61208,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4305,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56014,
+          "Težje tovorno vozilo": 792,
+          "Tovorno vozilo s prikolico": 97
+        }
+      },
+      {
+        "week": "2024-02-05",
+        "totalVehicles": 52210,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2612,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 48934,
+          "Težje tovorno vozilo": 598,
+          "Tovorno vozilo s prikolico": 66
+        }
+      },
+      {
+        "week": "2024-02-12",
+        "totalVehicles": 62375,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4100,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57387,
+          "Težje tovorno vozilo": 784,
+          "Tovorno vozilo s prikolico": 104
+        }
+      },
+      {
+        "week": "2024-02-19",
+        "totalVehicles": 55279,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3409,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 50991,
+          "Težje tovorno vozilo": 801,
+          "Tovorno vozilo s prikolico": 78
+        }
+      },
+      {
+        "week": "2024-02-26",
+        "totalVehicles": 61156,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3194,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57071,
+          "Težje tovorno vozilo": 798,
+          "Tovorno vozilo s prikolico": 93
+        }
+      },
+      {
+        "week": "2024-03-04",
+        "totalVehicles": 60786,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2944,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56757,
+          "Težje tovorno vozilo": 1010,
+          "Tovorno vozilo s prikolico": 75
+        }
+      },
+      {
+        "week": "2024-03-11",
+        "totalVehicles": 62677,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3544,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58111,
+          "Težje tovorno vozilo": 931,
+          "Tovorno vozilo s prikolico": 91
+        }
+      },
+      {
+        "week": "2024-03-18",
+        "totalVehicles": 59684,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3452,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55288,
+          "Težje tovorno vozilo": 863,
+          "Tovorno vozilo s prikolico": 81
+        }
+      },
+      {
+        "week": "2024-03-25",
+        "totalVehicles": 59369,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3034,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55470,
+          "Težje tovorno vozilo": 794,
+          "Tovorno vozilo s prikolico": 71
+        }
+      },
+      {
+        "week": "2024-04-01",
+        "totalVehicles": 58365,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3365,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54171,
+          "Težje tovorno vozilo": 756,
+          "Tovorno vozilo s prikolico": 73
+        }
+      },
+      {
+        "week": "2024-04-08",
+        "totalVehicles": 65973,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3067,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61958,
+          "Težje tovorno vozilo": 857,
+          "Tovorno vozilo s prikolico": 91
+        }
+      },
+      {
+        "week": "2024-04-15",
+        "totalVehicles": 61092,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2133,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58181,
+          "Težje tovorno vozilo": 699,
+          "Tovorno vozilo s prikolico": 79
+        }
+      },
+      {
+        "week": "2024-04-22",
+        "totalVehicles": 61273,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1926,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58441,
+          "Težje tovorno vozilo": 849,
+          "Tovorno vozilo s prikolico": 57
+        }
+      },
+      {
+        "week": "2024-04-29",
+        "totalVehicles": 44177,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1053,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 42677,
+          "Težje tovorno vozilo": 421,
+          "Tovorno vozilo s prikolico": 26
+        }
+      },
+      {
+        "week": "2024-05-06",
+        "totalVehicles": 65997,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2067,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 63147,
+          "Težje tovorno vozilo": 710,
+          "Tovorno vozilo s prikolico": 73
+        }
+      },
+      {
+        "week": "2024-05-13",
+        "totalVehicles": 62650,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1854,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59960,
+          "Težje tovorno vozilo": 771,
+          "Tovorno vozilo s prikolico": 65
+        }
+      },
+      {
+        "week": "2024-05-20",
+        "totalVehicles": 11146,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 351,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 10619,
+          "Težje tovorno vozilo": 158,
+          "Tovorno vozilo s prikolico": 18
+        }
+      },
+      {
+        "week": "2024-05-27",
+        "totalVehicles": 100,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 98,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 1
+        }
+      },
+      {
+        "week": "2024-06-03",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-06-10",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-06-17",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-06-24",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-07-01",
+        "totalVehicles": 494,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 40,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 441,
+          "Težje tovorno vozilo": 13,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-07-08",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-07-15",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-07-22",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-07-29",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-08-05",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-08-12",
+        "totalVehicles": 0,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 0,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 0,
+          "Težje tovorno vozilo": 0,
+          "Tovorno vozilo s prikolico": 0
+        }
+      },
+      {
+        "week": "2024-08-19",
+        "totalVehicles": 17245,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2064,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 14993,
+          "Težje tovorno vozilo": 172,
+          "Tovorno vozilo s prikolico": 16
+        }
+      },
+      {
+        "week": "2024-08-26",
+        "totalVehicles": 62335,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3627,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57424,
+          "Težje tovorno vozilo": 1151,
+          "Tovorno vozilo s prikolico": 133
+        }
+      },
+      {
+        "week": "2024-09-02",
+        "totalVehicles": 58150,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3333,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53499,
+          "Težje tovorno vozilo": 1176,
+          "Tovorno vozilo s prikolico": 142
+        }
+      },
+      {
+        "week": "2024-09-09",
+        "totalVehicles": 56033,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2672,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 52199,
+          "Težje tovorno vozilo": 1048,
+          "Tovorno vozilo s prikolico": 114
+        }
+      },
+      {
+        "week": "2024-09-16",
+        "totalVehicles": 60628,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3749,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55525,
+          "Težje tovorno vozilo": 1245,
+          "Tovorno vozilo s prikolico": 109
+        }
+      },
+      {
+        "week": "2024-09-23",
+        "totalVehicles": 57741,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3090,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53436,
+          "Težje tovorno vozilo": 1110,
+          "Tovorno vozilo s prikolico": 105
+        }
+      },
+      {
+        "week": "2024-09-30",
+        "totalVehicles": 57319,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3009,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53107,
+          "Težje tovorno vozilo": 1098,
+          "Tovorno vozilo s prikolico": 105
+        }
+      },
+      {
+        "week": "2024-10-07",
+        "totalVehicles": 58595,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3301,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 53954,
+          "Težje tovorno vozilo": 1246,
+          "Tovorno vozilo s prikolico": 93
+        }
+      },
+      {
+        "week": "2024-10-14",
+        "totalVehicles": 58468,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3214,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53937,
+          "Težje tovorno vozilo": 1192,
+          "Tovorno vozilo s prikolico": 125
+        }
+      },
+      {
+        "week": "2024-10-21",
+        "totalVehicles": 61945,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3324,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57274,
+          "Težje tovorno vozilo": 1226,
+          "Tovorno vozilo s prikolico": 121
+        }
+      },
+      {
+        "week": "2024-10-28",
+        "totalVehicles": 51252,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2483,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 47826,
+          "Težje tovorno vozilo": 832,
+          "Tovorno vozilo s prikolico": 111
+        }
+      },
+      {
+        "week": "2024-11-04",
+        "totalVehicles": 62553,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4546,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56456,
+          "Težje tovorno vozilo": 1397,
+          "Tovorno vozilo s prikolico": 154
+        }
+      },
+      {
+        "week": "2024-11-11",
+        "totalVehicles": 62306,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 5174,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55620,
+          "Težje tovorno vozilo": 1338,
+          "Tovorno vozilo s prikolico": 174
+        }
+      },
+      {
+        "week": "2024-11-18",
+        "totalVehicles": 58344,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3791,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53294,
+          "Težje tovorno vozilo": 1124,
+          "Tovorno vozilo s prikolico": 135
+        }
+      },
+      {
+        "week": "2024-11-25",
+        "totalVehicles": 58075,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3503,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53269,
+          "Težje tovorno vozilo": 1172,
+          "Tovorno vozilo s prikolico": 131
+        }
+      },
+      {
+        "week": "2024-12-02",
+        "totalVehicles": 59088,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4282,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53395,
+          "Težje tovorno vozilo": 1285,
+          "Tovorno vozilo s prikolico": 126
+        }
+      },
+      {
+        "week": "2024-12-09",
+        "totalVehicles": 56386,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3930,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 51184,
+          "Težje tovorno vozilo": 1141,
+          "Tovorno vozilo s prikolico": 131
+        }
+      },
+      {
+        "week": "2024-12-16",
+        "totalVehicles": 59541,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3760,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54499,
+          "Težje tovorno vozilo": 1150,
+          "Tovorno vozilo s prikolico": 132
+        }
+      },
+      {
+        "week": "2024-12-23",
+        "totalVehicles": 44338,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2762,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 40940,
+          "Težje tovorno vozilo": 598,
+          "Tovorno vozilo s prikolico": 38
+        }
+      },
+      {
+        "week": "2024-12-30",
+        "totalVehicles": 37628,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1792,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 35345,
+          "Težje tovorno vozilo": 469,
+          "Tovorno vozilo s prikolico": 22
+        }
+      },
+      {
+        "week": "2025-01-06",
+        "totalVehicles": 51878,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2660,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 48020,
+          "Težje tovorno vozilo": 1102,
+          "Tovorno vozilo s prikolico": 96
+        }
+      },
+      {
+        "week": "2025-01-13",
+        "totalVehicles": 55904,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4407,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 50151,
+          "Težje tovorno vozilo": 1209,
+          "Tovorno vozilo s prikolico": 137
+        }
+      },
+      {
+        "week": "2025-01-20",
+        "totalVehicles": 54374,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3189,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49990,
+          "Težje tovorno vozilo": 1039,
+          "Tovorno vozilo s prikolico": 156
+        }
+      },
+      {
+        "week": "2025-01-27",
+        "totalVehicles": 53528,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2671,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49821,
+          "Težje tovorno vozilo": 941,
+          "Tovorno vozilo s prikolico": 95
+        }
+      },
+      {
+        "week": "2025-02-03",
+        "totalVehicles": 54075,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4151,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 48704,
+          "Težje tovorno vozilo": 1103,
+          "Tovorno vozilo s prikolico": 117
+        }
+      },
+      {
+        "week": "2025-02-10",
+        "totalVehicles": 56294,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3333,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 51786,
+          "Težje tovorno vozilo": 1058,
+          "Tovorno vozilo s prikolico": 117
+        }
+      },
+      {
+        "week": "2025-02-17",
+        "totalVehicles": 57812,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4050,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 52387,
+          "Težje tovorno vozilo": 1241,
+          "Tovorno vozilo s prikolico": 134
+        }
+      },
+      {
+        "week": "2025-02-24",
+        "totalVehicles": 53375,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2622,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49655,
+          "Težje tovorno vozilo": 984,
+          "Tovorno vozilo s prikolico": 114
+        }
+      },
+      {
+        "week": "2025-03-03",
+        "totalVehicles": 58432,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3407,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53594,
+          "Težje tovorno vozilo": 1296,
+          "Tovorno vozilo s prikolico": 135
+        }
+      },
+      {
+        "week": "2025-03-10",
+        "totalVehicles": 53949,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1993,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 50824,
+          "Težje tovorno vozilo": 1032,
+          "Tovorno vozilo s prikolico": 100
+        }
+      },
+      {
+        "week": "2025-03-17",
+        "totalVehicles": 57407,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 978,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 55698,
+          "Težje tovorno vozilo": 675,
+          "Tovorno vozilo s prikolico": 55
+        }
+      },
+      {
+        "week": "2025-03-24",
+        "totalVehicles": 56754,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 724,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55423,
+          "Težje tovorno vozilo": 569,
+          "Tovorno vozilo s prikolico": 38
+        }
+      },
+      {
+        "week": "2025-03-31",
+        "totalVehicles": 56827,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1224,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54856,
+          "Težje tovorno vozilo": 684,
+          "Tovorno vozilo s prikolico": 63
+        }
+      },
+      {
+        "week": "2025-04-07",
+        "totalVehicles": 54870,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 692,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53683,
+          "Težje tovorno vozilo": 464,
+          "Tovorno vozilo s prikolico": 31
+        }
+      },
+      {
+        "week": "2025-04-14",
+        "totalVehicles": 53846,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 562,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53005,
+          "Težje tovorno vozilo": 259,
+          "Tovorno vozilo s prikolico": 20
+        }
+      },
+      {
+        "week": "2025-04-21",
+        "totalVehicles": 49636,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 452,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 48960,
+          "Težje tovorno vozilo": 217,
+          "Tovorno vozilo s prikolico": 7
+        }
+      },
+      {
+        "week": "2025-04-28",
+        "totalVehicles": 39728,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 282,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 39319,
+          "Težje tovorno vozilo": 118,
+          "Tovorno vozilo s prikolico": 9
+        }
+      },
+      {
+        "week": "2025-05-05",
+        "totalVehicles": 57167,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 559,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56371,
+          "Težje tovorno vozilo": 215,
+          "Tovorno vozilo s prikolico": 22
+        }
+      },
+      {
+        "week": "2025-05-12",
+        "totalVehicles": 57977,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 504,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57243,
+          "Težje tovorno vozilo": 214,
+          "Tovorno vozilo s prikolico": 16
+        }
+      },
+      {
+        "week": "2025-05-19",
+        "totalVehicles": 62845,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2190,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 59471,
+          "Težje tovorno vozilo": 1085,
+          "Tovorno vozilo s prikolico": 98
+        }
+      },
+      {
+        "week": "2025-05-26",
+        "totalVehicles": 62357,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1362,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59977,
+          "Težje tovorno vozilo": 942,
+          "Tovorno vozilo s prikolico": 76
+        }
+      },
+      {
+        "week": "2025-06-02",
+        "totalVehicles": 64045,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1887,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61224,
+          "Težje tovorno vozilo": 851,
+          "Tovorno vozilo s prikolico": 83
+        }
+      },
+      {
+        "week": "2025-06-09",
+        "totalVehicles": 64156,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3472,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59320,
+          "Težje tovorno vozilo": 1243,
+          "Tovorno vozilo s prikolico": 121
+        }
+      },
+      {
+        "week": "2025-06-16",
+        "totalVehicles": 63238,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3463,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58448,
+          "Težje tovorno vozilo": 1217,
+          "Tovorno vozilo s prikolico": 110
+        }
+      },
+      {
+        "week": "2025-06-23",
+        "totalVehicles": 57239,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2926,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53165,
+          "Težje tovorno vozilo": 1031,
+          "Tovorno vozilo s prikolico": 117
+        }
+      },
+      {
+        "week": "2025-06-30",
+        "totalVehicles": 60115,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3271,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55582,
+          "Težje tovorno vozilo": 1109,
+          "Tovorno vozilo s prikolico": 153
+        }
+      },
+      {
+        "week": "2025-07-07",
+        "totalVehicles": 56243,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3253,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 51885,
+          "Težje tovorno vozilo": 995,
+          "Tovorno vozilo s prikolico": 110
+        }
+      },
+      {
+        "week": "2025-07-14",
+        "totalVehicles": 56629,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3130,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 52369,
+          "Težje tovorno vozilo": 1023,
+          "Tovorno vozilo s prikolico": 107
+        }
+      },
+      {
+        "week": "2025-07-21",
+        "totalVehicles": 54050,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2987,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49919,
+          "Težje tovorno vozilo": 1034,
+          "Tovorno vozilo s prikolico": 110
+        }
+      },
+      {
+        "week": "2025-07-28",
+        "totalVehicles": 53685,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2935,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49705,
+          "Težje tovorno vozilo": 936,
+          "Tovorno vozilo s prikolico": 109
+        }
+      },
+      {
+        "week": "2025-08-04",
+        "totalVehicles": 51659,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2819,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 47723,
+          "Težje tovorno vozilo": 1016,
+          "Tovorno vozilo s prikolico": 101
+        }
+      },
+      {
+        "week": "2025-08-11",
+        "totalVehicles": 53731,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2687,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 50043,
+          "Težje tovorno vozilo": 913,
+          "Tovorno vozilo s prikolico": 88
+        }
+      },
+      {
+        "week": "2025-08-18",
+        "totalVehicles": 59409,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3170,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55115,
+          "Težje tovorno vozilo": 1029,
+          "Tovorno vozilo s prikolico": 95
+        }
+      },
+      {
+        "week": "2025-08-25",
+        "totalVehicles": 61822,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3519,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57028,
+          "Težje tovorno vozilo": 1165,
+          "Tovorno vozilo s prikolico": 110
+        }
+      },
+      {
+        "week": "2025-09-01",
+        "totalVehicles": 64513,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3855,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59055,
+          "Težje tovorno vozilo": 1455,
+          "Tovorno vozilo s prikolico": 148
+        }
+      },
+      {
+        "week": "2025-09-08",
+        "totalVehicles": 58632,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3092,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54194,
+          "Težje tovorno vozilo": 1235,
+          "Tovorno vozilo s prikolico": 111
+        }
+      },
+      {
+        "week": "2025-09-15",
+        "totalVehicles": 62678,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3549,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57754,
+          "Težje tovorno vozilo": 1262,
+          "Tovorno vozilo s prikolico": 113
+        }
+      },
+      {
+        "week": "2025-09-22",
+        "totalVehicles": 60047,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3156,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 55583,
+          "Težje tovorno vozilo": 1187,
+          "Tovorno vozilo s prikolico": 120
+        }
+      },
+      {
+        "week": "2025-09-29",
+        "totalVehicles": 60868,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 4225,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55184,
+          "Težje tovorno vozilo": 1321,
+          "Tovorno vozilo s prikolico": 138
+        }
+      },
+      {
+        "week": "2025-10-06",
+        "totalVehicles": 61964,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3943,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56511,
+          "Težje tovorno vozilo": 1371,
+          "Tovorno vozilo s prikolico": 139
+        }
+      },
+      {
+        "week": "2025-10-13",
+        "totalVehicles": 60229,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3851,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54903,
+          "Težje tovorno vozilo": 1359,
+          "Tovorno vozilo s prikolico": 116
+        }
+      },
+      {
+        "week": "2025-10-20",
+        "totalVehicles": 60340,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3189,
+          "Nerazpoznana vozila": 1,
+          "Osebni avtomobil": 55811,
+          "Težje tovorno vozilo": 1230,
+          "Tovorno vozilo s prikolico": 109
+        }
+      },
+      {
+        "week": "2025-10-27",
+        "totalVehicles": 52171,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1715,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 49424,
+          "Težje tovorno vozilo": 947,
+          "Tovorno vozilo s prikolico": 85
+        }
+      },
+      {
+        "week": "2025-11-03",
+        "totalVehicles": 61432,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1768,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58473,
+          "Težje tovorno vozilo": 1108,
+          "Tovorno vozilo s prikolico": 83
+        }
+      },
+      {
+        "week": "2025-11-10",
+        "totalVehicles": 59311,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1787,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56216,
+          "Težje tovorno vozilo": 1211,
+          "Tovorno vozilo s prikolico": 97
+        }
+      },
+      {
+        "week": "2025-11-17",
+        "totalVehicles": 60671,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1528,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58075,
+          "Težje tovorno vozilo": 991,
+          "Tovorno vozilo s prikolico": 77
+        }
+      },
+      {
+        "week": "2025-11-24",
+        "totalVehicles": 61466,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1657,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58634,
+          "Težje tovorno vozilo": 1077,
+          "Tovorno vozilo s prikolico": 98
+        }
+      },
+      {
+        "week": "2025-12-01",
+        "totalVehicles": 58260,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1600,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55575,
+          "Težje tovorno vozilo": 1006,
+          "Tovorno vozilo s prikolico": 79
+        }
+      },
+      {
+        "week": "2025-12-08",
+        "totalVehicles": 62201,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1689,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59336,
+          "Težje tovorno vozilo": 1095,
+          "Tovorno vozilo s prikolico": 81
+        }
+      },
+      {
+        "week": "2025-12-15",
+        "totalVehicles": 63314,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1603,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 60621,
+          "Težje tovorno vozilo": 1023,
+          "Tovorno vozilo s prikolico": 67
+        }
+      },
+      {
+        "week": "2025-12-22",
+        "totalVehicles": 47066,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 869,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 45525,
+          "Težje tovorno vozilo": 632,
+          "Tovorno vozilo s prikolico": 40
+        }
+      },
+      {
+        "week": "2025-12-29",
+        "totalVehicles": 40497,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 611,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 39436,
+          "Težje tovorno vozilo": 435,
+          "Tovorno vozilo s prikolico": 15
+        }
+      },
+      {
+        "week": "2026-01-05",
+        "totalVehicles": 46287,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1135,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 44421,
+          "Težje tovorno vozilo": 685,
+          "Tovorno vozilo s prikolico": 46
+        }
+      },
+      {
+        "week": "2026-01-12",
+        "totalVehicles": 56914,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1427,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54555,
+          "Težje tovorno vozilo": 845,
+          "Tovorno vozilo s prikolico": 87
+        }
+      },
+      {
+        "week": "2026-01-19",
+        "totalVehicles": 57785,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1869,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 54828,
+          "Težje tovorno vozilo": 999,
+          "Tovorno vozilo s prikolico": 89
+        }
+      },
+      {
+        "week": "2026-01-26",
+        "totalVehicles": 59489,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1423,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57044,
+          "Težje tovorno vozilo": 941,
+          "Tovorno vozilo s prikolico": 81
+        }
+      },
+      {
+        "week": "2026-02-02",
+        "totalVehicles": 58825,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1108,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56739,
+          "Težje tovorno vozilo": 921,
+          "Tovorno vozilo s prikolico": 57
+        }
+      },
+      {
+        "week": "2026-02-09",
+        "totalVehicles": 60846,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 990,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 59045,
+          "Težje tovorno vozilo": 758,
+          "Tovorno vozilo s prikolico": 53
+        }
+      },
+      {
+        "week": "2026-02-16",
+        "totalVehicles": 52313,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 795,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 50865,
+          "Težje tovorno vozilo": 613,
+          "Tovorno vozilo s prikolico": 40
+        }
+      },
+      {
+        "week": "2026-02-23",
+        "totalVehicles": 62563,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 944,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 60852,
+          "Težje tovorno vozilo": 712,
+          "Tovorno vozilo s prikolico": 55
+        }
+      },
+      {
+        "week": "2026-03-02",
+        "totalVehicles": 63727,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 972,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61868,
+          "Težje tovorno vozilo": 834,
+          "Tovorno vozilo s prikolico": 53
+        }
+      },
+      {
+        "week": "2026-03-09",
+        "totalVehicles": 61900,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 931,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 60150,
+          "Težje tovorno vozilo": 764,
+          "Tovorno vozilo s prikolico": 55
+        }
+      },
+      {
+        "week": "2026-03-16",
+        "totalVehicles": 64906,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 888,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 63257,
+          "Težje tovorno vozilo": 713,
+          "Tovorno vozilo s prikolico": 48
+        }
+      },
+      {
+        "week": "2026-03-23",
+        "totalVehicles": 59381,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 857,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 57793,
+          "Težje tovorno vozilo": 678,
+          "Tovorno vozilo s prikolico": 53
+        }
+      },
+      {
+        "week": "2026-03-30",
+        "totalVehicles": 63556,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 889,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61910,
+          "Težje tovorno vozilo": 711,
+          "Tovorno vozilo s prikolico": 46
+        }
+      },
+      {
+        "week": "2026-04-06",
+        "totalVehicles": 58244,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 878,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56742,
+          "Težje tovorno vozilo": 579,
+          "Tovorno vozilo s prikolico": 45
+        }
+      },
+      {
+        "week": "2026-04-13",
+        "totalVehicles": 63311,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 852,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61725,
+          "Težje tovorno vozilo": 695,
+          "Tovorno vozilo s prikolico": 39
+        }
+      },
+      {
+        "week": "2026-04-20",
+        "totalVehicles": 63167,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 763,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 61853,
+          "Težje tovorno vozilo": 515,
+          "Tovorno vozilo s prikolico": 36
+        }
+      },
+      {
+        "week": "2026-04-27",
+        "totalVehicles": 42327,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 425,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 41635,
+          "Težje tovorno vozilo": 248,
+          "Tovorno vozilo s prikolico": 19
+        }
+      },
+      {
+        "week": "2026-05-04",
+        "totalVehicles": 65178,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 712,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 63911,
+          "Težje tovorno vozilo": 524,
+          "Tovorno vozilo s prikolico": 31
+        }
+      },
+      {
+        "week": "2026-05-11",
+        "totalVehicles": 56741,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 673,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55647,
+          "Težje tovorno vozilo": 381,
+          "Tovorno vozilo s prikolico": 40
+        }
+      },
+      {
+        "week": "2026-05-18",
+        "totalVehicles": 59788,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 628,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58866,
+          "Težje tovorno vozilo": 270,
+          "Tovorno vozilo s prikolico": 24
+        }
+      },
+      {
+        "week": "2026-05-25",
+        "totalVehicles": 56175,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 702,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 55225,
+          "Težje tovorno vozilo": 234,
+          "Tovorno vozilo s prikolico": 14
+        }
+      },
+      {
+        "week": "2026-06-01",
+        "totalVehicles": 63131,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3302,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58523,
+          "Težje tovorno vozilo": 1201,
+          "Tovorno vozilo s prikolico": 105
+        }
+      },
+      {
+        "week": "2026-06-08",
+        "totalVehicles": 61137,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3365,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 56394,
+          "Težje tovorno vozilo": 1237,
+          "Tovorno vozilo s prikolico": 141
+        }
+      },
+      {
+        "week": "2026-06-15",
+        "totalVehicles": 63558,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3500,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 58632,
+          "Težje tovorno vozilo": 1291,
+          "Tovorno vozilo s prikolico": 135
+        }
+      },
+      {
+        "week": "2026-06-22",
+        "totalVehicles": 56574,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 2877,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 52642,
+          "Težje tovorno vozilo": 951,
+          "Tovorno vozilo s prikolico": 104
+        }
+      },
+      {
+        "week": "2026-06-29",
+        "totalVehicles": 58015,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3030,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 53750,
+          "Težje tovorno vozilo": 1075,
+          "Tovorno vozilo s prikolico": 160
+        }
+      },
+      {
+        "week": "2026-07-06",
+        "totalVehicles": 56584,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 3142,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 52191,
+          "Težje tovorno vozilo": 1130,
+          "Tovorno vozilo s prikolico": 121
+        }
+      },
+      {
+        "week": "2026-07-13",
+        "totalVehicles": 23765,
+        "vehicleTypes": {
+          "Enosledno vozilo": 0,
+          "Kombinirano vozilo": 1385,
+          "Nerazpoznana vozila": 0,
+          "Osebni avtomobil": 21810,
+          "Težje tovorno vozilo": 496,
+          "Tovorno vozilo s prikolico": 74
+        }
+      }
     ]
   },
-  "kpis": {
-    "avgDailyTraffic": 8354,
-    "weekdayAvg": 9312,
-    "weekendAvg": 5958,
-    "parkingAvg": 61.6,
-    "parkingWeightedLatest": 54.2,
-    "employee2025": 2253,
-    "employeeChange2023to2025": -2.7,
-    "holidayTrafficAvg": 4388,
-    "regularWeekdayTrafficAvg": 9512,
-    "eventCount": 14
-  },
-  "monthly": [
-    {
-      "month": "2023-01",
-      "weightedOccupancy": 70.5,
-      "simpleAverage": 72.6,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-02",
-      "weightedOccupancy": 70.1,
-      "simpleAverage": 72.4,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-03",
-      "weightedOccupancy": 70.4,
-      "simpleAverage": 72.6,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-04",
-      "weightedOccupancy": 66.2,
-      "simpleAverage": 68.4,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-05",
-      "weightedOccupancy": 67.8,
-      "simpleAverage": 70.2,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-06",
-      "weightedOccupancy": 64.9,
-      "simpleAverage": 67.2,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-07",
-      "weightedOccupancy": 60.6,
-      "simpleAverage": 63.0,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-08",
-      "weightedOccupancy": 61.8,
-      "simpleAverage": 64.2,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-09",
-      "weightedOccupancy": 65.4,
-      "simpleAverage": 67.0,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-10",
-      "weightedOccupancy": 69.2,
-      "simpleAverage": 71.0,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-11",
-      "weightedOccupancy": 69.5,
-      "simpleAverage": 71.4,
-      "parkingCount": 5
-    },
-    {
-      "month": "2023-12",
-      "weightedOccupancy": 67.8,
-      "simpleAverage": 70.0,
-      "parkingCount": 5
-    },
-    {
-      "month": "2024-01",
-      "weightedOccupancy": 67.6,
-      "simpleAverage": 69.2,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-02",
-      "weightedOccupancy": 66.8,
-      "simpleAverage": 68.5,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-03",
-      "weightedOccupancy": 68.0,
-      "simpleAverage": 69.8,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-04",
-      "weightedOccupancy": 66.1,
-      "simpleAverage": 67.8,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-05",
-      "weightedOccupancy": 66.2,
-      "simpleAverage": 68.2,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-06",
-      "weightedOccupancy": 61.9,
-      "simpleAverage": 63.8,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-07",
-      "weightedOccupancy": 51.3,
-      "simpleAverage": 51.2,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-08",
-      "weightedOccupancy": 49.6,
-      "simpleAverage": 49.3,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-09",
-      "weightedOccupancy": 57.7,
-      "simpleAverage": 57.3,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-10",
-      "weightedOccupancy": 58.3,
-      "simpleAverage": 58.0,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-11",
-      "weightedOccupancy": 58.8,
-      "simpleAverage": 58.7,
-      "parkingCount": 6
-    },
-    {
-      "month": "2024-12",
-      "weightedOccupancy": 56.6,
-      "simpleAverage": 57.0,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-01",
-      "weightedOccupancy": 59.7,
-      "simpleAverage": 59.7,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-02",
-      "weightedOccupancy": 60.8,
-      "simpleAverage": 60.3,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-03",
-      "weightedOccupancy": 62.9,
-      "simpleAverage": 62.3,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-04",
-      "weightedOccupancy": 60.2,
-      "simpleAverage": 59.5,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-05",
-      "weightedOccupancy": 60.4,
-      "simpleAverage": 59.8,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-06",
-      "weightedOccupancy": 56.1,
-      "simpleAverage": 55.7,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-07",
-      "avgDaily": 8060,
-      "total": 128960,
-      "days": 16,
-      "avgTemp": 18.8,
-      "rainMm": 57.9,
-      "snowCm": 0.0,
-      "badWeatherShare": 8.6,
-      "rainHoursShare": 27.0,
-      "avgCloud": 53.1,
-      "hours": 408,
-      "weightedOccupancy": 53.3,
-      "simpleAverage": 52.8,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-08",
-      "avgDaily": 7919.6,
-      "total": 245508,
-      "days": 31,
-      "avgTemp": 19.0,
-      "rainMm": 60.9,
-      "snowCm": 0.0,
-      "badWeatherShare": 3.2,
-      "rainHoursShare": 17.3,
-      "avgCloud": 41.9,
-      "hours": 744,
-      "weightedOccupancy": 52.3,
-      "simpleAverage": 52.0,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-09",
-      "avgDaily": 8846.5,
-      "total": 265396,
-      "days": 30,
-      "avgTemp": 15.7,
-      "rainMm": 169.1,
-      "snowCm": 0.0,
-      "badWeatherShare": 8.6,
-      "rainHoursShare": 28.9,
-      "avgCloud": 61.1,
-      "hours": 720,
-      "weightedOccupancy": 59.6,
-      "simpleAverage": 59.0,
-      "parkingCount": 6
-    },
-    {
-      "month": "2025-10",
-      "avgDaily": 8597.0,
-      "total": 266508,
-      "days": 31,
-      "avgTemp": 9.0,
-      "rainMm": 131.8,
-      "snowCm": 6.0,
-      "badWeatherShare": 7.5,
-      "rainHoursShare": 17.3,
-      "avgCloud": 63.4,
-      "hours": 744,
-      "weightedOccupancy": 57.3,
-      "simpleAverage": 55.9,
-      "parkingCount": 7
-    },
-    {
-      "month": "2025-11",
-      "avgDaily": 8413.9,
-      "total": 252418,
-      "days": 30,
-      "avgTemp": 4.4,
-      "rainMm": 138.2,
-      "snowCm": 9.9,
-      "badWeatherShare": 14.6,
-      "rainHoursShare": 18.6,
-      "avgCloud": 61.8,
-      "hours": 720,
-      "weightedOccupancy": 64.1,
-      "simpleAverage": 62.7,
-      "parkingCount": 7
-    },
-    {
-      "month": "2025-12",
-      "avgDaily": 8222.1,
-      "total": 254886,
-      "days": 31,
-      "avgTemp": 2.2,
-      "rainMm": 13.0,
-      "snowCm": 6.9,
-      "badWeatherShare": 4.7,
-      "rainHoursShare": 6.0,
-      "avgCloud": 67.3,
-      "hours": 744,
-      "weightedOccupancy": 59.4,
-      "simpleAverage": 57.9,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-01",
-      "avgDaily": 7505.9,
-      "total": 232683,
-      "days": 31,
-      "avgTemp": -0.9,
-      "rainMm": 56.0,
-      "snowCm": 21.5,
-      "badWeatherShare": 16.5,
-      "rainHoursShare": 14.4,
-      "avgCloud": 78.2,
-      "hours": 744,
-      "weightedOccupancy": 58.8,
-      "simpleAverage": 57.0,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-02",
-      "avgDaily": 8367.0,
-      "total": 234275,
-      "days": 28,
-      "avgTemp": 4.2,
-      "rainMm": 115.6,
-      "snowCm": 13.6,
-      "badWeatherShare": 12.2,
-      "rainHoursShare": 29.2,
-      "avgCloud": 77.8,
-      "hours": 672,
-      "weightedOccupancy": 60.8,
-      "simpleAverage": 58.6,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-03",
-      "avgDaily": 8864.4,
-      "total": 274795,
-      "days": 31,
-      "avgTemp": 6.2,
-      "rainMm": 28.8,
-      "snowCm": 18.3,
-      "badWeatherShare": 5.9,
-      "rainHoursShare": 10.3,
-      "avgCloud": 55.0,
-      "hours": 744,
-      "weightedOccupancy": 62.2,
-      "simpleAverage": 60.0,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-04",
-      "avgDaily": 8597.0,
-      "total": 257909,
-      "days": 30,
-      "avgTemp": 11.0,
-      "rainMm": 59.5,
-      "snowCm": 0.0,
-      "badWeatherShare": 4.3,
-      "rainHoursShare": 12.9,
-      "avgCloud": 52.1,
-      "hours": 720,
-      "weightedOccupancy": 59.7,
-      "simpleAverage": 57.7,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-05",
-      "avgDaily": 8071.4,
-      "total": 250213,
-      "days": 31,
-      "avgTemp": 14.4,
-      "rainMm": 119.7,
-      "snowCm": 0.0,
-      "badWeatherShare": 7.8,
-      "rainHoursShare": 22.4,
-      "avgCloud": 44.2,
-      "hours": 744,
-      "weightedOccupancy": 61.6,
-      "simpleAverage": 59.7,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-06",
-      "avgDaily": 8769.0,
-      "total": 263069,
-      "days": 30,
-      "avgTemp": 19.8,
-      "rainMm": 133.4,
-      "snowCm": 0.0,
-      "badWeatherShare": 7.8,
-      "rainHoursShare": 24.3,
-      "avgCloud": 45.6,
-      "hours": 720,
-      "weightedOccupancy": 59.1,
-      "simpleAverage": 57.0,
-      "parkingCount": 7
-    },
-    {
-      "month": "2026-07",
-      "avgDaily": 8150,
-      "total": 114100,
-      "days": 14,
-      "avgTemp": 21.6,
-      "rainMm": 25.7,
-      "snowCm": 0.0,
-      "badWeatherShare": 2.7,
-      "rainHoursShare": 24.7,
-      "avgCloud": 37.3,
-      "hours": 336,
-      "weightedOccupancy": 54.2,
-      "simpleAverage": 52.6,
-      "parkingCount": 7
-    }
-  ],
-  "models": {
-    "trafficToParking": {
-      "n": 13,
-      "slope": 0.0036,
-      "intercept": 28.6747,
-      "r": 0.409,
-      "r2": 0.167
-    },
-    "badWeatherToParking": {
-      "n": 13,
-      "slope": 0.3909,
-      "intercept": 55.5072,
-      "r": 0.469,
-      "r2": 0.22
-    },
-    "rainToParking": {
-      "n": 13,
-      "slope": 0.0248,
-      "intercept": 56.5318,
-      "r": 0.359,
-      "r2": 0.129
-    },
-    "cloudToParking": {
-      "n": 13,
-      "slope": 0.1119,
-      "intercept": 52.2845,
-      "r": 0.412,
-      "r2": 0.17
-    },
-    "parkingByName": {
-      "Za Mošenikom, Tržič": {
-        "n": 13,
-        "slope": 0.0016,
-        "intercept": 74.1678,
-        "r": 0.153,
-        "r2": 0.023,
-        "baselineOccupancy": 87.9,
-        "baselineTraffic": 8337.2
-      },
-      "Tržnica, Tržič": {
-        "n": 13,
-        "slope": 0.001,
-        "intercept": 65.5696,
-        "r": 0.069,
-        "r2": 0.005,
-        "baselineOccupancy": 74.1,
-        "baselineTraffic": 8337.2
-      },
-      "Cankarjeva cesta, Tržič": {
-        "n": 13,
-        "slope": 0.0011,
-        "intercept": 55.6532,
-        "r": 0.129,
-        "r2": 0.017,
-        "baselineOccupancy": 64.8,
-        "baselineTraffic": 8337.2
-      },
-      "Zdravstveni dom, Tržič": {
-        "n": 13,
-        "slope": 0.0074,
-        "intercept": 5.1518,
-        "r": 0.62,
-        "r2": 0.384,
-        "baselineOccupancy": 67.2,
-        "baselineTraffic": 8337.2
-      },
-      "BPT, Tržič": {
-        "n": 13,
-        "slope": 0.0043,
-        "intercept": -5.228,
-        "r": 0.209,
-        "r2": 0.044,
-        "baselineOccupancy": 30.6,
-        "baselineTraffic": 8337.2
-      },
-      "DTO Tržič": {
-        "n": 13,
-        "slope": 0.0055,
-        "intercept": -11.9207,
-        "r": 0.348,
-        "r2": 0.121,
-        "baselineOccupancy": 34.0,
-        "baselineTraffic": 8337.2
-      },
-      "Sokolnica, Tržič": {
-        "n": 10,
-        "slope": 0.0017,
-        "intercept": 22.7368,
-        "r": 0.187,
-        "r2": 0.035,
-        "baselineOccupancy": 37.3,
-        "baselineTraffic": 8355.8
-      }
-    },
-    "weatherComparison": {
-      "thresholdBadWeatherShare": 7.8,
-      "goodMonths": [
-        "2025-08",
-        "2025-10",
-        "2025-12",
-        "2026-03",
-        "2026-04",
-        "2026-05",
-        "2026-06",
-        "2026-07"
-      ],
-      "badMonths": [
-        "2025-07",
-        "2025-09",
-        "2025-11",
-        "2026-01",
-        "2026-02"
-      ],
-      "goodWeatherOccupancy": 58.2,
-      "badWeatherOccupancy": 59.3,
-      "difference": 1.1
-    },
-    "employeeScenario": {
-      "baselineEmployees": 2253,
-      "historicalChangePercent": -2.7,
-      "assumedTrafficElasticity": 0.65,
-      "note": "Scenarij uporablja konservativno predpostavko: 1 % spremembe zaposlenih pomeni približno 0,65 % spremembe delovniškega prometa. To ni dokazano iz trenutnega nabora."
-    }
-  },
   "trafficSpeed": {
-    "description": "Povprečna hitrost vozil po vrstah vozil",
-    "version": "1.0",
+    "description": "Povprečna hitrost vozil po vrstah vozil za triletno obdobje",
+    "version": "1.1",
+    "period": {
+      "from": "2023-07-31",
+      "to": "2026-07-13"
+    },
     "location": {
       "code": "CABLEX",
       "name": "TC25 Tržič - Cablex",
@@ -572,181 +1913,1539 @@
     },
     "vehicleTypes": [
       {
-        "name": "Osebni avtomobil",
-        "averageSpeed": 44.611,
-        "differenceToLimit": -5.389
-      },
-      {
         "name": "Kombinirano vozilo",
-        "averageSpeed": 44.072,
-        "differenceToLimit": -5.928
-      },
-      {
-        "name": "Težje tovorno vozilo",
-        "averageSpeed": 41.986,
-        "differenceToLimit": -8.014
-      },
-      {
-        "name": "Tovorno vozilo s prikolico",
-        "averageSpeed": 37.062,
-        "differenceToLimit": -12.938
+        "averageSpeed": 44.833,
+        "differenceToLimit": -5.167
       },
       {
         "name": "Nerazpoznana vozila",
-        "averageSpeed": 34.5,
-        "differenceToLimit": -15.5
+        "averageSpeed": 26.125,
+        "differenceToLimit": -23.875
+      },
+      {
+        "name": "Osebni avtomobil",
+        "averageSpeed": 44.393,
+        "differenceToLimit": -5.607
+      },
+      {
+        "name": "Težje tovorno vozilo",
+        "averageSpeed": 41.853,
+        "differenceToLimit": -8.147
+      },
+      {
+        "name": "Tovorno vozilo s prikolico",
+        "averageSpeed": 37.77,
+        "differenceToLimit": -12.23
       }
     ]
   },
-  "parkings": {
-    "description": "Pametna parkirišča Občine Tržič",
-    "version": "1.0",
-    "parkingLots": [
-      {
-        "id": 47,
-        "code": "ZD",
-        "name": "Zdravstveni dom Tržič",
-        "type": "public",
-        "capacity": 90,
-        "latitude": 46.36399631768239,
-        "longitude": 14.3073611201159
-      },
-      {
-        "id": 192,
-        "code": "CANKAR",
-        "name": "Cankarjeva ulica",
-        "type": "public",
-        "capacity": 67,
-        "latitude": 46.362982582956796,
-        "longitude": 14.30991698000583
-      },
-      {
-        "id": 137,
-        "code": "BPT",
-        "name": "BPT",
-        "type": "public",
-        "capacity": 54,
-        "latitude": 46.360686755724,
-        "longitude": 14.305827646843698
-      },
-      {
-        "id": 1,
-        "code": "MOSENIK",
-        "name": "Za Mošenikom",
-        "type": "public",
-        "capacity": 44,
-        "latitude": 46.364460574836656,
-        "longitude": 14.30800049814879
-      },
-      {
-        "id": 262,
-        "code": "TRZNICA",
-        "name": "Tržnica",
-        "type": "public",
-        "capacity": 70,
-        "latitude": 46.36360777951813,
-        "longitude": 14.309687269362103
-      },
-      {
-        "id": 950,
-        "code": "DTO",
-        "name": "DTO",
-        "type": "public",
-        "capacity": 60,
-        "latitude": 46.36492444914197,
-        "longitude": 14.312186992055917
-      },
-      {
-        "id": 1359,
-        "code": "SOKOLNICA",
-        "name": "Sokolnica",
-        "type": "public",
-        "capacity": 33,
-        "latitude": 46.359761,
-        "longitude": 14.300838
-      }
-    ]
-  },
-  "eventsUpcoming": [
+  "monthly": [
     {
-      "date": "2026-07-15",
-      "time": "15:07",
-      "title": "ŠOLA ZA BODOČE STARŠE",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 15.07.2026 Ura: 18:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tokratna tematika je Uvod in komunikacija med staršema. Predava Nataša Kavar, dipl. m. s. Prijava in informacije na: natasa.kavar@zd-trzic.si ali tel. št. 040 295 349 Udeležba je brezplačna.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+      "month": "2023-01",
+      "avgDaily": null,
+      "weightedOccupancy": 70.53,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
     },
     {
-      "date": "2026-07-15",
-      "time": "15:07",
-      "title": "Šola za bodoče starše (termin prvega srečanja v sklopu izobraževanja)",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 15.07.2026 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje Organizator: Zdravstvenovzgojni center ZD Tržič, OSNOVNO ZDRAVSTVO GORENJSKE - OE ZDRAVSTVENI DOM TRŽIČ, Blejska c. 10, Tržič Šola za bodoče starše je brezplačna in poteka v prostorih zdravstvenovzgojnega centra ZD Tržič. Prijave in informacije na: natasa.kavar@zd-trzic.si ali 040 295 349.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+      "month": "2023-02",
+      "avgDaily": null,
+      "weightedOccupancy": 70.15,
+      "avgTemp": null,
+      "workdays": 19,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
     },
     {
-      "date": "2026-07-15",
-      "time": "13:07",
-      "title": "Počitniške delavnice",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 13.07.2026 - 17.07.2026 Ura: 10:00 Lokacija: Knjižnica Dr. Toneta Pretnarja in Grad Neuhaus Tip: Za otroke Organizator: Knjižnica Dr. Toneta Pretnarja, Balos 4, 4290 Tržič /// (04) 592 38 83 Od ponedeljka 13.7 . do petka 17.7.2026 , med 10.00 in 12.00.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-15"
+      "month": "2023-03",
+      "avgDaily": null,
+      "weightedOccupancy": 70.43,
+      "avgTemp": null,
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
     },
     {
-      "date": "2026-07-16",
-      "time": "16:07",
-      "title": "ŠOLA ZA BODOČE STARŠE",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 16.07.2026 Ura: 17:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tokratna tematika bo Nega dojenčka. Predava Špela Aljančič, dipl. m. s. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349. Udeležba je brezplačna.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-16"
+      "month": "2023-04",
+      "avgDaily": null,
+      "weightedOccupancy": 66.15,
+      "avgTemp": null,
+      "workdays": 18,
+      "weekendDays": 10,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
     },
     {
-      "date": "2026-07-17",
-      "time": "17:07",
-      "title": "Letni \"piknik\" kino v Parku Radetzky",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 17.07.2026 Ura: 21:00 Lokacija: Park Radetzky, Koroška cesta 24 Tip: Kultura, Zabava Organizator: Občina Tržič in Kino Gledališče Bežigrad V idilični kulisi prenovljenega Parka Radetzky ob dvorcu Neuhaus, ki že stoletja kraljuje nad Tržičem, si boste lahko premierno to poletje ogledali vrhunske kino predstave pod milim nebom. Poleg tematske gostinske ponudbe, bo dodaten čar izkušnji dodala lokacija, kjer se zgodovinsko mestno jedro stika z naravo. V primeru slabe vremenske napovedi, se bodo predstave izvedle v bližnjem Kulturnem centru Tržič.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-17"
+      "month": "2023-05",
+      "avgDaily": null,
+      "weightedOccupancy": 67.77,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
     },
     {
-      "date": "2026-07-18",
-      "time": "18:07",
-      "title": "Letni \"piknik\" kino v Parku Radetzky",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 18.07.2026 Ura: 21:00 Lokacija: Park Radetzky, Koroška cesta 24 Tip: Kultura, Zabava Organizator: Občina Tržič in Kino Gledališče Bežigrad V idilični kulisi prenovljenega Parka Radetzky ob dvorcu Neuhaus, ki že stoletja kraljuje nad Tržičem, si boste lahko premierno to poletje ogledali vrhunske kino predstave pod milim nebom. Poleg tematske gostinske ponudbe, bo dodaten čar izkušnji dodala lokacija, kjer se zgodovinsko mestno jedro stika z naravo. V primeru slabe vremenske napovedi, se bodo predstave izvedle v bližnjem Kulturnem centru Tržič.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-18"
+      "month": "2023-06",
+      "avgDaily": null,
+      "weightedOccupancy": 64.9,
+      "avgTemp": null,
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
     },
     {
-      "date": "2026-07-21",
-      "time": "21:07",
-      "title": "ŠOLA ZA BODOČE STARŠE",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 21.07.2026 Ura: 18:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas na predavanja oziroma v šolo za bodoče starše, ki bo tokrat obravnavala kar dve temi, in sicer Zdravi zobki in Prehrana in bolezni pri dojenčku. predavali bosta Nataša Kavar dipl. m. s. in Manca Valjavec, dr. med. spec. ped. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349.",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-21"
+      "month": "2023-07",
+      "avgDaily": 5039.0,
+      "weightedOccupancy": 60.6,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
     },
     {
-      "date": "2026-07-22",
-      "time": "22:07",
-      "title": "ŠOLA ZA BODOČE STARŠE",
-      "location": null,
-      "type": null,
-      "organizer": null,
-      "description": "Datum: 22.07.2026 Ura: 17:00 Lokacija: Zdravstveni dom Tržič Tip: Izobraževanje, predavanje, Zdravje Organizator: ZD Tržič Vabimo vas v šolo za bodoče starše. Tematika tokratnega srečanja bo Porod. Predava Andreja Horžen, dipl. babica. Prijava in dodatne informacije na natasa.kavar@zd-trzic.si ali na tel. št. 040 295 349",
-      "url": "https://www.trzic.si/koledar-dogodkov/?m=2026-07#2026-07-22"
+      "month": "2023-08",
+      "avgDaily": 13313.54,
+      "weightedOccupancy": 61.82,
+      "avgTemp": null,
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    {
+      "month": "2023-09",
+      "avgDaily": 12360.36,
+      "weightedOccupancy": 65.44,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    {
+      "month": "2023-10",
+      "avgDaily": 10228.77,
+      "weightedOccupancy": 69.17,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    {
+      "month": "2023-11",
+      "avgDaily": 8674.07,
+      "weightedOccupancy": 69.54,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    {
+      "month": "2023-12",
+      "avgDaily": 8163.57,
+      "weightedOccupancy": 67.76,
+      "avgTemp": null,
+      "workdays": 19,
+      "weekendDays": 10,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    {
+      "month": "2024-01",
+      "avgDaily": 8132.09,
+      "weightedOccupancy": 67.59,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    {
+      "month": "2024-02",
+      "avgDaily": 8250.71,
+      "weightedOccupancy": 66.83,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    {
+      "month": "2024-03",
+      "avgDaily": 8661.29,
+      "weightedOccupancy": 68.03,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    {
+      "month": "2024-04",
+      "avgDaily": 8310.86,
+      "weightedOccupancy": 66.07,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    {
+      "month": "2024-05",
+      "avgDaily": 4996.18,
+      "weightedOccupancy": 66.24,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    {
+      "month": "2024-06",
+      "avgDaily": 0.0,
+      "weightedOccupancy": 61.88,
+      "avgTemp": null,
+      "workdays": 19,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    {
+      "month": "2024-07",
+      "avgDaily": 14.11,
+      "weightedOccupancy": 51.3,
+      "avgTemp": null,
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    },
+    {
+      "month": "2024-08",
+      "avgDaily": 2842.14,
+      "weightedOccupancy": 49.58,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    {
+      "month": "2024-09",
+      "avgDaily": 8282.03,
+      "weightedOccupancy": 57.65,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    {
+      "month": "2024-10",
+      "avgDaily": 8223.57,
+      "weightedOccupancy": 58.31,
+      "avgTemp": null,
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    {
+      "month": "2024-11",
+      "avgDaily": 8617.07,
+      "weightedOccupancy": 58.78,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    {
+      "month": "2024-12",
+      "avgDaily": 7342.31,
+      "weightedOccupancy": 56.58,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    {
+      "month": "2025-01",
+      "avgDaily": 7703.0,
+      "weightedOccupancy": 59.66,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    {
+      "month": "2025-02",
+      "avgDaily": 7912.71,
+      "weightedOccupancy": 60.77,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    {
+      "month": "2025-03",
+      "avgDaily": 8096.26,
+      "weightedOccupancy": 62.91,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    {
+      "month": "2025-04",
+      "avgDaily": 7074.29,
+      "weightedOccupancy": 60.19,
+      "avgTemp": null,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    {
+      "month": "2025-05",
+      "avgDaily": 8583.79,
+      "weightedOccupancy": 60.35,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    {
+      "month": "2025-06",
+      "avgDaily": 8822.66,
+      "weightedOccupancy": 56.11,
+      "avgTemp": null,
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    {
+      "month": "2025-07",
+      "avgDaily": 7878.82,
+      "weightedOccupancy": 53.27,
+      "avgTemp": 18.81,
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    },
+    {
+      "month": "2025-08",
+      "avgDaily": 8093.61,
+      "weightedOccupancy": 52.25,
+      "avgTemp": 19.01,
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    {
+      "month": "2025-09",
+      "avgDaily": 8763.94,
+      "weightedOccupancy": 59.59,
+      "avgTemp": 15.7,
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    {
+      "month": "2025-10",
+      "avgDaily": 8382.29,
+      "weightedOccupancy": 57.28,
+      "avgTemp": 9.02,
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    {
+      "month": "2025-11",
+      "avgDaily": 8674.29,
+      "weightedOccupancy": 64.1,
+      "avgTemp": 4.35,
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    {
+      "month": "2025-12",
+      "avgDaily": 7752.51,
+      "weightedOccupancy": 59.38,
+      "avgTemp": 2.18,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    {
+      "month": "2026-01",
+      "avgDaily": 7874.11,
+      "weightedOccupancy": 58.78,
+      "avgTemp": -0.87,
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    {
+      "month": "2026-02",
+      "avgDaily": 8376.68,
+      "weightedOccupancy": 60.81,
+      "avgTemp": 4.19,
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    {
+      "month": "2026-03",
+      "avgDaily": 8956.29,
+      "weightedOccupancy": 62.17,
+      "avgTemp": 6.19,
+      "workdays": 22,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    {
+      "month": "2026-04",
+      "avgDaily": 8108.89,
+      "weightedOccupancy": 59.72,
+      "avgTemp": 10.97,
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    {
+      "month": "2026-05",
+      "avgDaily": 8495.79,
+      "weightedOccupancy": 61.65,
+      "avgTemp": 14.41,
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    {
+      "month": "2026-06",
+      "avgDaily": 8640.43,
+      "weightedOccupancy": 59.06,
+      "avgTemp": 19.78,
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    {
+      "month": "2026-07",
+      "avgDaily": 5739.21,
+      "weightedOccupancy": 54.17,
+      "avgTemp": 21.56,
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
     }
+  ],
+  "models": {
+    "parkingByName": {
+      "BPT, Tržič": {
+        "slope": 0.0010107049617092175,
+        "intercept": 33.853075230365036,
+        "r2": 0.013030950951559928,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 41.648648648648646,
+        "capacity": 54
+      },
+      "Cankarjeva cesta, Tržič": {
+        "slope": 0.00026976012002855786,
+        "intercept": 62.54096020144682,
+        "r2": 0.048723256317102503,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 64.62162162162163,
+        "capacity": 67
+      },
+      "DTO Tržič": {
+        "slope": 0.00028171476426506965,
+        "intercept": 38.64132839905554,
+        "r2": 0.0031686533034519515,
+        "n": 31,
+        "baselineTraffic": 7341.997235023042,
+        "baselineOccupancy": 40.70967741935484,
+        "capacity": 60
+      },
+      "Sokolnica, Tržič": {
+        "slope": 0.0012109293128011525,
+        "intercept": 27.491414614693543,
+        "r2": 0.08902745365449372,
+        "n": 10,
+        "baselineTraffic": 8100.047857142857,
+        "baselineOccupancy": 37.3,
+        "capacity": 33
+      },
+      "Tržnica, Tržič": {
+        "slope": 0.0008096546243901402,
+        "intercept": 62.99837227989867,
+        "r2": 0.08731737781842497,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 69.24324324324324,
+        "capacity": 70
+      },
+      "Za Mošenikom, Tržič": {
+        "slope": 0.0005511059929575496,
+        "intercept": 81.992559421437,
+        "r2": 0.14626287262363147,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 86.24324324324324,
+        "capacity": 44
+      },
+      "Zdravstveni dom, Tržič": {
+        "slope": 0.0008070508245170637,
+        "intercept": 56.640077025523915,
+        "r2": 0.11767016954668819,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 62.86486486486486,
+        "capacity": 90
+      },
+      "VSA PARKIRIŠČA": {
+        "slope": 0.0007772961458623788,
+        "intercept": 54.69113490266853,
+        "r2": 0.15610840840549844,
+        "n": 37,
+        "baselineTraffic": 7713.005984555985,
+        "baselineOccupancy": 60.686424727477345,
+        "capacity": 418
+      }
+    },
+    "multifactorAll": {
+      "intercept": 60.686424727477366,
+      "coefficients": {
+        "avgDailyTraffic": 1.4471289540932615,
+        "avgTemp": 0.14612931908082383,
+        "precipitation": 1.4410630156350839,
+        "badWeatherHours": 0.03852637529075823,
+        "workdays": -0.12804948418824458,
+        "weekendDays": 0.36637257573729276,
+        "holidayCount": 0.3322702441705046,
+        "sinSeason": 2.2859439506801196,
+        "cosSeason": 0.7547460889264656,
+        "trend": -3.476015903830052
+      },
+      "featureMean": {
+        "avgDailyTraffic": 7713.005984555984,
+        "avgTemp": 10.700127871471011,
+        "precipitation": 32.92702702702702,
+        "badWeatherHours": 19.45945945945946,
+        "workdays": 20.864864864864863,
+        "weekendDays": 8.702702702702704,
+        "holidayCount": 1.2162162162162162,
+        "sinSeason": -0.01351351351351352,
+        "cosSeason": -0.02340609199417406,
+        "trend": 18.0
+      },
+      "featureStd": {
+        "avgDailyTraffic": 2511.98592354858,
+        "avgTemp": 4.311829536479091,
+        "precipitation": 53.02957180438125,
+        "badWeatherHours": 32.195009345158496,
+        "workdays": 0.9908271772877488,
+        "weekendDays": 0.8008395886502192,
+        "holidayCount": 0.9339001374687023,
+        "sinSeason": 0.7021827598252206,
+        "cosSeason": 0.7114835989777396,
+        "trend": 10.677078252031311
+      },
+      "r2": 0.6952002138968232,
+      "n": 37,
+      "baselineOccupancy": 60.686424727477345,
+      "months": [
+        "2023-07",
+        "2023-08",
+        "2023-09",
+        "2023-10",
+        "2023-11",
+        "2023-12",
+        "2024-01",
+        "2024-02",
+        "2024-03",
+        "2024-04",
+        "2024-05",
+        "2024-06",
+        "2024-07",
+        "2024-08",
+        "2024-09",
+        "2024-10",
+        "2024-11",
+        "2024-12",
+        "2025-01",
+        "2025-02",
+        "2025-03",
+        "2025-04",
+        "2025-05",
+        "2025-06",
+        "2025-07",
+        "2025-08",
+        "2025-09",
+        "2025-10",
+        "2025-11",
+        "2025-12",
+        "2026-01",
+        "2026-02",
+        "2026-03",
+        "2026-04",
+        "2026-05",
+        "2026-06",
+        "2026-07"
+      ]
+    },
+    "multifactorByParking": {
+      "BPT, Tržič": {
+        "intercept": 41.648648648648646,
+        "coefficients": {
+          "avgDailyTraffic": 1.8606925324753059,
+          "avgTemp": 2.451841278518317,
+          "precipitation": 3.2221840706901617,
+          "badWeatherHours": 5.345834243074668,
+          "workdays": 0.3022668885563234,
+          "weekendDays": 0.8662725096285374,
+          "holidayCount": 2.563440457384174,
+          "sinSeason": 6.830957408056388,
+          "cosSeason": -1.4427059032035638,
+          "trend": -20.981974634165304
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7713.005984555984,
+          "avgTemp": 10.700127871471011,
+          "precipitation": 32.92702702702702,
+          "badWeatherHours": 19.45945945945946,
+          "workdays": 20.864864864864863,
+          "weekendDays": 8.702702702702704,
+          "holidayCount": 1.2162162162162162,
+          "sinSeason": -0.01351351351351352,
+          "cosSeason": -0.02340609199417406,
+          "trend": 18.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2511.98592354858,
+          "avgTemp": 4.311829536479091,
+          "precipitation": 53.02957180438125,
+          "badWeatherHours": 32.195009345158496,
+          "workdays": 0.9908271772877488,
+          "weekendDays": 0.8008395886502192,
+          "holidayCount": 0.9339001374687023,
+          "sinSeason": 0.7021827598252206,
+          "cosSeason": 0.7114835989777396,
+          "trend": 10.677078252031311
+        },
+        "r2": 0.6407818835875051,
+        "n": 37,
+        "baselineOccupancy": 41.648648648648646,
+        "months": [
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 54
+      },
+      "Cankarjeva cesta, Tržič": {
+        "intercept": 64.62162162162163,
+        "coefficients": {
+          "avgDailyTraffic": 0.3493035628911434,
+          "avgTemp": -0.6434587272649636,
+          "precipitation": 0.28278448390359445,
+          "badWeatherHours": -0.6421816250154601,
+          "workdays": -0.09640937173279639,
+          "weekendDays": 0.6610355892280815,
+          "holidayCount": 0.12689299901503925,
+          "sinSeason": 1.0017752085920373,
+          "cosSeason": 1.204645976606263,
+          "trend": 1.163686357050231
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7713.005984555984,
+          "avgTemp": 10.700127871471011,
+          "precipitation": 32.92702702702702,
+          "badWeatherHours": 19.45945945945946,
+          "workdays": 20.864864864864863,
+          "weekendDays": 8.702702702702704,
+          "holidayCount": 1.2162162162162162,
+          "sinSeason": -0.01351351351351352,
+          "cosSeason": -0.02340609199417406,
+          "trend": 18.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2511.98592354858,
+          "avgTemp": 4.311829536479091,
+          "precipitation": 53.02957180438125,
+          "badWeatherHours": 32.195009345158496,
+          "workdays": 0.9908271772877488,
+          "weekendDays": 0.8008395886502192,
+          "holidayCount": 0.9339001374687023,
+          "sinSeason": 0.7021827598252206,
+          "cosSeason": 0.7114835989777396,
+          "trend": 10.677078252031311
+        },
+        "r2": 0.6505835843451044,
+        "n": 37,
+        "baselineOccupancy": 64.62162162162163,
+        "months": [
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 67
+      },
+      "DTO Tržič": {
+        "intercept": 40.70967741935484,
+        "coefficients": {
+          "avgDailyTraffic": 1.5966585886403937,
+          "avgTemp": 0.6005441348522426,
+          "precipitation": 3.830182566452782,
+          "badWeatherHours": -0.7928868478709914,
+          "workdays": -0.5898264365037447,
+          "weekendDays": 1.0584429689480277,
+          "holidayCount": 1.359546775457555,
+          "sinSeason": 3.0499853201488256,
+          "cosSeason": 0.962828495953866,
+          "trend": -9.678112774344806
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7341.997235023041,
+          "avgTemp": 10.750157039700927,
+          "precipitation": 39.3,
+          "badWeatherHours": 23.225806451612904,
+          "workdays": 20.870967741935484,
+          "weekendDays": 8.64516129032258,
+          "holidayCount": 1.2903225806451613,
+          "sinSeason": 0.1042597034699638,
+          "cosSeason": -0.06019436786401417,
+          "trend": 21.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2283.43115678369,
+          "avgTemp": 4.709019697252737,
+          "precipitation": 55.73115767220228,
+          "badWeatherHours": 33.906617184050745,
+          "workdays": 1.0077741517298908,
+          "weekendDays": 0.7848725845546088,
+          "holidayCount": 0.9569288370446016,
+          "sinSeason": 0.6935887817023303,
+          "cosSeason": 0.7102402088071923,
+          "trend": 8.94427190999916
+        },
+        "r2": 0.7632592191527579,
+        "n": 31,
+        "baselineOccupancy": 40.70967741935484,
+        "months": [
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 60
+      },
+      "Sokolnica, Tržič": {
+        "intercept": 37.3,
+        "coefficients": {
+          "avgDailyTraffic": 0.45234328596005335,
+          "avgTemp": 0.015464524669191605,
+          "precipitation": 0.6910044544484968,
+          "badWeatherHours": -0.6588165010820941,
+          "workdays": 0.4430662392714153,
+          "weekendDays": 1.0154325489838174,
+          "holidayCount": -0.06271555027762275,
+          "sinSeason": -1.2210363895880016,
+          "cosSeason": 0.32275842343881117,
+          "trend": -1.493975260129081
+        },
+        "featureMean": {
+          "avgDailyTraffic": 8100.047857142857,
+          "avgTemp": 9.178472126216079,
+          "precipitation": 93.04,
+          "badWeatherHours": 59.9,
+          "workdays": 20.9,
+          "weekendDays": 8.6,
+          "holidayCount": 1.4,
+          "sinSeason": 0.18660254037844382,
+          "cosSeason": 0.05,
+          "trend": 31.5
+        },
+        "featureStd": {
+          "avgDailyTraffic": 860.9957658589504,
+          "avgTemp": 7.094591142860987,
+          "precipitation": 46.843957988197374,
+          "badWeatherHours": 32.91944713995057,
+          "workdays": 1.044030650891055,
+          "weekendDays": 0.7999999999999999,
+          "holidayCount": 1.019803902718557,
+          "sinSeason": 0.6246434918610064,
+          "cosSeason": 0.7566372975210778,
+          "trend": 2.8722813232690143
+        },
+        "r2": 0.902798360691781,
+        "n": 10,
+        "baselineOccupancy": 37.3,
+        "months": [
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 33
+      },
+      "Tržnica, Tržič": {
+        "intercept": 69.24324324324324,
+        "coefficients": {
+          "avgDailyTraffic": 1.5759344039966086,
+          "avgTemp": -0.30124853581206695,
+          "precipitation": -0.15134497084032988,
+          "badWeatherHours": 0.36140518237567326,
+          "workdays": 0.2468818971862626,
+          "weekendDays": 0.10995716287156473,
+          "holidayCount": -0.08492343349331474,
+          "sinSeason": 2.7581549182777105,
+          "cosSeason": 1.2286446488053655,
+          "trend": 4.133848048616822
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7713.005984555984,
+          "avgTemp": 10.700127871471011,
+          "precipitation": 32.92702702702702,
+          "badWeatherHours": 19.45945945945946,
+          "workdays": 20.864864864864863,
+          "weekendDays": 8.702702702702704,
+          "holidayCount": 1.2162162162162162,
+          "sinSeason": -0.01351351351351352,
+          "cosSeason": -0.02340609199417406,
+          "trend": 18.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2511.98592354858,
+          "avgTemp": 4.311829536479091,
+          "precipitation": 53.02957180438125,
+          "badWeatherHours": 32.195009345158496,
+          "workdays": 0.9908271772877488,
+          "weekendDays": 0.8008395886502192,
+          "holidayCount": 0.9339001374687023,
+          "sinSeason": 0.7021827598252206,
+          "cosSeason": 0.7114835989777396,
+          "trend": 10.677078252031311
+        },
+        "r2": 0.8189831700420953,
+        "n": 37,
+        "baselineOccupancy": 69.24324324324324,
+        "months": [
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 70
+      },
+      "Za Mošenikom, Tržič": {
+        "intercept": 86.24324324324324,
+        "coefficients": {
+          "avgDailyTraffic": 0.8688727996628791,
+          "avgTemp": -0.4011771365666383,
+          "precipitation": 0.3899573060288559,
+          "badWeatherHours": 0.30357095629089575,
+          "workdays": -0.49014498065098,
+          "weekendDays": -0.000653771318178976,
+          "holidayCount": -0.1940856024605788,
+          "sinSeason": 1.2503744732319362,
+          "cosSeason": 1.0890235035073332,
+          "trend": 0.8500344951647686
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7713.005984555984,
+          "avgTemp": 10.700127871471011,
+          "precipitation": 32.92702702702702,
+          "badWeatherHours": 19.45945945945946,
+          "workdays": 20.864864864864863,
+          "weekendDays": 8.702702702702704,
+          "holidayCount": 1.2162162162162162,
+          "sinSeason": -0.01351351351351352,
+          "cosSeason": -0.02340609199417406,
+          "trend": 18.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2511.98592354858,
+          "avgTemp": 4.311829536479091,
+          "precipitation": 53.02957180438125,
+          "badWeatherHours": 32.195009345158496,
+          "workdays": 0.9908271772877488,
+          "weekendDays": 0.8008395886502192,
+          "holidayCount": 0.9339001374687023,
+          "sinSeason": 0.7021827598252206,
+          "cosSeason": 0.7114835989777396,
+          "trend": 10.677078252031311
+        },
+        "r2": 0.674443558302675,
+        "n": 37,
+        "baselineOccupancy": 86.24324324324324,
+        "months": [
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 44
+      },
+      "Zdravstveni dom, Tržič": {
+        "intercept": 62.86486486486486,
+        "coefficients": {
+          "avgDailyTraffic": 1.5747962583277917,
+          "avgTemp": -0.9513000869618994,
+          "precipitation": 1.9665007549463591,
+          "badWeatherHours": -1.3417318606311164,
+          "workdays": 0.07852798918962575,
+          "weekendDays": -0.3278312376317355,
+          "holidayCount": -0.7841708601355027,
+          "sinSeason": 1.1185794773777127,
+          "cosSeason": 0.640030972218824,
+          "trend": 3.4517167233599744
+        },
+        "featureMean": {
+          "avgDailyTraffic": 7713.005984555984,
+          "avgTemp": 10.700127871471011,
+          "precipitation": 32.92702702702702,
+          "badWeatherHours": 19.45945945945946,
+          "workdays": 20.864864864864863,
+          "weekendDays": 8.702702702702704,
+          "holidayCount": 1.2162162162162162,
+          "sinSeason": -0.01351351351351352,
+          "cosSeason": -0.02340609199417406,
+          "trend": 18.0
+        },
+        "featureStd": {
+          "avgDailyTraffic": 2511.98592354858,
+          "avgTemp": 4.311829536479091,
+          "precipitation": 53.02957180438125,
+          "badWeatherHours": 32.195009345158496,
+          "workdays": 0.9908271772877488,
+          "weekendDays": 0.8008395886502192,
+          "holidayCount": 0.9339001374687023,
+          "sinSeason": 0.7021827598252206,
+          "cosSeason": 0.7114835989777396,
+          "trend": 10.677078252031311
+        },
+        "r2": 0.7107248516691123,
+        "n": 37,
+        "baselineOccupancy": 62.86486486486486,
+        "months": [
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12",
+          "2025-01",
+          "2025-02",
+          "2025-03",
+          "2025-04",
+          "2025-05",
+          "2025-06",
+          "2025-07",
+          "2025-08",
+          "2025-09",
+          "2025-10",
+          "2025-11",
+          "2025-12",
+          "2026-01",
+          "2026-02",
+          "2026-03",
+          "2026-04",
+          "2026-05",
+          "2026-06",
+          "2026-07"
+        ],
+        "capacity": 90
+      }
+    },
+    "employeeScenario": {
+      "baselineEmployees": 2253,
+      "vehiclesPer100EmployeesRange": [
+        45,
+        70
+      ],
+      "parkingUseShareRange": [
+        0.3,
+        0.45
+      ],
+      "note": "Model predpostavlja, da 100 dodatnih zaposlenih ustvari približno 45–70 dodatnih vozil v prometni konici; le del teh vozil uporablja sedem spremljanih javnih parkirišč."
+    },
+    "populationScenario": {
+      "baselinePopulation": 15021,
+      "dailyVehiclePassagesPerResidentRange": [
+        0.35,
+        0.6
+      ],
+      "simultaneousPublicParkingShareRange": [
+        0.02,
+        0.05
+      ],
+      "note": "Novi prebivalci niso enaki novim avtomobilom. Ocena uporablja razpon, ki posredno upošteva otroke, starejše, delovno aktivne, skupne vožnje, hojo, javni prevoz in različne potrebe gospodinjstev."
+    }
+  },
+  "calendarFactors": {
+    "2023-01": {
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    "2023-02": {
+      "workdays": 19,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    "2023-03": {
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    "2023-04": {
+      "workdays": 18,
+      "weekendDays": 10,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    "2023-05": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    "2023-06": {
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    "2023-07": {
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    },
+    "2023-08": {
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    "2023-09": {
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    "2023-10": {
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    "2023-11": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    "2023-12": {
+      "workdays": 19,
+      "weekendDays": 10,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    "2024-01": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    "2024-02": {
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    "2024-03": {
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    "2024-04": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    "2024-05": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    "2024-06": {
+      "workdays": 19,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    "2024-07": {
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    },
+    "2024-08": {
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    "2024-09": {
+      "workdays": 21,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    "2024-10": {
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    "2024-11": {
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    "2024-12": {
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    "2025-01": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    "2025-02": {
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    "2025-03": {
+      "workdays": 21,
+      "weekendDays": 10,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    "2025-04": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    "2025-05": {
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    "2025-06": {
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    "2025-07": {
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    },
+    "2025-08": {
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 8,
+      "season": "poletje"
+    },
+    "2025-09": {
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 9,
+      "season": "jesen"
+    },
+    "2025-10": {
+      "workdays": 22,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 10,
+      "season": "jesen"
+    },
+    "2025-11": {
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 1,
+      "monthNumber": 11,
+      "season": "jesen"
+    },
+    "2025-12": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 2,
+      "monthNumber": 12,
+      "season": "zima"
+    },
+    "2026-01": {
+      "workdays": 20,
+      "weekendDays": 9,
+      "holidayCount": 2,
+      "monthNumber": 1,
+      "season": "zima"
+    },
+    "2026-02": {
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 2,
+      "season": "zima"
+    },
+    "2026-03": {
+      "workdays": 22,
+      "weekendDays": 9,
+      "holidayCount": 0,
+      "monthNumber": 3,
+      "season": "pomlad"
+    },
+    "2026-04": {
+      "workdays": 20,
+      "weekendDays": 8,
+      "holidayCount": 3,
+      "monthNumber": 4,
+      "season": "pomlad"
+    },
+    "2026-05": {
+      "workdays": 20,
+      "weekendDays": 10,
+      "holidayCount": 3,
+      "monthNumber": 5,
+      "season": "pomlad"
+    },
+    "2026-06": {
+      "workdays": 21,
+      "weekendDays": 8,
+      "holidayCount": 1,
+      "monthNumber": 6,
+      "season": "poletje"
+    },
+    "2026-07": {
+      "workdays": 23,
+      "weekendDays": 8,
+      "holidayCount": 0,
+      "monthNumber": 7,
+      "season": "poletje"
+    }
+  },
+  "eventsCount": 14,
+  "limitations": [
+    "Parkirišča so mesečni podatki, zato vpliva posameznega delovnika, vikenda ali praznika ni mogoče neposredno dokazati.",
+    "Vreme je na voljo za približno eno leto, promet pa za približno tri leta.",
+    "Modeli kažejo povezave in scenarijske razpone, ne dokazane vzročnosti.",
+    "Za zanesljive napovedi potrebujemo dnevno ali urno zasedenost parkirišč in daljši skupni časovni razpon vseh virov."
   ]
 }

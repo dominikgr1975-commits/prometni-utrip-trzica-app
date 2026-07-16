@@ -1,20 +1,24 @@
-# Prometni utrip Tržiča v0.2
+# Prometni utrip Tržiča v0.5
 
-Statična spletna aplikacija za GitHub Pages. Ne potrebuje Pythona, Node.js ali lokalnega builda.
+Demonstracijska spletna aplikacija za pregled in scenarijsko analizo prometa, parkirišč, vremena, zaposlenih in prebivalstva.
 
-## Objava na GitHub Pages
+## Novosti v0.5
 
-1. Razširi ZIP.
-2. V obstoječem repozitoriju izbriši ali prepiši stare `index.html`, `styles.css`, `app.js` in mapo `data`.
-3. Na GitHubu izberi **Add file → Upload files**.
-4. Povleci vse datoteke in celotno mapo `data`.
-5. Klikni **Commit changes**.
-6. Če je GitHub Pages že nastavljen na `main / (root)`, se nova verzija objavi samodejno v približno 1–3 minutah.
-7. Stanje objave preveri pod **Actions** ali **Settings → Pages**.
+- možnost **VSA PARKIRIŠČA** v vseh parkirnih scenarijih;
+- kapacitetno utežen skupni rezultat in tabela vseh parkirišč;
+- triletni tedenski promet CABLEX in triletno povprečje hitrosti;
+- večfaktorski vremenski model: sezona, promet, delovni dnevi, vikendi in prazniki;
+- izboljšana scenarija zaposlenih in prebivalcev z razponi ter jasnimi predpostavkami;
+- razdelek **Zakaj je rezultat tak?** pri vsaki analizi;
+- poskusni vnos vprašanja v navadnem jeziku brez zunanjega AI API-ja;
+- slovensko oblikovanje števil (npr. 8.354).
 
-## Omejitve modela
+## Objavljanje
 
-- Promet je dnevni, parkirišča mesečna, vreme pa urno.
-- Modeli uporabljajo skupne mesece in kažejo korelacije, ne vzročnosti.
-- Podatki o polnilnicah še niso vključeni.
-- Vpliv zaposlenih je scenarijska predpostavka, ker za statistično oceno še ni dovolj skupnih let podatkov.
+Aplikacija je statična. Vsebino mape naloži v koren GitHub brancha in v Settings → Pages izberi ta branch ter `/ (root)`.
+
+Po objavi uporabi `Ctrl + F5`, ker brskalnik lahko hrani stare `app.js` in `styles.css`.
+
+## Pomembna omejitev
+
+Vgrajeno »pametno vprašanje« uporablja lokalno prepoznavanje pripravljenih vrst vprašanj. Pravi ChatGPT-podoben pogovor zahteva varen backend ali serverless funkcijo, ker API ključa ni varno shraniti v javni GitHub Pages kodi.
