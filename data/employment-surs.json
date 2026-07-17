@@ -1,0 +1,349 @@
+{
+  "source": "SURS SI-STAT, tabela 0700941S",
+  "indicator": "Delovno aktivno prebivalstvo po občini delovnega mesta",
+  "geography": "Občina Tržič",
+  "interpretation": "Osebe, katerih delovno mesto je v Občini Tržič, ne glede na občino njihovega prebivališča.",
+  "notPopulation": true,
+  "monthly": [
+    {
+      "month": "2020-06",
+      "value": 3380
+    },
+    {
+      "month": "2020-07",
+      "value": 3369
+    },
+    {
+      "month": "2020-08",
+      "value": 3369
+    },
+    {
+      "month": "2020-09",
+      "value": 3396
+    },
+    {
+      "month": "2020-10",
+      "value": 3417
+    },
+    {
+      "month": "2020-11",
+      "value": 3413
+    },
+    {
+      "month": "2020-12",
+      "value": 3381
+    },
+    {
+      "month": "2021-01",
+      "value": 3416
+    },
+    {
+      "month": "2021-02",
+      "value": 3418
+    },
+    {
+      "month": "2021-03",
+      "value": 3436
+    },
+    {
+      "month": "2021-04",
+      "value": 3459
+    },
+    {
+      "month": "2021-05",
+      "value": 3502
+    },
+    {
+      "month": "2021-06",
+      "value": 3539
+    },
+    {
+      "month": "2021-07",
+      "value": 3545
+    },
+    {
+      "month": "2021-08",
+      "value": 3583
+    },
+    {
+      "month": "2021-09",
+      "value": 3614
+    },
+    {
+      "month": "2021-10",
+      "value": 3675
+    },
+    {
+      "month": "2021-11",
+      "value": 3687
+    },
+    {
+      "month": "2021-12",
+      "value": 3687
+    },
+    {
+      "month": "2022-01",
+      "value": 3653
+    },
+    {
+      "month": "2022-02",
+      "value": 3651
+    },
+    {
+      "month": "2022-03",
+      "value": 3691
+    },
+    {
+      "month": "2022-04",
+      "value": 3698
+    },
+    {
+      "month": "2022-05",
+      "value": 3745
+    },
+    {
+      "month": "2022-06",
+      "value": 3760
+    },
+    {
+      "month": "2022-07",
+      "value": 3742
+    },
+    {
+      "month": "2022-08",
+      "value": 3748
+    },
+    {
+      "month": "2022-09",
+      "value": 3749
+    },
+    {
+      "month": "2022-10",
+      "value": 3783
+    },
+    {
+      "month": "2022-11",
+      "value": 3795
+    },
+    {
+      "month": "2022-12",
+      "value": 3790
+    },
+    {
+      "month": "2023-01",
+      "value": 3773
+    },
+    {
+      "month": "2023-02",
+      "value": 3770
+    },
+    {
+      "month": "2023-03",
+      "value": 3838
+    },
+    {
+      "month": "2023-04",
+      "value": 3840
+    },
+    {
+      "month": "2023-05",
+      "value": 3870
+    },
+    {
+      "month": "2023-06",
+      "value": 3886
+    },
+    {
+      "month": "2023-07",
+      "value": 3852
+    },
+    {
+      "month": "2023-08",
+      "value": 3857
+    },
+    {
+      "month": "2023-09",
+      "value": 3878
+    },
+    {
+      "month": "2023-10",
+      "value": 3915
+    },
+    {
+      "month": "2023-11",
+      "value": 3903
+    },
+    {
+      "month": "2023-12",
+      "value": 3900
+    },
+    {
+      "month": "2024-01",
+      "value": 3891
+    },
+    {
+      "month": "2024-02",
+      "value": 3871
+    },
+    {
+      "month": "2024-03",
+      "value": 3868
+    },
+    {
+      "month": "2024-04",
+      "value": 3878
+    },
+    {
+      "month": "2024-05",
+      "value": 3896
+    },
+    {
+      "month": "2024-06",
+      "value": 3879
+    },
+    {
+      "month": "2024-07",
+      "value": 3874
+    },
+    {
+      "month": "2024-08",
+      "value": 3872
+    },
+    {
+      "month": "2024-09",
+      "value": 3879
+    },
+    {
+      "month": "2024-10",
+      "value": 3905
+    },
+    {
+      "month": "2024-11",
+      "value": 3914
+    },
+    {
+      "month": "2024-12",
+      "value": 3865
+    },
+    {
+      "month": "2025-01",
+      "value": 3822
+    },
+    {
+      "month": "2025-02",
+      "value": 3812
+    },
+    {
+      "month": "2025-03",
+      "value": 3838
+    },
+    {
+      "month": "2025-04",
+      "value": 3851
+    },
+    {
+      "month": "2025-05",
+      "value": 3870
+    },
+    {
+      "month": "2025-06",
+      "value": 3838
+    },
+    {
+      "month": "2025-07",
+      "value": 3822
+    },
+    {
+      "month": "2025-08",
+      "value": 3790
+    },
+    {
+      "month": "2025-09",
+      "value": 3806
+    },
+    {
+      "month": "2025-10",
+      "value": 3809
+    },
+    {
+      "month": "2025-11",
+      "value": 3822
+    },
+    {
+      "month": "2025-12",
+      "value": 3766
+    },
+    {
+      "month": "2026-01",
+      "value": 3726
+    },
+    {
+      "month": "2026-02",
+      "value": 3736
+    },
+    {
+      "month": "2026-03",
+      "value": 3755
+    },
+    {
+      "month": "2026-04",
+      "value": 3768
+    },
+    {
+      "month": "2026-05",
+      "value": 3758
+    }
+  ],
+  "annual": [
+    {
+      "year": 2020,
+      "average": 3389.3,
+      "months": 7,
+      "partialYear": true
+    },
+    {
+      "year": 2021,
+      "average": 3546.8,
+      "months": 12,
+      "partialYear": false
+    },
+    {
+      "year": 2022,
+      "average": 3733.8,
+      "months": 12,
+      "partialYear": false
+    },
+    {
+      "year": 2023,
+      "average": 3856.8,
+      "months": 12,
+      "partialYear": false
+    },
+    {
+      "year": 2024,
+      "average": 3882.7,
+      "months": 12,
+      "partialYear": false
+    },
+    {
+      "year": 2025,
+      "average": 3820.5,
+      "months": 12,
+      "partialYear": false
+    },
+    {
+      "year": 2026,
+      "average": 3748.6,
+      "months": 5,
+      "partialYear": true
+    }
+  ],
+  "latest": {
+    "month": "2026-05",
+    "value": 3758
+  },
+  "period": {
+    "from": "2020-06",
+    "to": "2026-05"
+  }
+}
