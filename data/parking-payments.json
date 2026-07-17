@@ -1,0 +1,2794 @@
+{
+  "easyPark": {
+    "countsPeriod": "2026 do datuma izvoza",
+    "revenuePeriod": {
+      "from": "2026-01",
+      "to": "2026-07"
+    },
+    "counts": [
+      {
+        "category": "ZD Tržič",
+        "transactions": 41764
+      },
+      {
+        "category": "Zelenica",
+        "transactions": 21394
+      },
+      {
+        "category": "Tržnica",
+        "transactions": 15642
+      },
+      {
+        "category": "Za Mošenikom",
+        "transactions": 10331
+      },
+      {
+        "category": "Cankarjeva",
+        "transactions": 7486
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "transactions": 5473
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "transactions": 4756
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "transactions": 3870
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "transactions": 3813
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "transactions": 1201
+      },
+      {
+        "category": "DTO",
+        "transactions": 623
+      },
+      {
+        "category": "BPT",
+        "transactions": 576
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "transactions": 245
+      },
+      {
+        "category": "Abonma - Polana",
+        "transactions": 163
+      },
+      {
+        "category": "Abonma - Gost",
+        "transactions": 57
+      }
+    ],
+    "monthlyRevenue": [
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-07",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-08",
+        "revenueGross": 7575.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-09",
+        "revenueGross": 4700.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-10",
+        "revenueGross": 825.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-11",
+        "revenueGross": 550.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2022-12",
+        "revenueGross": 850.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-01",
+        "revenueGross": 3575.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-02",
+        "revenueGross": 865.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-03",
+        "revenueGross": 1625.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-04",
+        "revenueGross": 1320.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-05",
+        "revenueGross": 1505.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-06",
+        "revenueGross": 1330.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-07",
+        "revenueGross": 950.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-08",
+        "revenueGross": 6525.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-09",
+        "revenueGross": 5110.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-10",
+        "revenueGross": 2585.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-11",
+        "revenueGross": 1525.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2023-12",
+        "revenueGross": 1550.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-01",
+        "revenueGross": 4865.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-02",
+        "revenueGross": 1740.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-03",
+        "revenueGross": 2780.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-04",
+        "revenueGross": 1900.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-05",
+        "revenueGross": 1430.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-06",
+        "revenueGross": 2130.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-07",
+        "revenueGross": 5755.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-08",
+        "revenueGross": 10270.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-09",
+        "revenueGross": 6870.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-10",
+        "revenueGross": 3670.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-11",
+        "revenueGross": 3525.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2024-12",
+        "revenueGross": 2810.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-01",
+        "revenueGross": 3645.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-02",
+        "revenueGross": 1580.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-03",
+        "revenueGross": 3680.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-04",
+        "revenueGross": 2860.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-05",
+        "revenueGross": 2440.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-06",
+        "revenueGross": 3020.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-07",
+        "revenueGross": 2560.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-08",
+        "revenueGross": 5300.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-09",
+        "revenueGross": 6640.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-10",
+        "revenueGross": 4020.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-11",
+        "revenueGross": 2940.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2025-12",
+        "revenueGross": 2940.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-01",
+        "revenueGross": 5220.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-02",
+        "revenueGross": 3040.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-03",
+        "revenueGross": 4040.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-04",
+        "revenueGross": 2940.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-05",
+        "revenueGross": 2940.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-06",
+        "revenueGross": 3480.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "month": "2026-07",
+        "revenueGross": 1420.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-03",
+        "revenueGross": 303.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-04",
+        "revenueGross": 324.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-05",
+        "revenueGross": 511.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-06",
+        "revenueGross": 1354.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-07",
+        "revenueGross": 2170.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-08",
+        "revenueGross": 1856.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-09",
+        "revenueGross": 2501.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-10",
+        "revenueGross": 1684.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-11",
+        "revenueGross": 637.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2023-12",
+        "revenueGross": 1021.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-01",
+        "revenueGross": 2498.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-02",
+        "revenueGross": 465.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-03",
+        "revenueGross": 252.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-04",
+        "revenueGross": 948.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-05",
+        "revenueGross": 1296.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-06",
+        "revenueGross": 2085.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-07",
+        "revenueGross": 2853.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-08",
+        "revenueGross": 3354.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-09",
+        "revenueGross": 1617.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-10",
+        "revenueGross": 1713.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-11",
+        "revenueGross": 2409.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2024-12",
+        "revenueGross": 579.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-03",
+        "revenueGross": 57.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-04",
+        "revenueGross": 969.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-05",
+        "revenueGross": 1554.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-06",
+        "revenueGross": 3318.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-07",
+        "revenueGross": 1737.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-08",
+        "revenueGross": 3563.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-09",
+        "revenueGross": 1785.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-10",
+        "revenueGross": 1740.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-11",
+        "revenueGross": 1593.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2025-12",
+        "revenueGross": 1644.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-01",
+        "revenueGross": 1245.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-02",
+        "revenueGross": 1584.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-03",
+        "revenueGross": 1092.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-04",
+        "revenueGross": 2202.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-05",
+        "revenueGross": 3582.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-06",
+        "revenueGross": 2793.0
+      },
+      {
+        "category": "Zelenica",
+        "month": "2026-07",
+        "revenueGross": 1695.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-03",
+        "revenueGross": 750.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-04",
+        "revenueGross": 750.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-05",
+        "revenueGross": 375.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-06",
+        "revenueGross": 600.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-07",
+        "revenueGross": 1875.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-08",
+        "revenueGross": 2250.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-09",
+        "revenueGross": 3750.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-10",
+        "revenueGross": 450.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-11",
+        "revenueGross": 600.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2025-12",
+        "revenueGross": 525.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-01",
+        "revenueGross": 900.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-02",
+        "revenueGross": 900.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-03",
+        "revenueGross": 900.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-04",
+        "revenueGross": 900.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-05",
+        "revenueGross": 825.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-06",
+        "revenueGross": 450.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "month": "2026-07",
+        "revenueGross": 1575.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-03",
+        "revenueGross": 200.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-04",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-05",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-06",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-07",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-08",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-09",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-10",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-11",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2022-12",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-03",
+        "revenueGross": 102.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-04",
+        "revenueGross": 131.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-05",
+        "revenueGross": 173.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-06",
+        "revenueGross": 154.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-07",
+        "revenueGross": 102.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-08",
+        "revenueGross": 157.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-09",
+        "revenueGross": 197.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-10",
+        "revenueGross": 237.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-11",
+        "revenueGross": 235.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2023-12",
+        "revenueGross": 194.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-01",
+        "revenueGross": 259.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-02",
+        "revenueGross": 250.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-03",
+        "revenueGross": 393.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-04",
+        "revenueGross": 378.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-05",
+        "revenueGross": 285.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-06",
+        "revenueGross": 248.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-07",
+        "revenueGross": 311.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-08",
+        "revenueGross": 183.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-09",
+        "revenueGross": 219.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-10",
+        "revenueGross": 250.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-11",
+        "revenueGross": 289.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2024-12",
+        "revenueGross": 274.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-03",
+        "revenueGross": 133.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-04",
+        "revenueGross": 316.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-05",
+        "revenueGross": 268.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-06",
+        "revenueGross": 292.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-07",
+        "revenueGross": 370.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-08",
+        "revenueGross": 284.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-09",
+        "revenueGross": 388.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-10",
+        "revenueGross": 342.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-11",
+        "revenueGross": 380.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2025-12",
+        "revenueGross": 355.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-01",
+        "revenueGross": 306.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-02",
+        "revenueGross": 295.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-03",
+        "revenueGross": 310.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-04",
+        "revenueGross": 322.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-05",
+        "revenueGross": 292.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-06",
+        "revenueGross": 281.0
+      },
+      {
+        "category": "ZD Tržič",
+        "month": "2026-07",
+        "revenueGross": 154.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-03",
+        "revenueGross": 21.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-04",
+        "revenueGross": 84.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-05",
+        "revenueGross": 134.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-06",
+        "revenueGross": 322.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-07",
+        "revenueGross": 629.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-08",
+        "revenueGross": 792.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-09",
+        "revenueGross": 251.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-10",
+        "revenueGross": 119.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-11",
+        "revenueGross": 59.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2023-12",
+        "revenueGross": 32.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-01",
+        "revenueGross": 14.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-02",
+        "revenueGross": 16.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-03",
+        "revenueGross": 128.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-04",
+        "revenueGross": 45.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-05",
+        "revenueGross": 90.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-06",
+        "revenueGross": 298.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-07",
+        "revenueGross": 1127.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-08",
+        "revenueGross": 1401.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-09",
+        "revenueGross": 221.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-10",
+        "revenueGross": 87.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-11",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2024-12",
+        "revenueGross": 50.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-03",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-04",
+        "revenueGross": 42.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-05",
+        "revenueGross": 53.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-06",
+        "revenueGross": 569.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-07",
+        "revenueGross": 472.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-08",
+        "revenueGross": 820.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-09",
+        "revenueGross": 298.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-10",
+        "revenueGross": 40.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-11",
+        "revenueGross": 27.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2025-12",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-01",
+        "revenueGross": 49.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-02",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-03",
+        "revenueGross": 31.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-04",
+        "revenueGross": 49.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-05",
+        "revenueGross": 128.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-06",
+        "revenueGross": 669.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "month": "2026-07",
+        "revenueGross": 295.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-03",
+        "revenueGross": 16.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-04",
+        "revenueGross": 81.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-05",
+        "revenueGross": 141.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-06",
+        "revenueGross": 138.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-07",
+        "revenueGross": 375.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-08",
+        "revenueGross": 361.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-09",
+        "revenueGross": 198.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-10",
+        "revenueGross": 78.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-11",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2023-12",
+        "revenueGross": 21.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-01",
+        "revenueGross": 15.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-02",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-03",
+        "revenueGross": 53.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-04",
+        "revenueGross": 112.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-05",
+        "revenueGross": 160.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-06",
+        "revenueGross": 262.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-07",
+        "revenueGross": 495.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-08",
+        "revenueGross": 733.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-09",
+        "revenueGross": 207.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-10",
+        "revenueGross": 89.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-11",
+        "revenueGross": 38.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2024-12",
+        "revenueGross": 10.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-03",
+        "revenueGross": 15.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-04",
+        "revenueGross": 123.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-05",
+        "revenueGross": 198.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-06",
+        "revenueGross": 531.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-07",
+        "revenueGross": 742.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-08",
+        "revenueGross": 599.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-09",
+        "revenueGross": 216.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-10",
+        "revenueGross": 126.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-11",
+        "revenueGross": 92.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2025-12",
+        "revenueGross": 30.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-01",
+        "revenueGross": 30.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-02",
+        "revenueGross": 36.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-03",
+        "revenueGross": 95.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-04",
+        "revenueGross": 188.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-05",
+        "revenueGross": 258.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-06",
+        "revenueGross": 513.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "month": "2026-07",
+        "revenueGross": 339.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-03",
+        "revenueGross": 12.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-04",
+        "revenueGross": 48.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-05",
+        "revenueGross": 65.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-06",
+        "revenueGross": 159.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-07",
+        "revenueGross": 308.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-08",
+        "revenueGross": 236.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-09",
+        "revenueGross": 109.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-10",
+        "revenueGross": 26.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-11",
+        "revenueGross": 5.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2023-12",
+        "revenueGross": 13.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-01",
+        "revenueGross": 17.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-02",
+        "revenueGross": 19.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-03",
+        "revenueGross": 37.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-04",
+        "revenueGross": 91.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-05",
+        "revenueGross": 142.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-06",
+        "revenueGross": 157.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-07",
+        "revenueGross": 276.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-08",
+        "revenueGross": 503.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-09",
+        "revenueGross": 132.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-10",
+        "revenueGross": 70.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-11",
+        "revenueGross": 25.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2024-12",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-03",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-04",
+        "revenueGross": 60.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-05",
+        "revenueGross": 133.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-06",
+        "revenueGross": 355.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-07",
+        "revenueGross": 556.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-08",
+        "revenueGross": 569.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-09",
+        "revenueGross": 151.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-10",
+        "revenueGross": 64.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-11",
+        "revenueGross": 26.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2025-12",
+        "revenueGross": 15.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-01",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-02",
+        "revenueGross": 20.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-03",
+        "revenueGross": 62.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-04",
+        "revenueGross": 111.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-05",
+        "revenueGross": 185.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-06",
+        "revenueGross": 382.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "month": "2026-07",
+        "revenueGross": 258.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-03",
+        "revenueGross": 59.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-04",
+        "revenueGross": 91.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-05",
+        "revenueGross": 112.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-06",
+        "revenueGross": 89.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-07",
+        "revenueGross": 51.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-08",
+        "revenueGross": 59.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-09",
+        "revenueGross": 54.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-10",
+        "revenueGross": 113.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-11",
+        "revenueGross": 83.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2023-12",
+        "revenueGross": 96.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-01",
+        "revenueGross": 107.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-02",
+        "revenueGross": 98.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-03",
+        "revenueGross": 156.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-04",
+        "revenueGross": 172.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-05",
+        "revenueGross": 144.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-06",
+        "revenueGross": 184.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-07",
+        "revenueGross": 165.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-08",
+        "revenueGross": 201.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-09",
+        "revenueGross": 194.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-10",
+        "revenueGross": 226.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-11",
+        "revenueGross": 143.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2024-12",
+        "revenueGross": 107.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-03",
+        "revenueGross": 121.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-04",
+        "revenueGross": 171.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-05",
+        "revenueGross": 148.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-06",
+        "revenueGross": 105.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-07",
+        "revenueGross": 118.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-08",
+        "revenueGross": 165.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-09",
+        "revenueGross": 163.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-10",
+        "revenueGross": 154.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-11",
+        "revenueGross": 123.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2025-12",
+        "revenueGross": 109.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-01",
+        "revenueGross": 191.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-02",
+        "revenueGross": 116.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-03",
+        "revenueGross": 118.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-04",
+        "revenueGross": 103.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-05",
+        "revenueGross": 114.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-06",
+        "revenueGross": 96.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "month": "2026-07",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-03",
+        "revenueGross": 59.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-04",
+        "revenueGross": 77.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-05",
+        "revenueGross": 32.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-06",
+        "revenueGross": 36.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-07",
+        "revenueGross": 68.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-08",
+        "revenueGross": 57.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-09",
+        "revenueGross": 40.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-10",
+        "revenueGross": 72.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-11",
+        "revenueGross": 33.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2023-12",
+        "revenueGross": 45.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-01",
+        "revenueGross": 49.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-02",
+        "revenueGross": 33.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-03",
+        "revenueGross": 125.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-04",
+        "revenueGross": 115.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-05",
+        "revenueGross": 134.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-06",
+        "revenueGross": 76.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-07",
+        "revenueGross": 148.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-08",
+        "revenueGross": 126.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-09",
+        "revenueGross": 130.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-10",
+        "revenueGross": 103.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-11",
+        "revenueGross": 100.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2024-12",
+        "revenueGross": 80.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-03",
+        "revenueGross": 61.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-04",
+        "revenueGross": 84.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-05",
+        "revenueGross": 110.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-06",
+        "revenueGross": 158.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-07",
+        "revenueGross": 130.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-08",
+        "revenueGross": 115.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-09",
+        "revenueGross": 129.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-10",
+        "revenueGross": 122.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-11",
+        "revenueGross": 95.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2025-12",
+        "revenueGross": 111.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-01",
+        "revenueGross": 138.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-02",
+        "revenueGross": 101.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-03",
+        "revenueGross": 151.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-04",
+        "revenueGross": 135.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-05",
+        "revenueGross": 133.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-06",
+        "revenueGross": 117.0
+      },
+      {
+        "category": "Tržnica",
+        "month": "2026-07",
+        "revenueGross": 95.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-03",
+        "revenueGross": 17.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-04",
+        "revenueGross": 28.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-05",
+        "revenueGross": 109.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-06",
+        "revenueGross": 75.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-07",
+        "revenueGross": 100.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-08",
+        "revenueGross": 101.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-09",
+        "revenueGross": 100.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-10",
+        "revenueGross": 83.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-11",
+        "revenueGross": 16.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2023-12",
+        "revenueGross": 3.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-01",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-02",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-03",
+        "revenueGross": 18.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-04",
+        "revenueGross": 63.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-05",
+        "revenueGross": 65.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-06",
+        "revenueGross": 88.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-07",
+        "revenueGross": 139.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-08",
+        "revenueGross": 184.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-09",
+        "revenueGross": 110.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-10",
+        "revenueGross": 48.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-11",
+        "revenueGross": 12.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2024-12",
+        "revenueGross": 5.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-03",
+        "revenueGross": 15.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-04",
+        "revenueGross": 190.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-05",
+        "revenueGross": 89.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-06",
+        "revenueGross": 154.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-07",
+        "revenueGross": 97.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-08",
+        "revenueGross": 141.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-09",
+        "revenueGross": 88.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-10",
+        "revenueGross": 24.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-11",
+        "revenueGross": 18.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2025-12",
+        "revenueGross": 23.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-02",
+        "revenueGross": 8.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-03",
+        "revenueGross": 33.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-04",
+        "revenueGross": 109.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-05",
+        "revenueGross": 152.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-06",
+        "revenueGross": 164.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "month": "2026-07",
+        "revenueGross": 57.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-03",
+        "revenueGross": 4.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-04",
+        "revenueGross": 10.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-05",
+        "revenueGross": 21.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-06",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-07",
+        "revenueGross": 17.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-08",
+        "revenueGross": 13.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-09",
+        "revenueGross": 27.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-10",
+        "revenueGross": 37.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-11",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2023-12",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-01",
+        "revenueGross": 45.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-02",
+        "revenueGross": 38.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-03",
+        "revenueGross": 92.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-04",
+        "revenueGross": 62.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-05",
+        "revenueGross": 62.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-06",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-07",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-08",
+        "revenueGross": 65.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-09",
+        "revenueGross": 53.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-10",
+        "revenueGross": 63.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-11",
+        "revenueGross": 84.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2024-12",
+        "revenueGross": 48.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-03",
+        "revenueGross": 16.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-04",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-05",
+        "revenueGross": 36.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-06",
+        "revenueGross": 41.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-07",
+        "revenueGross": 40.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-08",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-09",
+        "revenueGross": 54.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-10",
+        "revenueGross": 33.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-11",
+        "revenueGross": 44.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2025-12",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-01",
+        "revenueGross": 29.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-02",
+        "revenueGross": 51.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-03",
+        "revenueGross": 26.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-04",
+        "revenueGross": 33.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-05",
+        "revenueGross": 52.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-06",
+        "revenueGross": 77.0
+      },
+      {
+        "category": "Cankarjeva",
+        "month": "2026-07",
+        "revenueGross": 29.0
+      },
+      {
+        "category": "BPT",
+        "month": "2024-09",
+        "revenueGross": 16.0
+      },
+      {
+        "category": "BPT",
+        "month": "2024-10",
+        "revenueGross": 24.0
+      },
+      {
+        "category": "BPT",
+        "month": "2024-11",
+        "revenueGross": 34.0
+      },
+      {
+        "category": "BPT",
+        "month": "2024-12",
+        "revenueGross": 19.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-03",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-04",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-05",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-06",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-07",
+        "revenueGross": 3.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-08",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-09",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-10",
+        "revenueGross": 6.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-11",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "BPT",
+        "month": "2025-12",
+        "revenueGross": 3.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-03",
+        "revenueGross": 4.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-04",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-05",
+        "revenueGross": 25.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-06",
+        "revenueGross": 9.0
+      },
+      {
+        "category": "BPT",
+        "month": "2026-07",
+        "revenueGross": 3.0
+      },
+      {
+        "category": "DTO",
+        "month": "2024-09",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2024-10",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2024-11",
+        "revenueGross": 2.0
+      },
+      {
+        "category": "DTO",
+        "month": "2024-12",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-03",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-04",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-05",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-06",
+        "revenueGross": 2.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-07",
+        "revenueGross": 2.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-08",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-09",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-10",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-11",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2025-12",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-01",
+        "revenueGross": 2.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-02",
+        "revenueGross": 1.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-03",
+        "revenueGross": 5.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-04",
+        "revenueGross": 2.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-05",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-06",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "DTO",
+        "month": "2026-07",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2025-09",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2025-10",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2025-11",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2025-12",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-01",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-02",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-03",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-04",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-05",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-06",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Gost",
+        "month": "2026-07",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Other",
+        "month": "2025-08",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Other",
+        "month": "2025-09",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Other",
+        "month": "2025-10",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Other",
+        "month": "2025-11",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Other",
+        "month": "2025-12",
+        "revenueGross": 0.0
+      }
+    ],
+    "revenue2026ByCategory": [
+      {
+        "category": "Abonma - Gost",
+        "revenueGross": 0.0
+      },
+      {
+        "category": "Abonma - Rezidenti",
+        "revenueGross": 6450.0
+      },
+      {
+        "category": "BPT",
+        "revenueGross": 50.0
+      },
+      {
+        "category": "Cankarjeva",
+        "revenueGross": 297.0
+      },
+      {
+        "category": "DTO",
+        "revenueGross": 10.0
+      },
+      {
+        "category": "Dovolilnice EasyPark",
+        "revenueGross": 23080.0
+      },
+      {
+        "category": "Dovžanova soteska - geo.steber",
+        "revenueGross": 1459.0
+      },
+      {
+        "category": "Dovžanova soteska - info točka",
+        "revenueGross": 1027.0
+      },
+      {
+        "category": "Dovžanova soteska - plezališče",
+        "revenueGross": 523.0
+      },
+      {
+        "category": "Gorenjska plaža (bazen)",
+        "revenueGross": 1227.0
+      },
+      {
+        "category": "Tržnica",
+        "revenueGross": 870.0
+      },
+      {
+        "category": "ZD Tržič",
+        "revenueGross": 1960.0
+      },
+      {
+        "category": "Za Mošenikom",
+        "revenueGross": 772.0
+      },
+      {
+        "category": "Zelenica",
+        "revenueGross": 14193.0
+      }
+    ],
+    "totalTransactions2026": 117394,
+    "totalRevenue2026": 51918.0,
+    "observedRevenuePerTransaction": 0.442,
+    "topCategory": {
+      "category": "ZD Tržič",
+      "transactions": 41764
+    }
+  },
+  "hectronic": {
+    "period": "Obdobje v izvozu ni navedeno; zato zneskov ne seštevamo z EasyParkom.",
+    "machines": [
+      {
+        "sourceName": "102 (parkirisce na ljubelju)",
+        "serial": "130,597",
+        "revenueGross": 50031.88
+      },
+      {
+        "sourceName": "101 obcina – trznica",
+        "serial": "130,596",
+        "revenueGross": 14023.32
+      },
+      {
+        "sourceName": "104 zd 2",
+        "serial": "135,362",
+        "revenueGross": 13673.99
+      },
+      {
+        "sourceName": "103 zd 1",
+        "serial": "135,361",
+        "revenueGross": 13088.69
+      },
+      {
+        "sourceName": "105 zd 3",
+        "serial": "137,548",
+        "revenueGross": 9575.9
+      },
+      {
+        "sourceName": "107 dovzanova soteska",
+        "serial": "139,484",
+        "revenueGross": 8183.21
+      },
+      {
+        "sourceName": "108 bpt",
+        "serial": "146,605",
+        "revenueGross": 6138.14
+      },
+      {
+        "sourceName": "106 cankarjeva cesta",
+        "serial": "139,483",
+        "revenueGross": 5823.31
+      },
+      {
+        "sourceName": "109 dto",
+        "serial": "146,606",
+        "revenueGross": 2748.89
+      }
+    ],
+    "totalRevenueGross": 123287.33
+  },
+  "nameMapping": {
+    "easyParkToOccupancy": {
+      "ZD Tržič": "Zdravstveni dom, Tržič",
+      "Tržnica": "Tržnica, Tržič",
+      "Za Mošenikom": "Za Mošenikom, Tržič",
+      "Cankarjeva": "Cankarjeva cesta, Tržič",
+      "BPT": "BPT, Tržič",
+      "DTO": "DTO Tržič"
+    },
+    "hectronicToOccupancy": {
+      "101 obcina – trznica": "Tržnica, Tržič",
+      "103 zd 1": "Zdravstveni dom, Tržič",
+      "104 zd 2": "Zdravstveni dom, Tržič",
+      "105 zd 3": "Zdravstveni dom, Tržič",
+      "108 bpt": "BPT, Tržič",
+      "106 cankarjeva cesta": "Cankarjeva cesta, Tržič",
+      "109 dto": "DTO Tržič"
+    }
+  },
+  "methodology": "Simulacija prihodka uporablja opazovani povprečni prihodek na evidentirano EasyPark parkirnino v istem obdobju. Predpostavlja nespremenjeno strukturo kategorij, trajanje parkiranja in delež brezplačne prve ure."
+}
