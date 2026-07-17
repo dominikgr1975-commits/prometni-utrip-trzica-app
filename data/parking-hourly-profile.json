@@ -1,0 +1,8326 @@
+{
+  "period": {
+    "from": "2026-07-10 00:00",
+    "to": "2026-07-17 12:00"
+  },
+  "scope": "Referenčni urni profil enega tedna; ne predstavlja povprečja vseh let.",
+  "methodology": "Uporablja se za razlago tipičnega vzorca po dnevu in uri, ne za zgodovinsko ekstrapolacijo.",
+  "profiles": {
+    "BPT, Tržič": {
+      "average": 29.7,
+      "peak": {
+        "weekday": 1,
+        "weekdayName": "torek",
+        "hour": 2,
+        "average": 58.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 45.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 37.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 42.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 51.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 51.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 35.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 35.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 53.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 53.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 53.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 52.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 49.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 20.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 19.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 23.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 30.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 32.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 32.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 32.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 31.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 46.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 46.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 45.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 45.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 40.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 42.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 33.0,
+          "samples": 1
+        }
+      ]
+    },
+    "Cankarjeva cesta, Tržič": {
+      "average": 62.4,
+      "peak": {
+        "weekday": 2,
+        "weekdayName": "sreda",
+        "hour": 10,
+        "average": 85.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 46.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 51.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 61.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 61.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 61.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 60.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 57.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 53.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 52.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 58.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 70.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 77.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 79.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 70.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 62.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 70.0,
+          "samples": 1
+        }
+      ]
+    },
+    "DTO Tržič": {
+      "average": 17.1,
+      "peak": {
+        "weekday": 4,
+        "weekdayName": "petek",
+        "hour": 22,
+        "average": 47.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 9.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 9.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 6.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 6.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 6.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 5.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 9.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 9.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 9.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 16.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 25.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 23.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 23.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 22.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 22.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 17.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 13.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 12.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 11.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 10.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 8.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 7.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 6.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 4.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 6.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 14.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 43.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 39.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 7.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 8.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 10.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 12.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 13.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 11.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 20.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 18.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 19.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 15.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 17.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 21.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 22.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 22.0,
+          "samples": 1
+        }
+      ]
+    },
+    "Sokolnica, Tržič": {
+      "average": 35.0,
+      "peak": {
+        "weekday": 1,
+        "weekdayName": "torek",
+        "hour": 3,
+        "average": 69.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 37.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 39.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 45.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 40.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 44.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 45.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 44.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 25.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 41.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 40.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 37.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 33.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 39.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 43.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 41.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 29.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 40.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 47.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 47.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 41.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 25.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 25.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 30.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 27.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 30.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 30.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 32.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 31.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 32.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 35.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 40.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 39.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 40.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 39.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 24.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 28.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 23.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 31.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 29.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 30.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 26.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 27.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 34.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 34.0,
+          "samples": 1
+        }
+      ]
+    },
+    "Tržnica, Tržič": {
+      "average": 70.0,
+      "peak": {
+        "weekday": 2,
+        "weekdayName": "sreda",
+        "hour": 11,
+        "average": 91.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 69.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 69.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 69.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 69.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 71.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 68.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 58.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 75.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 82.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 83.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 84.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 81.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 78.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 51.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 70.0,
+          "samples": 1
+        }
+      ]
+    },
+    "Za Mošenikom, Tržič": {
+      "average": 86.8,
+      "peak": {
+        "weekday": 0,
+        "weekdayName": "ponedeljek",
+        "hour": 19,
+        "average": 99.0,
+        "samples": 1
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 93.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 99.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 93.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 96.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 99.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 99.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 88.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 96.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 98.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 96.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 92.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 94.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 94.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 94.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 94.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 89.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 78.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 88.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 97.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 95.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 89.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 87.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 76.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 87.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 88.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 88.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 82.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 96.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 93.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 95.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 98.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 93.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 86.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 84.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 88.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 92.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 91.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 97.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 94.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 91.0,
+          "samples": 1
+        }
+      ]
+    },
+    "Zdravstveni dom, Tržič": {
+      "average": 62.9,
+      "peak": {
+        "weekday": 4,
+        "weekdayName": "petek",
+        "hour": 8,
+        "average": 92.0,
+        "samples": 2
+      },
+      "slots": [
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 0,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 1,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 2,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 3,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 4,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 5,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 6,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 7,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 8,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 9,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 10,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 11,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 12,
+          "average": 68.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 13,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 14,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 15,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 16,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 17,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 18,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 19,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 20,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 21,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 22,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 0,
+          "weekdayName": "ponedeljek",
+          "hour": 23,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 0,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 1,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 2,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 3,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 4,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 5,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 6,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 7,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 8,
+          "average": 76.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 9,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 10,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 11,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 12,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 13,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 14,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 15,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 16,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 17,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 18,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 19,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 20,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 21,
+          "average": 54.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 22,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 1,
+          "weekdayName": "torek",
+          "hour": 23,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 0,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 1,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 2,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 3,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 4,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 5,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 6,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 7,
+          "average": 85.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 8,
+          "average": 83.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 9,
+          "average": 78.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 10,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 11,
+          "average": 77.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 12,
+          "average": 79.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 13,
+          "average": 74.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 14,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 15,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 16,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 17,
+          "average": 69.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 18,
+          "average": 80.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 19,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 20,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 21,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 22,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 2,
+          "weekdayName": "sreda",
+          "hour": 23,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 0,
+          "average": 64.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 1,
+          "average": 63.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 2,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 3,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 4,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 5,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 6,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 7,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 8,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 9,
+          "average": 71.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 10,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 11,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 12,
+          "average": 66.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 13,
+          "average": 73.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 14,
+          "average": 75.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 15,
+          "average": 81.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 16,
+          "average": 88.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 17,
+          "average": 89.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 18,
+          "average": 90.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 19,
+          "average": 72.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 20,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 21,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 22,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 3,
+          "weekdayName": "četrtek",
+          "hour": 23,
+          "average": 62.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 0,
+          "average": 61.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 1,
+          "average": 61.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 2,
+          "average": 60.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 3,
+          "average": 59.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 4,
+          "average": 61.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 5,
+          "average": 61.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 6,
+          "average": 72.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 7,
+          "average": 89.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 8,
+          "average": 92.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 9,
+          "average": 89.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 10,
+          "average": 79.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 11,
+          "average": 75.0,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 12,
+          "average": 70.5,
+          "samples": 2
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 13,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 14,
+          "average": 38.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 15,
+          "average": 44.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 16,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 17,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 18,
+          "average": 51.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 19,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 20,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 21,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 22,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 4,
+          "weekdayName": "petek",
+          "hour": 23,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 0,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 1,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 2,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 3,
+          "average": 61.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 4,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 5,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 6,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 7,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 8,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 9,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 10,
+          "average": 46.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 11,
+          "average": 41.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 12,
+          "average": 37.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 13,
+          "average": 36.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 14,
+          "average": 37.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 15,
+          "average": 42.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 16,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 17,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 18,
+          "average": 50.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 19,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 20,
+          "average": 48.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 21,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 22,
+          "average": 65.0,
+          "samples": 1
+        },
+        {
+          "weekday": 5,
+          "weekdayName": "sobota",
+          "hour": 23,
+          "average": 70.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 0,
+          "average": 67.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 1,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 2,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 3,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 4,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 5,
+          "average": 59.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 6,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 7,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 8,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 9,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 10,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 11,
+          "average": 49.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 12,
+          "average": 46.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 13,
+          "average": 47.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 14,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 15,
+          "average": 53.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 16,
+          "average": 52.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 17,
+          "average": 56.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 18,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 19,
+          "average": 55.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 20,
+          "average": 57.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 21,
+          "average": 58.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 22,
+          "average": 60.0,
+          "samples": 1
+        },
+        {
+          "weekday": 6,
+          "weekdayName": "nedelja",
+          "hour": 23,
+          "average": 65.0,
+          "samples": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,20 +1,22 @@
-# Prometni utrip Tržiča v0.2
+# Prometni utrip Tržiča v0.52
 
-Statična spletna aplikacija za GitHub Pages. Ne potrebuje Pythona, Node.js ali lokalnega builda.
+Demonstracijska analitična platforma za povezovanje prometa, parkirišč, vremena, koledarskih dejavnikov, prebivalstva, delovno aktivnih oseb in parkirnin.
 
-## Objava na GitHub Pages
+## Ključne spremembe v0.52
 
-1. Razširi ZIP.
-2. V obstoječem repozitoriju izbriši ali prepiši stare `index.html`, `styles.css`, `app.js` in mapo `data`.
-3. Na GitHubu izberi **Add file → Upload files**.
-4. Povleci vse datoteke in celotno mapo `data`.
-5. Klikni **Commit changes**.
-6. Če je GitHub Pages že nastavljen na `main / (root)`, se nova verzija objavi samodejno v približno 1–3 minutah.
-7. Stanje objave preveri pod **Actions** ali **Settings → Pages**.
+- mesečni podatki SURS 0700941S: delovno aktivne osebe po občini delovnega mesta, junij 2020–maj 2026;
+- jasno razlikovanje med prebivalci mesta Tržič in osebami, ki imajo delovno mesto v Občini Tržič;
+- opisna korelacija delovno aktivnih s prometom in parkirišči, brez trditve o vzročnosti;
+- referenčni urni profil zasedenosti parkirišč za 10.–17. 7. 2026;
+- podatki EasyPark in HECTRONIC ter osnovna simulacija prihodka iz parkirnin;
+- numerična ocena zanesljivosti pri vseh scenarijih;
+- dosledno slovensko oblikovanje števil (npr. 8.354);
+- opozorilo o prostorskem obsegu: CABLEX meri glavno cesto proti mestu Tržič, parkirišča pa okolico mestnega jedra, ne celotne občine.
 
-## Omejitve modela
+## Pomembne omejitve
 
-- Promet je dnevni, parkirišča mesečna, vreme pa urno.
-- Modeli uporabljajo skupne mesece in kažejo korelacije, ne vzročnosti.
-- Podatki o polnilnicah še niso vključeni.
-- Vpliv zaposlenih je scenarijska predpostavka, ker za statistično oceno še ni dovolj skupnih let podatkov.
+Urni profil enega tedna se uporablja samo za razlago vzorca po dnevih in urah. Ne predstavlja večletnega povprečja. Izvoz HECTRONIC nima jasno navedenega obdobja, zato zneski niso sešteti z EasyParkom. Za natančno tarifno simulacijo je treba dodati pravilnik oziroma cenik in kategorije upariti s tarifami.
+
+## Objava
+
+Vsebino mape naloži v branch `v0.52` in ga izberi v **Settings → Pages**. Po objavi uporabi **Ctrl + F5**.

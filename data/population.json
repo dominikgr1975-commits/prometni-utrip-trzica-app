@@ -1,0 +1,58 @@
+{
+  "description": "Prebivalstvo naselja oziroma mesta Tržič po letih",
+  "source": "SURS SiStat API, tabela 05C5003S",
+  "territorialUnit": {
+    "code": "131030",
+    "name": "Tržič",
+    "type": "naselje"
+  },
+  "importantNote": "Podatki veljajo samo za naselje oziroma mesto Tržič in ne za celotno občino Tržič.",
+  "referenceDate": "stanje na 1. januar",
+  "unit": "persons",
+  "period": {
+    "from": 2017,
+    "to": 2026
+  },
+  "records": [
+    {
+      "year": 2017,
+      "population": 3638
+    },
+    {
+      "year": 2018,
+      "population": 3617
+    },
+    {
+      "year": 2019,
+      "population": 3670
+    },
+    {
+      "year": 2020,
+      "population": 3726
+    },
+    {
+      "year": 2021,
+      "population": 3744
+    },
+    {
+      "year": 2022,
+      "population": 3737
+    },
+    {
+      "year": 2023,
+      "population": 3811
+    },
+    {
+      "year": 2024,
+      "population": 3821
+    },
+    {
+      "year": 2025,
+      "population": 3819
+    },
+    {
+      "year": 2026,
+      "population": 3772
+    }
+  ]
+}
