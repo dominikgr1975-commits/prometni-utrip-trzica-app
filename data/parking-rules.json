@@ -1,0 +1,37 @@
+{
+  "title": "Odlok o cestno prometni ureditvi v Občini Tržič",
+  "adopted": "2021-05-20",
+  "context": [
+    "Občinski svet s sklepom določi plačljive javne parkirne površine, čas plačevanja, višino parkirnine, takse za dovolilnice in območja upravičencev do abonmajev.",
+    "Plačljivo parkiranje je dovoljeno za čas plačane parkirnine; elektronsko plačilo se šteje kot dokazilo.",
+    "Modre cone so časovno omejeno brezplačno parkiranje in zahtevajo označitev časa prihoda.",
+    "Abonma je namenjen stanovalcem, ki izpolnjujejo pogoje prebivališča, stanovanjske enote in uporabe vozila.",
+    "Električna vozila lahko na označenih polnilnih mestih brezplačno parkirajo med polnjenjem največ dve uri."
+  ],
+  "tariffs": {
+    "monthlyPermit": 20,
+    "annualPermit": 200,
+    "hourlyParking": 0.4,
+    "firstHourFree": true,
+    "hourlyParkingStatus": "uporabnikov povzetek; za pravno natančno tarifiranje je potreben veljavni sklep/cenik"
+  },
+  "permitAreas": {
+    "A, B": [
+      "Zdravstveni dom",
+      "Za Mošenikom"
+    ],
+    "C, D": [
+      "Cankarjeva cesta",
+      "Tržnica"
+    ],
+    "G": [
+      "BPT"
+    ]
+  },
+  "freeParking": [
+    "ob Tovarni Tokos",
+    "ob pokopališču Tržič",
+    "pri večjih trgovinah"
+  ],
+  "limitations": "Odlok daje pravno in metodološko ozadje, vendar sam ne dokazuje vzroka zasedenosti ali prometa."
+}
