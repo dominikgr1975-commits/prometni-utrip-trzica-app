@@ -1,20 +1,33 @@
-# Prometni utrip Tržiča v0.2
+# Utrip Tržiča – platforma v1.5
 
-Statična spletna aplikacija za GitHub Pages. Ne potrebuje Pythona, Node.js ali lokalnega builda.
+Statična client-side platforma brez Reacta, strežniških skript, prijav ali API ključev.
 
-## Objava na GitHub Pages
+## Zagon
 
-1. Razširi ZIP.
-2. V obstoječem repozitoriju izbriši ali prepiši stare `index.html`, `styles.css`, `app.js` in mapo `data`.
-3. Na GitHubu izberi **Add file → Upload files**.
-4. Povleci vse datoteke in celotno mapo `data`.
-5. Klikni **Commit changes**.
-6. Če je GitHub Pages že nastavljen na `main / (root)`, se nova verzija objavi samodejno v približno 1–3 minutah.
-7. Stanje objave preveri pod **Actions** ali **Settings → Pages**.
+Odprite `index.html`. Analitična aplikacija deluje tudi neposredno prek `file:///`, ker so podatki pretvorjeni iz JSON v lokalne JavaScript datoteke in ne uporablja `fetch()`.
 
-## Omejitve modela
+Grafi uporabljajo Chart.js prek CDN. Če računalnik nima internetne povezave, ostale analize delujejo, grafi pa prikažejo opozorilo. Za popolnoma offline namestitev se lahko pozneje doda lokalna kopija Chart.js.
 
-- Promet je dnevni, parkirišča mesečna, vreme pa urno.
-- Modeli uporabljajo skupne mesece in kažejo korelacije, ne vzročnosti.
-- Podatki o polnilnicah še niso vključeni.
-- Vpliv zaposlenih je scenarijska predpostavka, ker za statistično oceno še ni dovolj skupnih let podatkov.
+## Struktura
+
+- `index.html` – krovna vstopna stran
+- `assets/` – skupni CSS in logotip
+- `apps/analitika/` – obstoječa analitična aplikacija v0.62
+- `apps/javni-prikaz/` – pripravljena mapa za javno aplikacijo
+- `apps/turizem/` – pripravljena mapa za turistično aplikacijo
+- `docs/` – metodologija, podatkovni viri in spremembe
+
+Vse povezave so relativne in niso vezane na GitHub Pages.
+
+
+Posodobitev julij 2026: dodana označena interpolacija manjkajočih prometnih meritev ter razširjeni podatki EasyPark in HECTRONIC.
+
+
+## v1.5
+
+Dodani so prekrški po ulicah in mesecih, analize povezave s prometom ter natančna lokacija CABLEX na Cesti Ste Marie Aux Mines.
+
+
+## Javna aplikacija v1.5
+
+Mapa `apps/javni-prikaz/` vsebuje aplikacijo **Prometni utrip Tržiča** za občane. Deluje brez lokalnega spletnega strežnika; podatki se naložijo iz lokalnih JavaScript datotek.

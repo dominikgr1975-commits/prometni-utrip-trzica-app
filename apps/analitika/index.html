@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Prometni utrip Tržiča – pregled in scenarijska analiza prometa, parkirišč, vremena ter občinskih kazalnikov." />
+  <title>AI analiza prometa v Tržiču v1.5</title>
+  <link rel="stylesheet" href="styles.css?v=1.5" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">OBČINA TRŽIČ · DEMONSTRACIJSKA ANALITIČNA PLATFORMA</p>
+      <h1>AI analiza prometa v Tržiču</h1>
+      <p class="subtitle">Od podatkov do razumljivih vprašanj, scenarijev in osnovnih napovedi.</p><p class="scope-note"><strong>Obseg podatkov:</strong> Pri tovarni CABLEX na Cesti Ste Marie Aux Mines meri promet v smeri v mesto Tržič in iz mesta Tržič, parkirišča pa okolico mestnega jedra. Podatki ne predstavljajo celotne občine Tržič, ampak samo mesto Tržič!</p>
+    </div>
+    <div class="header-actions"><a class="home-link" href="../../index.html">← Vstopna stran</a><div class="version">v1.5</div></div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Kako brati rezultate:</strong> aplikacija je prikaz možnosti, kaj lahko naredimo z občinskimi in drugimi javnimi podatki. Rezultati so scenarijske ocene in povezave v podatkih, ne prometna študija ali dokaz vzročnosti.
+    </section>
+
+    <section class="kpi-grid" id="kpiGrid" aria-label="Ključni kazalniki"></section>
+
+    <section class="pulse-panel" aria-label="Enotni podatkovni model">
+      <div class="pulse-main">
+        <p class="eyebrow">ENOTNI PODATKOVNI MODEL</p>
+        <h2>Utrip Tržiča</h2>
+        <div class="pulse-score"><strong id="pulseScore">–</strong><span id="pulseScale">indeks</span></div>
+        <div class="pulse-state"><strong id="pulseStatus">–</strong><span id="pulsePeriodLabel">–</span></div>
+        <div class="pulse-controls">
+          <label>Hitra izbira<select id="pulsePreset"><option value="12">Zadnjih 12 mesecev</option><option value="6">Zadnjih 6 mesecev</option><option value="3">Zadnji 3 meseci</option><option value="year">Tekoče leto</option><option value="all">Celotno obdobje</option></select></label>
+          <label>Od<select id="pulseFrom"></select></label><label>Do<select id="pulseTo"></select></label>
+          <button id="pulseApply" type="button">Prikaži utrip</button>
+        </div>
+        <p id="pulseExplanation" class="pulse-explanation"></p>
+        <div id="pulseComponents" class="model-summary-grid"></div>
+      </div>
+      <div class="pulse-side">
+        <div class="model-card"><span>Kakovost podatkov</span><strong id="dataQualityScore">–</strong><small id="dataQualityExplanation"></small></div>
+        <div class="model-card"><span>Zanesljivost modela</span><strong id="modelReliabilityScore">–</strong><small id="modelReliabilityExplanation"></small></div>
+        <div class="model-card wide"><span>Vključeni dejavniki</span><strong id="modelFactorCount">–</strong><small>promet, zasedenost, parkirnine, vreme, dogodki, zaposleni, prebivalci, turizem, EV in prekrški</small></div>
+      </div>
+    </section>
+
+    <section class="ask-panel">
+      <div>
+        <p class="eyebrow">AI SVETOVALEC</p>
+        <h2>Vprašaj Prometni utrip</h2>
+        <p class="section-copy">V tej različici svetovalec odgovarja samo na vprašanje »Kaj se je zgodilo dne …?«. Za izbrani datum združi razpoložljive podatke o prometu pri tovarni CABLEX, vremenu, praznikih, dogodkih, ocenjeni zasedenosti vseh parkirišč in parkirninah. Če podatka za ta dan ni, to jasno pove.</p>
+      </div>
+      <form id="questionForm" class="question-form date-question-form">
+        <label for="questionInput"><strong>Kaj se je zgodilo dne</strong></label>
+        <div class="date-question-row"><input id="questionInput" type="date" min="2000-01-01" max="2030-12-31" value="2025-07-15" /><button type="submit">Analiziraj vprašanje</button></div>
+      </form>
+      <div id="questionOutput" class="question-output empty">Vpiši vprašanje ali izberi primer.</div>
+    </section>
+
+    <section class="section-heading">
+      <div><p class="eyebrow">PAMETNA ANALIZA</p><h2>Vprašanja in scenariji</h2></div>
+      <p>Na levi spremeni predpostavko, na desni vidiš ocenjeni vpliv in razlago »Zakaj?«.</p>
+    </section>
+
+    <section class="scenario-grid">
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">01</span>
+          <h3>Kako povečanje prometa vpliva na parkirišča?</h3>
+          <p class="scenario-description">Simulacija poveže spremembo prometa pri CABLEX-u z mesečno zasedenostjo. Pri izbiri vseh parkirišč uporabi kapacitetno uteženo povprečje.</p>
+          <label for="trafficSlider">Sprememba prometa: <strong id="trafficSliderValue">+20,0 %</strong></label>
+          <input id="trafficSlider" type="range" min="-30" max="50" step="5" value="20" />
+          <label for="parkingSelect">Parkirišče</label><select id="parkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="trafficOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">02</span>
+          <h3>Kaj pomeni dobro ali slabo vreme za parkirišča?</h3>
+          <p class="scenario-description">Model poleg vremena upošteva sezono, količino prometa, število delovnih in vikend dni ter praznike. Ker so parkirišča mesečna, rezultat ostaja orientacijski.</p>
+          <label for="weatherSlider">Vremenski scenarij: <strong id="weatherSliderValue">običajno</strong></label>
+          <input id="weatherSlider" type="range" min="-100" max="100" step="25" value="0" />
+          <label for="weatherParkingSelect">Parkirišče</label><select id="weatherParkingSelect"></select>
+          <p class="helper">Levo = bolj suho in ugodno, desno = več padavin ter ur slabega vremena.</p>
+        </div>
+        <div class="scenario-output" id="weatherOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">03</span>
+          <h3>Kako sprememba delovno aktivnih v Občini Tržič vpliva na promet?</h3>
+          <p class="scenario-description">SURS meri osebe, katerih delovno mesto je v Občini Tržič, ne glede na njihovo prebivališče. Sprememba vpliva predvsem na jutranje in popoldanske migracije; model ne predpostavlja, da vsak pride z avtomobilom.</p>
+          <label for="employeeSlider">Sprememba delovno aktivnih: <strong id="employeeSliderValue">+100</strong></label>
+          <input id="employeeSlider" type="range" min="-500" max="1000" step="50" value="100" />
+        </div>
+        <div class="scenario-output" id="employeeOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">04</span>
+          <h3>Kako sprememba delovno aktivnih vpliva na parkirišča?</h3>
+          <p class="scenario-description">Verižni scenarij: več zaposlenih → več vozil v konici → del teh vozil uporabi spremljana javna parkirišča.</p>
+          <label for="employeeParkingSlider">Sprememba delovno aktivnih: <strong id="employeeParkingSliderValue">+100</strong></label>
+          <input id="employeeParkingSlider" type="range" min="-500" max="1000" step="50" value="100" />
+          <label for="employeeParkingSelect">Parkirišče</label><select id="employeeParkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="employeeParkingOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">05</span>
+          <h3>Kaj če se v mesto Tržič priseli več prebivalcev?</h3>
+          <p class="scenario-description">Več prebivalcev ne pomeni enakega števila novih avtomobilov. Model uporablja razpon, ki posredno upošteva otroke, starejše, zaposlene, skupne vožnje, hojo, javni prevoz in različne potrebe gospodinjstev.</p>
+          <label for="populationSlider">Sprememba prebivalcev: <strong id="populationSliderValue">+500</strong></label>
+          <input id="populationSlider" type="range" min="-1500" max="2000" step="100" value="500" />
+          <label for="populationParkingSelect">Parkirišče</label><select id="populationParkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="populationOutput"></div>
+      </article>
+
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">06</span>
+          <h3>Kako sprememba števila parkirnin vpliva na prihodek?</h3>
+          <p class="scenario-description">Simulacija uporablja dejansko število in znesek EasyPark parkirnin v letu 2026 do datuma izvoza. Predpostavlja enako strukturo kategorij, trajanje parkiranja in delež brezplačne prve ure.</p>
+          <label for="paymentSlider">Sprememba števila parkirnin: <strong id="paymentSliderValue">+10,0 %</strong></label>
+          <input id="paymentSlider" type="range" min="-30" max="50" step="5" value="10" />
+        </div>
+        <div class="scenario-output" id="paymentOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">07</span>
+          <h3>Kako več delovnih mest vpliva na prihodek od parkiranja?</h3>
+          <p class="scenario-description">Verižna ocena za vsa spremljana parkirišča: več delovnih mest → več vozil v konici → del vozil uporabi plačljiva parkirišča → dodatne parkirnine prek EasyParka ali parkomatov.</p>
+          <label for="jobsRevenueSlider">Sprememba delovnih mest: <strong id="jobsRevenueSliderValue">+100</strong></label>
+          <input id="jobsRevenueSlider" type="range" min="-500" max="1000" step="50" value="100" />
+        </div>
+        <div class="scenario-output" id="jobsRevenueOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">08</span>
+          <h3>Kako turizem vpliva na promet, parkirišča in parkirnine?</h3>
+          <p class="scenario-description">Scenarij uporablja 12-letni mesečni niz gostov in nočitev. Ker je v kraju Tržič nastanjen le manjši delež gostov, model vpliv na mestno jedro namenoma močno omeji.</p>
+          <label for="tourismSlider">Sprememba števila turistov: <strong id="tourismSliderValue">+20,0 %</strong></label>
+          <input id="tourismSlider" type="range" min="-50" max="100" step="5" value="20" />
+        </div>
+        <div class="scenario-output" id="tourismOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">09</span>
+          <h3>Kako rast zaposlenih, turistov in prebivalcev vpliva na EV polnilnico?</h3>
+          <p class="scenario-description">Ocena velja samo za eno javno polnilnico na parkirišču Tržnica. Povezuje dodatna vozila z deležem električnih vozil in verjetnostjo uporabe javne polnilnice.</p>
+          <label for="evEmployeeSlider">Delovno aktivni: <strong id="evEmployeeSliderValue">+100</strong></label>
+          <input id="evEmployeeSlider" type="range" min="-500" max="1000" step="50" value="100" />
+          <label for="evTouristSlider">Turisti: <strong id="evTouristSliderValue">+20,0 %</strong></label>
+          <input id="evTouristSlider" type="range" min="-50" max="100" step="5" value="20" />
+          <label for="evPopulationSlider">Prebivalci mesta: <strong id="evPopulationSliderValue">+500</strong></label>
+          <input id="evPopulationSlider" type="range" min="-1500" max="2000" step="100" value="500" />
+        </div>
+        <div class="scenario-output" id="evOutput"></div>
+      </article>
+    </section>
+
+    <section class="hourly-panel">
+      <div><p class="eyebrow">REFERENČNI URNI PROFIL</p><h2>Kdaj so parkirišča najbolj zasedena?</h2><p>Profil temelji na približno sedmih tednih podatkov od 29. 5. do 17. 7. 2026 v 3-urnih intervalih. Je precej bolj reprezentativen od enega tedna, vendar ga še vedno ne predstavljamo kot večletni urni vzorec.</p></div>
+      <div class="hourly-controls"><label for="hourlyParkingSelect">Parkirišče</label><select id="hourlyParkingSelect"></select></div>
+      <div id="hourlyOutput" class="hourly-output"></div>
+    </section>
+
+    <section class="knowledge-panel">
+      <div class="tab-buttons" role="tablist">
+        <button class="tab-button active" data-tab="modelTab" type="button">Povzetek modela</button>
+        <button class="tab-button" data-tab="factsTab" type="button">Zanimivosti</button>
+      </div>
+      <div id="modelTab" class="tab-content active"><p class="eyebrow">POVZETEK MODELA</p><h2>Kaj trenutno kažejo podatki?</h2><div id="insightList" class="insight-list"></div></div>
+      <div id="factsTab" class="tab-content"><p class="eyebrow">ZANIMIVOSTI</p><h2>Ugotovitve iz podatkov</h2><div id="factList" class="insight-list"></div></div>
+    </section>
+
+    <section class="charts-grid">
+      <article class="chart-card wide"><div class="chart-title"><div><p class="eyebrow">VEČLETNI PREGLED</p><h3>Promet in zasedenost parkirišč</h3></div></div><div class="chart-wrap"><canvas id="trendChart"></canvas></div><p class="chart-note"><strong>Opomba:</strong> Manjkajoče oziroma očitno nepopolne prometne meritve med 20. 5. in 19. 8. 2024 so zapolnjene s sezonsko interpolacijo. Na grafu so ocenjeni meseci označeni z večjimi trikotnimi točkami.</p></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">PARKIRIŠČA</p><h3>Povprečna zasedenost</h3></div></div><div class="chart-wrap"><canvas id="parkingChart"></canvas></div></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">HITROST</p><h3>Povprečna hitrost po vrsti vozila</h3></div></div><div class="chart-wrap"><canvas id="speedChart"></canvas></div></article><article class="chart-card"><div class="chart-title"><div><p class="eyebrow">SURS</p><h3>Delovno aktivni po občini delovnega mesta</h3></div></div><div class="chart-wrap"><canvas id="employmentChart"></canvas></div></article><article class="chart-card"><div class="chart-title"><div><p class="eyebrow">EASYPARK 2026 · PARKOMATI LOČENO</p><h3>Število parkirnin po kategorijah (EasyPark)</h3></div></div><div class="chart-wrap"><canvas id="paymentChart"></canvas></div></article>
+      <article class="chart-card wide"><div class="chart-title"><div><p class="eyebrow">PREKRŠKI</p><h3>Evidentirani prekrški po mesecih</h3></div></div><div class="chart-wrap"><canvas id="offensesTrendChart"></canvas></div><p class="chart-note"><strong>Opomba:</strong> Število prekrškov je odvisno tudi od obsega in usmerjenosti nadzora. Primerjava s prometom je opisna in ne dokazuje vzročne povezave.</p></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">LOKACIJE</p><h3>Prekrški po ulicah</h3></div></div><div class="chart-wrap"><canvas id="offensesStreetChart"></canvas></div></article>
+    </section>
+
+    <section class="data-section">
+      <div><p class="eyebrow">PODATKOVNI VIRI</p><h2>Kaj je vključeno v podatkovni model?</h2></div>
+      <div class="source-grid">
+        <div><strong>Promet CABLEX</strong><span>tedensko, približno tri leta; manjkajoče obdobje 2024 je označeno in sezonsko interpolirano</span></div>
+        <div><strong>Parkirišča</strong><span>mesečno, 2023–2026</span></div>
+        <div><strong>Hitrost CABLEX</strong><span>triletno povprečje po vrstah vozil</span></div>
+        <div><strong>Vreme</strong><span>urno, približno eno leto, Open-Meteo</span></div>
+        <div><strong>Delovno aktivni po občini delovnega mesta</strong><span>SURS mesečno, 2020–2026 · delovna mesta v Občini Tržič</span></div>
+        <div><strong>Prazniki</strong><span>OPSI, 2000–2030</span></div>
+        <div><strong>Dogodki</strong><span>koledar Občine Tržič</span></div>
+        <div><strong>Prebivalci mesta Tržič</strong><span>SURS, 2017–2026 · samo naselje, ne celotna občina</span></div><div><strong>Parkirnine</strong><span>EasyPark mesečno in št. parkirnin; HECTRONIC zneski po parkomatih</span></div><div><strong>Urni profil parkirišč</strong><span>29. 5.–17. 7. 2026 · 3-urni intervali</span></div><div><strong>Turizem</strong><span>gostje in nočitve mesečno, 2018–2026; turistična taksa; kraji nastanitve</span></div><div><strong>EV polnilnica</strong><span>ena polnilnica na Tržnici · polnjenja in poraba energije</span></div><div><strong>Prekrški</strong><span>mesečno po ulicah, 2019–2026 · Tržič in bližnja okolica; CABLEX: Cesta Ste Marie Aux Mines</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span>Prometni utrip Tržiča · analitična različica v1.5</span><span>Za osvežitev uporabi Ctrl + F5</span></footer>
+  <script src="./data-js/analysis.js"></script>
+  <script src="./data-js/holidays.js"></script>
+  <script src="./data-js/events.js"></script>
+  <script src="./data-js/weather.js"></script>
+  <script src="./data-js/traffic-daily.js"></script>
+  <script src="./data-js/tourism.js"></script>
+  <script src="./data-js/ev-charger.js"></script>
+  <script src="./data-js/offenses.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="app.js?v=1.3"></script>
+</body>
+</html>
