@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Turistični utrip Tržiča – pregled gostov, nočitev, turističnih trgov in scenarijev nastanitvenih zmogljivosti." />
+  <title>Turistični utrip Tržiča v0.1</title>
+  <link rel="stylesheet" href="styles.css?v=0.1" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">OBČINA TRŽIČ · PODATKOVNA APLIKACIJA</p>
+        <h1>Turistični utrip Tržiča</h1>
+        <p class="lead">Preprost pregled turističnih tokov, trgov in nastanitvenih zmogljivosti z razumljivimi analizami in scenariji.</p>
+      </div>
+      <div class="hero-actions">
+        <a class="home-link" href="../../index.html">← Vstopna stran</a>
+        <span class="version">v0.1</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="source-notice" aria-label="Pomembna omejitev podatkov">
+      <strong>Pomembno:</strong> Podatki so iz aplikacije obveznega poročanja o turističnih taksah in žal ne zajemajo dnevnih gostov, ki se nikamor ne prijavljajo.
+    </section>
+
+    <section class="toolbar panel" aria-label="Izbira obdobja">
+      <div>
+        <p class="section-label">OBDOBJE PRIKAZA</p>
+        <h2>Izberi leto ali celotno obdobje</h2>
+      </div>
+      <label class="select-field">
+        <span>Obdobje</span>
+        <select id="periodSelect" aria-label="Izberi obdobje"></select>
+      </label>
+      <p class="period-note" id="periodNote"></p>
+    </section>
+
+    <section aria-labelledby="overviewTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">UVODNI PREGLED</p>
+          <h2 id="overviewTitle">Osnovni turistični kazalniki</h2>
+        </div>
+        <p>Ključne številke za izbrano obdobje. Zasedenost je izračunana iz nočitev in razpoložljivih posteljnih noči.</p>
+      </div>
+      <div class="kpi-grid" id="kpiGrid"></div>
+
+      <div class="overview-grid">
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <div><p class="section-label">MESEČNI PROFIL</p><h3>Gostje</h3></div>
+            <span class="panel-context" id="overviewGuestsContext"></span>
+          </div>
+          <div id="overviewGuestsChart" class="vertical-chart" aria-label="Mesečni prikaz gostov"></div>
+        </article>
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <div><p class="section-label">MESEČNI PROFIL</p><h3>Nočitve</h3></div>
+            <span class="panel-context" id="overviewNightsContext"></span>
+          </div>
+          <div id="overviewNightsChart" class="vertical-chart" aria-label="Mesečni prikaz nočitev"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="analysis-section" id="marketsSection" aria-labelledby="marketsTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">ANALIZA 1</p>
+          <h2 id="marketsTitle">Kateri trgi ustvarijo največ nočitev izven glavne poletne sezone?</h2>
+        </div>
+        <p>Glavna poletna sezona je v tej analizi opredeljena kot junij–avgust. Prikazano je obdobje september–maj.</p>
+      </div>
+      <div class="analysis-grid">
+        <article class="panel">
+          <div class="panel-head">
+            <div><p class="section-label">NAJMOČNEJŠI TRGI</p><h3>Nočitve izven poletne sezone</h3></div>
+            <span class="panel-context" id="marketContext"></span>
+          </div>
+          <div id="marketBars" class="horizontal-chart"></div>
+        </article>
+        <article class="panel insight-panel">
+          <p class="section-label">SAMODEJNI POVZETEK</p>
+          <div id="marketInsight" class="insight-text"></div>
+          <div class="small-note">Delež izven sezone pomeni delež nočitev posameznega trga, ustvarjenih med septembrom in majem.</div>
+        </article>
+      </div>
+      <article class="panel table-panel">
+        <div class="panel-head"><div><p class="section-label">PODROBNEJE</p><h3>Top 10 trgov</h3></div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Trg</th><th>Nočitve izven sezone</th><th>Gostje izven sezone</th><th>Delež izven sezone</th><th>Povp. bivanje</th></tr></thead>
+            <tbody id="marketTableBody"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section class="analysis-section" id="sloveniaSection" aria-labelledby="sloveniaTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">ANALIZA 2</p>
+          <h2 id="sloveniaTitle">V katerih mesecih največ nočitev ustvarijo slovenski gostje?</h2>
+        </div>
+        <p>Pri celotnem obdobju je prikazan povprečni profil posameznega meseca po letih, zato delno leto 2026 ne izkrivi primerjave.</p>
+      </div>
+      <div class="mini-kpi-grid" id="sloveniaKpis"></div>
+      <div class="analysis-grid">
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <div><p class="section-label">SLOVENSKI GOSTJE</p><h3>Nočitve po mesecih</h3></div>
+            <span class="panel-context" id="sloveniaContext"></span>
+          </div>
+          <div id="sloveniaChart" class="vertical-chart tall" aria-label="Nočitve slovenskih gostov po mesecih"></div>
+        </article>
+        <article class="panel insight-panel">
+          <p class="section-label">SAMODEJNI POVZETEK</p>
+          <div id="sloveniaInsight" class="insight-text"></div>
+        </article>
+      </div>
+      <article class="panel table-panel">
+        <div class="panel-head"><div><p class="section-label">MESEČNI PODATKI</p><h3>Gostje, nočitve in dolžina bivanja</h3></div></div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Mesec</th><th>Slovenski gostje</th><th>Nočitve</th><th>Povprečna dolžina bivanja</th></tr></thead>
+            <tbody id="sloveniaTableBody"></tbody>
+          </table>
+        </div>
+      </article>
+    </section>
+
+    <section class="analysis-section" id="capacitySection" aria-labelledby="capacityTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">SCENARIJ 3</p>
+          <h2 id="capacityTitle">Kaj bi se zgodilo ob spremembi števila ležišč?</h2>
+        </div>
+        <p>Kapacitetni scenarij preveri spremembo gostov, nočitev in letne zasedenosti pri −100, −50, −20, +20, +50 ali +100 ležiščih.</p>
+      </div>
+
+      <div class="scenario-controls panel">
+        <label class="select-field">
+          <span>Izhodiščno leto</span>
+          <select id="scenarioYearSelect"></select>
+        </label>
+        <div class="scenario-choice" aria-label="Sprememba števila ležišč">
+          <span>Sprememba ležišč</span>
+          <div id="scenarioButtons" class="button-row"></div>
+        </div>
+      </div>
+
+      <div class="scenario-comparison" id="scenarioComparison"></div>
+      <article class="panel insight-panel scenario-insight">
+        <p class="section-label">RAZLAGA SCENARIJA</p>
+        <div id="scenarioInsight" class="insight-text"></div>
+        <div id="constrainedMonths" class="constraint-list"></div>
+      </article>
+
+      <details class="method-details panel">
+        <summary>Kako je scenarij izračunan?</summary>
+        <div>
+          <p>Model je namenoma konservativen: samo povečanje števila ležišč ne ustvari dodatnega povpraševanja. Pri povečanju zato gostje in nočitve ostanejo enaki, spremeni pa se zasedenost.</p>
+          <p>Pri zmanjšanju se gostje in nočitve zmanjšajo samo v mesecih, ko evidentirane nočitve ne bi več mogle biti izvedene z novo razpoložljivo kapaciteto. Ocena gostov se zmanjša sorazmerno z izgubljenimi nočitvami.</p>
+          <p>Letna zasedenost je tehtani izračun: vse nočitve deljeno z vsemi razpoložljivimi posteljnimi nočmi v izbranem letu.</p>
+        </div>
+      </details>
+    </section>
+
+    <section class="methodology panel" aria-labelledby="methodTitle">
+      <div>
+        <p class="section-label">METODOLOGIJA IN OMEJITVE</p>
+        <h2 id="methodTitle">Kako brati rezultate?</h2>
+      </div>
+      <div class="method-grid">
+        <div><strong>Vir podatkov</strong><span>Podatki so iz aplikacije obveznega poročanja o turističnih taksah in žal ne zajemajo dnevnih gostov, ki se nikamor ne prijavljajo.</span></div>
+        <div><strong>Glavna poletna sezona</strong><span>Junij, julij in avgust. Obdobje izven glavne poletne sezone je september–maj.</span></div>
+        <div><strong>Trgi gostov</strong><span>Razčlenitev po državah je analizirana ločeno od skupnih mesečnih turističnih kazalnikov.</span></div>
+        <div><strong>Opozorilo kakovosti</strong><span>Izvorni zapis za Italijo novembra 2022 vsebuje −136 nočitev. Zapis ostaja v podatkovni datoteki, pri seštevanju analiz pa je negativna vrednost izločena.</span></div>
+        <div><strong>Scenariji</strong><span>Gre za kapacitetne ocene, ne za zagotovljene napovedi. Več ležišč samo po sebi ne pomeni več gostov.</span></div>
+        <div><strong>Delno leto</strong><span>Leto 2026 trenutno vključuje podatke od januarja do junija in je v aplikaciji jasno označeno.</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Turistični utrip Tržiča · Občina Tržič</span>
+    <span>Podatki: januar 2018–junij 2026</span>
+  </footer>
+
+  <script src="./data-js/tourism-summary.js"></script>
+  <script src="./data-js/tourism-markets.js"></script>
+  <script src="./data-js/tourism-accommodation.js"></script>
+  <script src="app.js?v=0.1"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+UTRIP TRŽIČA – OSNOVNA TEHNIČNA DOKUMENTACIJA v1.5
+======================================================
+
+1. NAMEN
+Projekt je statična client-side platforma Občine Tržič. Deluje brez strežniške aplikacije: HTML, CSS in JavaScript se lahko objavijo na GitHub Pages, IIS/Apache ali odprejo neposredno z lokalnega diska. Chart.js se v prometnih aplikacijah nalaga prek interneta. Turistična aplikacija uporablja lokalne HTML/CSS prikaze in deluje popolnoma brez zunanjih knjižnic.
+
+2. APLIKACIJE
+- /index.html: vstopna stran Utrip Tržiča.
+- /apps/analitika/: AI analiza prometa v Tržiču; scenariji, model, razlage in podatkovni kontekst.
+- /apps/javni-prikaz/: Prometni utrip Tržiča; poenostavljen javni prikaz.
+- /apps/turizem/: Turistični utrip Tržiča; osnovni kazalniki, analizi trgov in slovenskih gostov ter scenarij nastanitvenih zmogljivosti.
+
+3. ARHITEKTURA MAP
+- /assets/css/shared.css: skupni vizualni slog platforme.
+- /assets/images/: logotipi in skupne slike.
+- /apps/*/index.html: uporabniški vmesnik posamezne aplikacije.
+- /apps/*/styles.css: slog posamezne aplikacije.
+- /apps/*/app.js: logika, izračuni, grafi in interakcije.
+- /apps/*/data-js/: podatki kot lokalne JavaScript datoteke; brez fetch() in brez lokalnega spletnega strežnika.
+- /docs/: metodologija, viri in zgodovina sprememb.
+
+4. GLAVNI PODATKOVNI VIRI
+- analysis.js: združeni KPI, tedenski promet, parkirišča, parkirnine, modeli in metapodatki.
+- traffic-daily.js: dnevni promet CABLEX po kategorijah vozil.
+- weather.js: vreme.
+- events.js: dogodki.
+- holidays.js: prazniki.
+- tourism.js: turizem v analitični aplikaciji.
+- tourism-summary.js: osnovni turistični kazalniki v turistični aplikaciji.
+- tourism-markets.js: gostje in nočitve po državah oziroma trgih.
+- tourism-accommodation.js: nastanitvene zmogljivosti in zasedenost.
+- ev-charger.js: polnilnica EV.
+- offenses.js: prekrški.
+Podatki se naložijo v globalni objekt window.PROMETNI_UTRIP_DATA.
+
+5. POSODABLJANJE PODATKOV
+Ni treba vedno pošiljati celotne zgodovine. Dovolj je poslati novo obdobje in jasno navesti vir, časovni razpon ter enote. Pri združevanju se:
+- zapisi ujemajo po datumu oziroma enoličnem ključu,
+- obstoječi zapis za isti datum nadomesti z novejšim,
+- novi zapisi dodajo,
+- podvojeni zapisi odstranijo,
+- rezultat časovno razvrsti,
+- preverijo vrzeli in očitne napake.
+Dogodke je smiselno osveževati redno; promet, parkiranje, parkirnine, turizem in druge počasneje spreminjajoče vire pa letno ali po potrebi. Pred večjo posodobitvijo se vedno arhivira zadnji objavljeni ZIP.
+
+6. INTERPOLACIJA IN OCENE
+Manjkajoči podatki se zapolnijo le, kadar obstaja dovolj zgodovinskega in sezonskega konteksta. Ocenjene vrednosti morajo biti označene kot estimated/interpolated in ne smejo biti predstavljene kot dejanske meritve. Leto 2023 je pri CABLEX nepopolno, ker se meritve začnejo avgusta. V letu 2024 so manjkajoči tedni interpolirani. Javni prikaz za 2023/2024 dnevne primerjave oceni iz tedenskih meritev, pri čemer ohrani tedenski seštevek in sestavo vozil.
+
+7. METODOLOGIJA MODELOV
+Model povezuje promet, parkiranje, parkirnine, vreme, dogodke, zaposlene, prebivalstvo, turizem, EV in prekrške. Scenariji so orientacijske ekstrapolacije, ne napovedi z zagotovljeno točnostjo. Korelacija ne pomeni vzročnosti. Indeks Utrip Tržiča primerja aktivnost izbranega obdobja z običajnim stanjem; vrednost 100 pomeni običajen utrip.
+
+8. PRIHODNJA VSEBINSKA SMER
+Možna prihodnja aplikacija lahko poveže vreme, kakovost turističnih storitev, promet, onesnaženje zraka in lokalno gospodarstvo ter s scenariji ocenjuje vpliv na prihodke in kakovost življenja. Za resno uporabo bodo potrebni dodatni, daljši in vsebinsko usklajeni podatkovni nizi.
+
+9. OBJAVA IN VERZIONIRANJE
+Pred objavo preveri relativne povezave, konzolo brskalnika, delovanje dropdownov in grafov ter naredi Ctrl+F5. Večje spremembe dobijo novo verzijo platforme. Različica tega paketa je v1.5.
+
+
+10. TURISTIČNI UTRIP TRŽIČA v0.1
+Turistična aplikacija ima lasten CSS in tri ločene podatkovne datoteke. Glavna poletna sezona je junij–avgust. Scenarij ležišč je konservativen kapacitetni model: dodatna ležišča sama po sebi ne ustvarijo dodatnega povpraševanja. Podatki so iz aplikacije obveznega poročanja o turističnih taksah in ne zajemajo dnevnih gostov, ki se nikamor ne prijavljajo.
