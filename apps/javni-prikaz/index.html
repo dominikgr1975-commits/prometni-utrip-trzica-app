@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prometni utrip Tržiča – javni prikaz prometa in zasedenosti parkirišč.">
+  <title>Prometni utrip Tržiča</title>
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="public-hero">
+  <div class="shell">
+    <nav class="nav">
+      <a class="brand brand-link" href="../../index.html">
+        <img src="../../assets/images/grb_veliki.jpg" alt="Grb Občine Tržič">
+        <div><span>Občina Tržič</span><strong>Prometni utrip Tržiča</strong></div>
+      </a>
+      <div class="status">Javni prikaz · v1.5 · julij 2026</div>
+    </nav>
+    <div class="hero-grid">
+      <div>
+        <p class="eyebrow">PROMET · PARKIRIŠČA · MOBILNOST</p>
+        <h1>Prometni utrip Tržiča</h1>
+        <p class="lead">Preprost pogled v prometne tokove in uporabo javnih parkirišč. Prikazi temeljijo na razpoložljivih podatkih pametnih parkirišč in merilnega mesta CABLEX na Cesti Ste Marie Aux Mines.</p>
+        <div class="snapshot">● Podatki niso v realnem času · presek stanja na julij 2026</div>
+      </div>
+      <div class="hero-stat">
+        <span>Povprečni dnevni promet CABLEX</span>
+        <strong id="heroTraffic">–</strong>
+        <small id="heroTrafficLabel">vozil na dan v izbranem obdobju</small>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="section controls-section">
+  <div class="shell">
+    <div class="control-panel">
+      <div>
+        <label for="periodSelect">Obdobje za prometne prikaze</label>
+        <select id="periodSelect" aria-label="Izberi obdobje za prometne prikaze"></select>
+      </div>
+      <div class="control-note"><span>Izbira obdobja vpliva na primerjavo delavnikov, vikendov in praznikov ter na sestavo vozil.</span><strong id="periodStatus">–</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">PARKIRIŠČA</p><h2>Zasedenost skozi letne čase</h2></div>
+      <p>Povprečna zasedenost vseh spremljanih parkirišč. Višji odstotek pomeni večjo povprečno zapolnjenost razpoložljivih parkirnih mest.</p>
+    </div>
+    <div class="chart-card tall"><canvas id="seasonChart"></canvas></div>
+    <div id="seasonInsight" class="insight"></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">DNEVNI RITEM</p><h2>Kdaj je posamezno parkirišče najbolj in najmanj zasedeno?</h2></div>
+      <p>Izberi parkirišče in preveri tipičen potek zasedenosti po dnevih in urah. Podatki prikazujejo povprečne vzorce, ne trenutnega stanja.</p>
+    </div>
+    <div class="parking-layout">
+      <aside class="parking-selector" id="parkingSelector"></aside>
+      <div>
+        <div class="mini-kpis">
+          <div><span>Največja zasedenost</span><strong id="parkingMax">–</strong><small id="parkingMaxWhen">–</small></div>
+          <div><span>Najmanjša zasedenost</span><strong id="parkingMin">–</strong><small id="parkingMinWhen">–</small></div>
+          <div><span>Povprečna zasedenost</span><strong id="parkingAverage">–</strong><small>v vzorcu meritev</small></div>
+        </div>
+        <div class="chart-card"><canvas id="parkingChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">CABLEX</p><h2>Povprečne hitrosti po kategorijah vozil</h2></div>
+      <p>Merilno mesto je na Cesti Ste Marie Aux Mines. Prikazana je povprečna hitrost po kategorijah vozil in primerjava z omejitvijo 40 km/h.</p>
+    </div>
+    <div class="chart-card"><canvas id="speedChart"></canvas></div>
+    <div id="speedInsight" class="insight"></div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">PROMETNI RITEM</p><h2>Delavniki, vikendi in prazniki</h2></div>
+      <p>Povprečno dnevno število vozil po vrsti dneva. Prazniki so obravnavani ločeno, tudi kadar padejo na delovni dan ali vikend.</p>
+    </div>
+    <div class="comparison-grid">
+      <div class="chart-card"><canvas id="dayTypeChart"></canvas></div>
+      <div class="day-cards" id="dayCards"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">SESTAVA PROMETA</p><h2>Katera vozila uporabljajo merilni odsek?</h2></div>
+      <p>Interaktivni prikaz deležev vozil na Cesti Ste Marie Aux Mines za izbrano obdobje.</p>
+    </div>
+    <div class="composition-grid">
+      <div class="chart-card donut"><canvas id="vehicleChart"></canvas></div>
+      <div class="explain-card" id="vehicleInsight"></div>
+    </div>
+  </div>
+</section>
+
+<section class="section soft">
+  <div class="shell public-note">
+    <div><p class="eyebrow">KAKO BRATI PODATKE</p><h2>Prikazi opisujejo vzorce, ne trenutnega stanja</h2></div>
+    <p>Podatki so namenjeni razumljivemu javnemu prikazu. Povprečja lahko skrijejo kratkotrajne konice, posamezne dogodke ali izredne razmere. CABLEX meri promet na eni lokaciji in ne predstavlja celotnega prometa v občini. Zasedenost parkirišč temelji na razpoložljivih meritvah spremljanih lokacij.</p>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="shell"><span>Utrip Tržiča · Občina Tržič</span><span>Prometni utrip Tržiča v1.5 · julij 2026</span></div></footer>
+<script src="./data-js/analysis.js"></script>
+<script src="./data-js/holidays.js"></script>
+<script src="./data-js/traffic-daily.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="./app.js?v=1.5"></script>
+</body>
+</html>
