@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="De&#382;evni vrt O&#352; Bistrica &#8211; razumljiva primerjava vla&#382;nosti tal, sestave substratov in meritev ZENTRA." />
+  <title>De&#382;evni vrt O&#352; Bistrica v0.1</title>
+  <link rel="stylesheet" href="styles.css?v=0.1" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <nav class="topbar">
+        <a class="home-link" href="../../index.html">&#8592; Vstopna stran</a>
+        <span class="version">v0.1</span>
+      </nav>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">OB&#268;INA TR&#381;I&#268; &#183; OKOLJSKI PODATKI</p>
+          <h1>De&#382;evni vrt<br />O&#352; Bistrica</h1>
+          <p class="lead">Kaj meritve povedo o vodi v tleh, vplivu rastlin in razli&#269;nih dele&#382;ih peska?</p>
+          <div class="hero-chips">
+            <span>5 raziskovalnih posod</span>
+            <span>2 globini merjenja</span>
+            <span>podatki ZENTRA</span>
+          </div>
+        </div>
+        <aside class="hero-visual" aria-label="Shema de&#382;evnega vrta">
+          <div class="cloud">&#9729;<i></i><i></i><i></i></div>
+          <div class="plant"><span>&#10047;</span><span>&#10047;</span><span>&#10047;</span></div>
+          <div class="soil-card">
+            <div class="soil-top"><strong>40 cm</strong><span>rastni substrat</span></div>
+            <div class="soil-sand"><strong>10 cm</strong><span>filtrski pesek</span></div>
+            <div class="soil-gravel"><strong>25 cm</strong><span>prod za odvajanje</span></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="early-note" aria-label="Omejitev obdobja">
+      <div class="note-icon">i</div>
+      <div><strong>Za&#269;etna faza projekta.</strong> Podatki zajemajo maj, junij in julij 2026 &#8211; dejansko pribli&#382;no osem tednov meritev. Rezultati zato prikazujejo prve vzorce, ne dolgoro&#269;nih zakonitosti.</div>
+    </section>
+
+    <section class="summary-section" aria-labelledby="summaryTitle">
+      <div class="section-heading">
+        <div>
+          <p class="section-label">AI POVZETEK STANJA</p>
+          <h2 id="summaryTitle">Tri najpomembnej&#353;e ugotovitve</h2>
+        </div>
+        <p>Samodejni povzetek primerja meritve med Tanki. Ker &#353;e nimamo potrjenih pragov za posamezne rastline in substrate, ne ugiba o absolutni meji med suhim in optimalnim stanjem.</p>
+      </div>
+      <article class="summary-lead panel">
+        <div class="summary-orb"><span>&#10003;</span></div>
+        <div>
+          <p class="section-label">TRENUTNA SLIKA</p>
+          <h3 id="summaryLeadTitle"></h3>
+          <p id="summaryLeadText"></p>
+        </div>
+      </article>
+      <div class="finding-grid" id="findingGrid"></div>
+    </section>
+
+    <section class="toolbar panel" aria-label="Izbira obdobja in globine">
+      <div>
+        <p class="section-label">PRIKAZ PODATKOV</p>
+        <h2>Izberi obdobje analize</h2>
+        <p id="periodDescription" class="toolbar-note"></p>
+      </div>
+      <div class="control-groups">
+        <div class="control-group">
+          <span>Obdobje</span>
+          <div class="segmented" id="periodButtons">
+            <button type="button" data-days="7" class="active">Zadnjih 7 dni</button>
+            <button type="button" data-days="30">Zadnjih 30 dni</button>
+            <button type="button" data-days="all">Celotno obdobje</button>
+          </div>
+        </div>
+        <div class="control-group">
+          <span>Globina na grafu</span>
+          <div class="segmented compact" id="depthButtons">
+            <button type="button" data-depth="15" class="active">15 cm</button>
+            <button type="button" data-depth="35">35 cm</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="charts-section" aria-labelledby="chartsTitle">
+      <div class="section-heading">
+        <div><p class="section-label">PREPROST PREGLED</p><h2 id="chartsTitle">Kako se spreminja vla&#382;nost tal?</h2></div>
+        <p>Vla&#382;nost je prikazana kot volumetri&#269;ni dele&#382; vode v tleh. Vrednost 0,25 m&#179;/m&#179; pomeni pribli&#382;no 25 % vode v prostornini tal.</p>
+      </div>
+      <div class="chart-grid">
+        <article class="panel chart-panel wide">
+          <div class="panel-head">
+            <div><p class="section-label">DNEVNO POVPRE&#268;JE</p><h3 id="trendTitle">Vla&#382;nost na globini 15 cm</h3></div>
+            <span class="context-pill" id="trendContext"></span>
+          </div>
+          <div id="trendChart" class="chart-host" aria-label="Trend vla&#382;nosti tal"></div>
+          <div id="trendLegend" class="legend"></div>
+        </article>
+        <article class="panel chart-panel">
+          <div class="panel-head">
+            <div><p class="section-label">ZADNJI DAN</p><h3>Primerjava obeh globin</h3></div>
+            <span class="context-pill" id="comparisonDate"></span>
+          </div>
+          <div id="comparisonChart" class="comparison-chart" aria-label="Primerjava vla&#382;nosti med Tanki"></div>
+          <div class="depth-key"><span><i class="depth15"></i>15 cm</span><span><i class="depth35"></i>35 cm</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="tank-section" aria-labelledby="tankTitle">
+      <div class="section-heading">
+        <div><p class="section-label">RAZISKOVALNI POLIGON</p><h2 id="tankTitle">Kaj je v posameznem Tanku?</h2></div>
+        <p>Vsi Tanki imajo enako spodnjo zgradbo: 40 cm rastnega substrata, 10 cm filtrskega peska in 25 cm proda. Razlikujeta se zasaditev in dele&#382; peska v zgornjem substratu.</p>
+      </div>
+      <div class="tank-grid" id="tankGrid"></div>
+      <details class="plants-details panel">
+        <summary>Katere avtohtone trajnice so posajene v Tankih 2&#8211;5?</summary>
+        <div id="plantList" class="plant-list"></div>
+      </details>
+    </section>
+
+    <section class="explain-section">
+      <div class="section-heading">
+        <div><p class="section-label">KAJ MERIJO SENZORJI?</p><h2>Voda v tleh ni samo ena &#353;tevilka</h2></div>
+      </div>
+      <div class="explain-grid">
+        <article class="explain-card"><span class="explain-icon">&#8776;</span><h3>Vla&#382;nost tal</h3><p>Pove, kolik&#353;en dele&#382; prostornine tal predstavlja voda. Merimo jo na globinah 15 in 35 cm.</p></article>
+        <article class="explain-card"><span class="explain-icon">&#8595;</span><h3>Tenziometer</h3><p>Poka&#382;e, kako mo&#269;no je voda vezana v tleh. Voda je lahko prisotna, vendar je rastline ne morejo vedno enako lahko vsrkati.</p></article>
+        <article class="explain-card"><span class="explain-icon">&#9730;</span><h3>Vremenske meritve</h3><p>Meteorolo&#353;ka postaja dopolnjuje meritve s padavinami, son&#269;nim obsevanjem, vetrom in vla&#382;nostjo zraka.</p></article>
+      </div>
+    </section>
+
+    <section class="quality-panel panel" aria-labelledby="qualityTitle">
+      <div class="quality-head">
+        <div><p class="section-label">POMEMBNA OPOMBA</p><h2 id="qualityTitle">Kaj pri teh podatkih &#353;e ni pojasnjeno?</h2></div>
+        <span class="quality-badge">prikazano brez ugibanja</span>
+      </div>
+      <div class="quality-grid">
+        <div><strong>Padavinski podatki</strong><p>Vrednosti se med Tanki razlikujejo, zato jih aplikacija ne se&#353;teva kot enotno koli&#269;ino padavin. Glavne ugotovitve temeljijo na izmerjenem odzivu vla&#382;nosti tal.</p></div>
+        <div><strong>Tenziometri</strong><p>Zaznane so zelo negativne in tudi dalj &#269;asa nespremenjene meritve. Brez preverjene razlage jih aplikacija ne uporablja za oceno, da so rastline v su&#353;nem stresu.</p></div>
+        <div><strong>Kratko obdobje</strong><p>Vsaka sestava ima le eno posodo, meritve pa zajemajo za&#269;etek projekta. Opa&#382;ene povezave zato niso dokaz vzroka in posledice.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>De&#382;evni vrt O&#352; Bistrica &#183; Ob&#269;ina Tr&#382;i&#269;</span>
+    <span id="footerPeriod"></span>
+  </footer>
+
+  <script src="./data-js/zentra-data.js"></script>
+  <script src="app.js?v=0.1"></script>
+</body>
+</html>
