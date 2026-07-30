@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tržič v turističnem okolju – primerjava turističnega razvoja Tržiča, Radovljice in Bleda na podatkih SURS SI-STAT." />
+  <title>Tržič v turističnem okolju v0.1</title>
+  <link rel="stylesheet" href="styles.css?v=0.1" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    <div class="shell">
+      <nav class="topnav">
+        <a class="brand" href="../../index.html" aria-label="Nazaj na vstopno stran">
+          <img src="../../assets/images/grb_veliki.jpg" alt="Grb Občine Tržič" />
+          <span><small>OBČINA TRŽIČ</small><strong>Utrip Tržiča</strong></span>
+        </a>
+        <div class="nav-actions"><a href="../../index.html">← Vstopna stran</a><span>v0.1</span></div>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">REGIONALNA TURISTIČNA PRIMERJAVA</p>
+        <h1>Tržič v<br /><span>turističnem okolju</span></h1>
+        <p class="lead">Primerjava Tržiča z Radovljico in Bledom: razvoj obiska, sezonskost, trgi, zmogljivosti ter previdni konkurenčni in prelivni signali.</p>
+        <div class="hero-chips"><span>Letni podatki 2018–2025</span><span>Mesečni podatki 1/2025–6/2026</span><span>Vir: SURS SI-STAT</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="shell intro">
+      <article class="intro-card">
+        <div><p class="section-kicker">NAMEN APLIKACIJE</p><h2>Primerjava položaja, ne tekmovanje v velikosti</h2></div>
+        <p>Bled je velika mednarodna destinacija, Radovljica pa bližnja primerjalna občina. Zato aplikacija poleg absolutnih vrednosti uporablja indekse, deleže in spremembe. Rezultati kažejo podobnosti in razlike, ne dokazujejo pa, da isti gost potuje med občinami.</p>
+      </article>
+    </section>
+
+    <section class="shell section-block" aria-labelledby="snapshotTitle">
+      <div class="section-heading"><div><p class="section-kicker">ZADNJE CELO LETO</p><h2 id="snapshotTitle">Turistična slika 2025</h2></div><p>Enotna uradna metodologija omogoča primerjavo vseh treh občin.</p></div>
+      <div id="snapshotGrid" class="snapshot-grid"></div>
+      <div id="aiSummary" class="ai-summary" aria-live="polite"></div>
+    </section>
+
+    <section class="dark-section">
+      <div class="shell section-block">
+        <div class="section-heading light"><div><p class="section-kicker">DOLGOROČNI RAZVOJ</p><h2>Kako so se občine razvijale?</h2></div><div class="toggle" role="group" aria-label="Izbira kazalnika"><button class="active" data-trend="nights">Nočitve</button><button data-trend="arrivals">Gostje</button></div></div>
+        <div class="chart-panel"><div class="chart-head"><div><strong id="trendHeadline">Indeks razvoja</strong><span>2019 = 100; pandemski leti sta označeni</span></div></div><div id="trendChart" class="svg-chart" role="img" aria-label="Indeks razvoja turističnega obiska"></div></div>
+      </div>
+    </section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="section-kicker">SEZONSKOST</p><h2>Kdaj nastane največ nočitev?</h2></div><p>Primerjava temelji na celotnem letu 2025. Prikazan je delež posameznega meseca v letnem številu nočitev.</p></div>
+      <div class="season-layout"><div class="chart-panel pale"><div id="seasonChart" class="svg-chart" role="img" aria-label="Mesečna sezonskost nočitev v letu 2025"></div></div><div id="seasonCards" class="side-cards"></div></div>
+    </section>
+
+    <section class="market-section">
+      <div class="shell section-block">
+        <div class="section-heading"><div><p class="section-kicker">TURISTIČNI TRGI</p><h2>Kje ima Tržič prostor za rast?</h2></div><p>Primerjamo deleže nočitev tujih trgov v letu 2025. Velik trg v okolici in nizek delež v Tržiču je signal priložnosti, ne napoved.</p></div>
+        <div class="market-grid"><article class="table-card"><h3>Najmočnejši trgi Tržiča</h3><div id="topMarkets"></div></article><article class="table-card"><h3>Možni neizkoriščeni trgi</h3><div id="opportunityMarkets"></div></article></div>
+      </div>
+    </section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="section-kicker">NASTANITVENE ZMOGLJIVOSTI</p><h2>Kapacitete in uporaba ležišč</h2></div><p>Nočitve na stalno ležišče so približen kazalnik uporabe zmogljivosti, ne uradna stopnja zasedenosti.</p></div>
+      <div id="capacityGrid" class="capacity-grid"></div>
+      <div class="chart-panel pale"><div id="capacityChart" class="svg-chart" role="img" aria-label="Nočitve na stalno ležišče po letih"></div></div>
+    </section>
+
+    <section class="signal-section">
+      <div class="shell section-block">
+        <div class="section-heading light"><div><p class="section-kicker">KONKURENČNI IN PRELIVNI SIGNALI</p><h2>Ali spremembe v okolici predhodijo Tržiču?</h2></div><p>Primerjamo mesečne spremembe nočitev z zamikom 0–3 mesece. S tem zmanjšamo vpliv same velikosti občin, sezonskost pa lahko še vedno vpliva na rezultat.</p></div>
+        <div id="signalGrid" class="signal-grid"></div>
+        <div class="method-note"><strong>Kako brati rezultat?</strong><span>Pozitivna povezava pomeni, da se spremembe pogosto gibljejo v isti smeri; negativna v nasprotni. Korelacija ne dokazuje prelivanja, konkurence ali gibanja istih oseb.</span></div>
+      </div>
+    </section>
+
+    <section class="shell section-block sources">
+      <div class="section-heading"><div><p class="section-kicker">VIRI IN METODOLOGIJA</p><h2>Tri uradne tabele SURS SI-STAT</h2></div><p>Izvozi so bili 30. julija 2026 ročno shranjeni v XLSX ter pretvorjeni v lokalni JSON in JavaScript.</p></div>
+      <div class="source-grid">
+        <article><span>2164466S</span><h3>Mesečni gostje in nočitve po državah</h3><p>Bled, Radovljica in Tržič; januar 2025–junij 2026. Zadnja objava 24. 7. 2026.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164466S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2164525S</span><h3>Letni domači in tuji turisti</h3><p>Bled, Radovljica in Tržič; leta 2018–2025. Zadnja objava 18. 3. 2026.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164525S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2164527S</span><h3>Prenočitvene zmogljivosti</h3><p>Enote ter skupna in stalna ležišča; leta 2019–2025. Zadnja objava 18. 3. 2026.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164527S.px">Odpri tabelo SURS ↗</a></article>
+      </div>
+      <div class="limitations"><strong>Ključne omejitve</strong><p>Mesečni niz obsega 18 mesecev, zato so zamiki še kratki in občutljivi. Podatki merijo prijavljene turiste v nastanitvenih obratih, ne dnevnih obiskovalcev. Razlike med občinami odražajo tudi različno velikost, ponudbo, strukturo nastanitev in prepoznavnost destinacije.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>Utrip Tržiča · Občina Tržič</span><span>Tržič v turističnem okolju v0.1 · podatki do junija 2026</span></div></footer>
+  <script src="./data-js/surs-tourism-benchmark.js"></script>
+  <script src="app.js?v=0.1"></script>
+</body>
+</html>
