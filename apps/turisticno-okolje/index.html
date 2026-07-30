@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tržič v turističnem okolju – primerjava turističnega razvoja Tržiča, Radovljice, Bleda, Preddvora, Jesenic in Idrije na podatkih SURS SI-STAT." />
+  <title>Tržič v turističnem okolju v0.2</title>
+  <link rel="stylesheet" href="styles.css?v=0.2" />
+  <style>
+    .snapshot-heading-side { max-width: 500px; display: grid; gap: 12px; justify-items: start; }
+    .snapshot-heading-side > p { margin: 0; color: var(--muted); }
+    .snapshot-year-picker { display: inline-flex; align-items: center; gap: 10px; padding: 8px 10px 8px 14px; background: #fff; border: 1px solid var(--line); border-radius: 999px; box-shadow: 0 8px 22px rgba(52, 39, 45, .08); }
+    .snapshot-year-picker label { color: var(--muted); font-size: .78rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; }
+    .snapshot-year-picker select { min-width: 92px; border: 0; border-radius: 999px; background: #f2ebe4; color: var(--ink); padding: 8px 32px 8px 12px; font: inherit; font-weight: 900; cursor: pointer; outline: none; }
+    .snapshot-year-picker select:focus-visible { box-shadow: 0 0 0 3px rgba(32, 166, 160, .24); }
+    @media (max-width: 980px) {
+      .snapshot-heading-side { margin-top: 14px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-orb orb-one"></div><div class="hero-orb orb-two"></div>
+    <div class="shell">
+      <nav class="topnav">
+        <a class="brand" href="../../index.html" aria-label="Nazaj na vstopno stran">
+          <img src="../../assets/images/grb_veliki.jpg" alt="Grb Občine Tržič" />
+          <span><small>OBČINA TRŽIČ</small><strong>Utrip Tržiča</strong></span>
+        </a>
+        <div class="nav-actions"><a href="../../index.html">← Vstopna stran</a><span>v0.2</span></div>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">ŠIRŠA TURISTIČNA PRIMERJAVA</p>
+        <h1>Tržič v<br /><span>turističnem okolju</span></h1>
+        <p class="lead">Primerjava Tržiča z Radovljico, Bledom, Preddvorom, Jesenicami in Idrijo: razvoj obiska, sezonskost, trgi, zmogljivosti, modelna potrošnja ter previdni konkurenčni in prelivni signali.</p>
+        <div class="hero-chips"><span>Letni podatki 2018–2025</span><span>Mesečni podatki 1/2020–6/2026</span><span>Šest občin</span><span>Vir: SURS SI-STAT</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="shell intro">
+      <article class="intro-card">
+        <div><p class="section-kicker">NAMEN APLIKACIJE</p><h2>Primerjava položaja, ne tekmovanje v velikosti</h2></div>
+        <p>Občine se močno razlikujejo po velikosti, ponudbi, prepoznavnosti in vrsti nastanitev. Zato aplikacija poleg absolutnih vrednosti uporablja indekse, deleže in spremembe. Tržič ostaja izhodišče; druge občine pomagajo razumeti širše turistično okolje, ne dokazujejo pa gibanja istih gostov med destinacijami.</p>
+      </article>
+    </section>
+
+    <section class="shell section-block" aria-labelledby="snapshotTitle">
+      <div class="section-heading">
+        <div><p class="section-kicker">PRIMERJAVA PO LETIH</p><h2 id="snapshotTitle">Turistična slika 2025</h2></div>
+        <div class="snapshot-heading-side">
+          <p>Enotna uradna metodologija omogoča osnovno primerjavo vseh šestih občin.</p>
+          <div class="snapshot-year-picker">
+            <label for="snapshotYear">Izberi leto</label>
+            <select id="snapshotYear" aria-controls="snapshotGrid aiSummary">
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025" selected>2025</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div id="snapshotGrid" class="snapshot-grid"></div>
+      <div id="aiSummary" class="ai-summary" aria-live="polite"></div>
+    </section>
+
+    <section class="dark-section">
+      <div class="shell section-block">
+        <div class="section-heading light"><div><p class="section-kicker">DOLGOROČNI RAZVOJ</p><h2>Kako so se občine razvijale?</h2></div><div class="toggle" role="group" aria-label="Izbira kazalnika"><button class="active" data-trend="nights">Nočitve</button><button data-trend="arrivals">Gostje</button></div></div>
+        <div class="chart-panel"><div class="chart-head"><div><strong id="trendHeadline">Indeks razvoja</strong><span>2019 = 100; pandemski leti sta označeni</span></div></div><div id="trendChart" class="svg-chart" role="img" aria-label="Indeks razvoja turističnega obiska"></div></div>
+      </div>
+    </section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="section-kicker">SEZONSKOST</p><h2>Kdaj nastane največ nočitev?</h2></div><p>Primerjava temelji na letu 2025. Prikazan je delež posameznega meseca v letnem številu nočitev; zaščitene mesečne vrednosti SURS so prikazane kot vrzeli.</p></div>
+      <div class="season-layout"><div class="chart-panel pale"><div id="seasonChart" class="svg-chart" role="img" aria-label="Mesečna sezonskost nočitev v letu 2025"></div></div><div id="seasonCards" class="side-cards"></div></div>
+    </section>
+
+    <section class="market-section">
+      <div class="shell section-block">
+        <div class="section-heading"><div><p class="section-kicker">TURISTIČNI TRGI</p><h2>Kje ima Tržič prostor za rast?</h2></div><p>Primerjamo deleže tujih nočitev v letu 2025. Velik trg v primerjalnih občinah s popolnimi podatki po državah in nizek delež v Tržiču je signal priložnosti, ne napoved. Preddvor je zaradi zaščitenih mesečnih vrednosti iz tega izračuna izključen.</p></div>
+        <div class="market-grid"><article class="table-card"><h3>Najmočnejši trgi Tržiča</h3><div id="topMarkets"></div></article><article class="table-card"><h3>Možni neizkoriščeni trgi</h3><div id="opportunityMarkets"></div></article></div>
+      </div>
+    </section>
+
+    <section class="spending-section">
+      <div class="shell section-block">
+        <div class="section-heading light"><div><p class="section-kicker">OKVIRNA TURISTIČNA POTROŠNJA</p><h2>Kolikšna potrošnja je lahko povezana s tujimi nočitvami?</h2></div><p>Model poveže tuje nočitve po trgih z anketnimi podatki SURS o povprečnih dnevnih izdatkih. Rezultat ni evidenca prihodkov v občini.</p></div>
+        <div id="spendingGrid" class="spending-grid"></div>
+        <div class="spending-detail">
+          <article class="chart-panel spending-chart-panel">
+            <div class="chart-head"><div><strong>Primerljiva dnevna potrošnja</strong><span>Modelno povprečje na tujo nočitev v letu 2025</span></div></div>
+            <div id="spendingChart" class="spending-chart" role="img" aria-label="Modelna dnevna potrošnja na tujo nočitev"></div>
+          </article>
+          <article class="spending-breakdown-card">
+            <p class="section-kicker">TRŽIČ</p>
+            <h3>Ocenjena struktura potrošnje</h3>
+            <div id="spendingStack" class="spending-stack"></div>
+            <div id="spendingBreakdown" class="spending-breakdown"></div>
+          </article>
+        </div>
+        <div class="method-note spending-note"><strong>Kako brati oceno?</strong><span>Osrednja ocena uporablja tuje nočitve po trgih in razpoložljive dvomesečne izdatke za ustrezno vrsto turistične občine. Manjkajoči anketni meseci so interpolirani; pri zaščitenih mesečnih turističnih podatkih Preddvora se manjkajoči letni obseg razporedi po povprečni modelni porabi njegovih objavljenih mesecev. Prikazani razpon je široka občutljivost na najnižjo in najvišjo uradno vrednost leta 2025, ne statistični interval zaupanja. Izdatki se nanašajo na bivanje v Sloveniji in niso nujno nastali samo v občini nastanitve.</span></div>
+      </div>
+    </section>
+
+    <section class="shell section-block">
+      <div class="section-heading"><div><p class="section-kicker">NASTANITVENE ZMOGLJIVOSTI</p><h2>Kapacitete in uporaba ležišč</h2></div><p>Nočitve na stalno ležišče so približen kazalnik uporabe zmogljivosti, ne uradna stopnja zasedenosti.</p></div>
+      <div id="capacityGrid" class="capacity-grid"></div>
+      <div class="chart-panel pale"><div id="capacityChart" class="svg-chart" role="img" aria-label="Nočitve na stalno ležišče po letih"></div></div>
+    </section>
+
+    <section class="signal-section">
+      <div class="shell section-block">
+        <div class="section-heading light"><div><p class="section-kicker">KONKURENČNI IN PRELIVNI SIGNALI</p><h2>Ali spremembe v drugih občinah predhodijo Tržiču?</h2></div><p>Primerjamo medletne mesečne spremembe nočitev od januarja 2023 do junija 2026 z zamikom 0–3 mesece. Medletne spremembe zmanjšajo vpliv običajne sezonskosti.</p></div>
+        <div id="signalGrid" class="signal-grid"></div>
+        <div class="method-note"><strong>Kako brati rezultat?</strong><span>Pozitivna povezava pomeni, da se medletne spremembe pogosto gibljejo v isti smeri; negativna v nasprotni. Korelacija ne dokazuje prelivanja, konkurence ali gibanja istih oseb.</span></div>
+      </div>
+    </section>
+
+    <section class="shell section-block sources">
+      <div class="section-heading"><div><p class="section-kicker">VIRI IN METODOLOGIJA</p><h2>Šest uradnih tabel SURS SI-STAT</h2></div><p>Izvozi so bili 30. julija 2026 ročno shranjeni v XLSX ter pretvorjeni v lokalni JSON in JavaScript. Izvorne datoteke ostajajo v aplikaciji.</p></div>
+      <div class="source-grid">
+        <article><span>2164466S</span><h3>Mesečni gostje in nočitve po državah</h3><p>Šest občin; januar 2020–junij 2026.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164466S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2164525S</span><h3>Letni domači in tuji turisti</h3><p>Šest občin; leta 2018–2025.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164525S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2164527S</span><h3>Prenočitvene zmogljivosti</h3><p>Enote ter skupna in stalna ležišča; leta 2019–2025.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2164527S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2176731S</span><h3>Dnevni izdatki po trgih</h3><p>Povprečni izdatki tujega turista po vrsti občine in skupini držav.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2176731S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2176740S</span><h3>Struktura turistične potrošnje</h3><p>Deleži za nastanitev, hrano, prevoz, nakupe in aktivnosti.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2176740S.px">Odpri tabelo SURS ↗</a></article>
+        <article><span>2176737S</span><h3>Izdatki po nastanitvah</h3><p>Poletna primerjava skupnega podatka, hotelov in kampov.</p><a href="https://pxweb.stat.si/SiStatData/pxweb/sl/Data/-/2176737S.px">Odpri tabelo SURS ↗</a></article>
+      </div>
+      <div class="classification-note"><strong>Vrsta turistične občine:</strong> Bled, Jesenice, Preddvor, Radovljica in Tržič so po klasifikaciji SURS gorske občine; Idrija je vključena med mestne in druge občine. <a href="https://www.stat.si/Klasje/Klasje/Tabela/15827">Klasifikacija SURS ↗</a></div>
+      <div class="limitations"><strong>Ključne omejitve</strong><p>Podatki merijo prijavljene turiste v nastanitvenih obratih, ne dnevnih obiskovalcev. Nekatere mesečne vrednosti za Preddvor so zaradi statistične zaščite označene z »z« in niso prikazane kot nič. Model potrošnje uporablja anketne izdatke po vrstah občin, ne dejanskih lokalnih računov. Razlike med občinami odražajo tudi ponudbo, cene, strukturo nastanitev, dogodke, vreme in prepoznavnost destinacije.</p></div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>Utrip Tržiča · Občina Tržič</span><span>Tržič v turističnem okolju v0.2 · podatki do junija 2026</span></div></footer>
+  <script src="./data-js/surs-tourism-benchmark.js"></script>
+  <script src="app.js?v=0.2"></script>
+  <script>
+    (() => {
+      'use strict';
+
+      const D = window.SURS_TOURISM_BENCHMARK;
+      const yearSelect = document.getElementById('snapshotYear');
+      const grid = document.getElementById('snapshotGrid');
+      const summary = document.getElementById('aiSummary');
+      const title = document.getElementById('snapshotTitle');
+      if (!D || !yearSelect || !grid || !summary || !title) return;
+
+      const municipalities = D.metadata?.municipalities || ['Tržič', 'Radovljica', 'Bled', 'Preddvor', 'Jesenice', 'Idrija'];
+      const comparators = municipalities.filter(name => name !== 'Tržič');
+      const colors = {
+        'Tržič': '#20a6a0',
+        'Radovljica': '#5eb3e5',
+        'Bled': '#e7a43c',
+        'Preddvor': '#9b78d0',
+        'Jesenice': '#e06c75',
+        'Idrija': '#7fa55b'
+      };
+      const fmt = new Intl.NumberFormat('sl-SI');
+      const dec = (value, digits = 1) => Number(value).toLocaleString('sl-SI', {
+        minimumFractionDigits: digits,
+        maximumFractionDigits: digits
+      });
+      const pct = (value, digits = 1) => `${dec(value, digits)} %`;
+      const esc = value => String(value).replace(/[&<>"']/g, char => ({
+        '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+      }[char]));
+      const annual = (municipality, year, category = 'Država - SKUPAJ') =>
+        D.annual.find(row => row.municipality === municipality && row.year === year && row.category === category);
+      const capacity = (municipality, year) =>
+        D.capacity.find(row => row.municipality === municipality && row.year === year);
+      const median = values => {
+        const sorted = values.filter(Number.isFinite).slice().sort((a, b) => a - b);
+        if (!sorted.length) return null;
+        const middle = Math.floor(sorted.length / 2);
+        return sorted.length % 2 ? sorted[middle] : (sorted[middle - 1] + sorted[middle]) / 2;
+      };
+      const signedChange = value => {
+        if (!Number.isFinite(value)) return 'ni mogoče izračunati';
+        const direction = value >= 0 ? 'povečale' : 'zmanjšale';
+        return `${direction} za <strong>${pct(Math.abs(value))}</strong>`;
+      };
+      const rank = (municipality, year, metric) => {
+        const ordered = municipalities
+          .map(name => ({ name, value: annual(name, year)?.[metric] }))
+          .filter(item => Number.isFinite(item.value))
+          .sort((a, b) => b.value - a.value);
+        const index = ordered.findIndex(item => item.name === municipality);
+        return index >= 0 ? index + 1 : null;
+      };
+
+      function renderSnapshot(year) {
+        title.textContent = `Turistična slika ${year}`;
+
+        grid.innerHTML = municipalities.map(municipality => {
+          const all = annual(municipality, year);
+          const foreign = annual(municipality, year, 'Tuji');
+          const beds = capacity(municipality, year);
+          if (!all || !foreign || !beds) {
+            return `<article class="municipality-card" style="--municipality-color:${colors[municipality] || '#20a6a0'}">
+              <h3>${esc(municipality)}</h3>
+              <p>Za izbrano leto ni popolnega skupnega zapisa.</p>
+            </article>`;
+          }
+
+          const averageStay = all.arrivals ? all.nights / all.arrivals : 0;
+          const foreignShare = all.nights ? foreign.nights / all.nights * 100 : 0;
+          const nightsPerBed = beds.bedsPermanent ? all.nights / beds.bedsPermanent : 0;
+
+          return `<article class="municipality-card" style="--municipality-color:${colors[municipality] || '#20a6a0'}">
+            <h3>${esc(municipality)}</h3>
+            <div class="metric-grid">
+              <div class="metric"><span>Gostje</span><strong>${fmt.format(all.arrivals)}</strong></div>
+              <div class="metric"><span>Nočitve</span><strong>${fmt.format(all.nights)}</strong></div>
+              <div class="metric"><span>Povp. bivanje</span><strong>${dec(averageStay, 2)} dneva</strong></div>
+              <div class="metric"><span>Tuji delež nočitev</span><strong>${pct(foreignShare)}</strong></div>
+              <div class="metric"><span>Stalna ležišča</span><strong>${fmt.format(beds.bedsPermanent)}</strong></div>
+              <div class="metric"><span>Nočitve / ležišče</span><strong>${dec(nightsPerBed, 1)}</strong></div>
+            </div>
+          </article>`;
+        }).join('');
+
+        const current = annual('Tržič', year);
+        const foreign = annual('Tržič', year, 'Tuji');
+        const previous = annual('Tržič', year - 1);
+        const comparisonChanges = comparators.map(name => {
+          const now = annual(name, year);
+          const before = annual(name, year - 1);
+          return now && before && before.nights ? (now.nights / before.nights - 1) * 100 : null;
+        });
+
+        if (!current || !foreign) {
+          summary.innerHTML = '<div><h3>Ključni povzetek</h3><p>Za izbrano leto ni dovolj podatkov za skupni povzetek.</p></div>';
+          return;
+        }
+
+        const nightsChange = previous?.nights ? (current.nights / previous.nights - 1) * 100 : null;
+        const comparisonMedian = median(comparisonChanges);
+        const averageStay = current.arrivals ? current.nights / current.arrivals : 0;
+        const foreignShare = current.nights ? foreign.nights / current.nights * 100 : 0;
+        const nightsRank = rank('Tržič', year, 'nights');
+        const arrivalsRank = rank('Tržič', year, 'arrivals');
+
+        summary.innerHTML = `<div><h3>Ključni povzetek za ${year}</h3><p>Tržič je bil med šestimi občinami po številu nočitev na <strong>${nightsRank}. mestu</strong>, po številu gostov pa na <strong>${arrivalsRank}. mestu</strong>. V primerjavi z letom ${year - 1} so se nočitve ${signedChange(nightsChange)}, mediana spremembe petih primerjalnih občin pa je znašala <strong>${Number.isFinite(comparisonMedian) ? pct(comparisonMedian) : '—'}</strong>. Povprečna dolžina bivanja je bila <strong>${dec(averageStay, 2)} dneva</strong>, tuji gostje pa so ustvarili <strong>${pct(foreignShare)}</strong> vseh nočitev.</p></div>`;
+      }
+
+      yearSelect.addEventListener('change', event => renderSnapshot(Number(event.target.value)));
+      renderSnapshot(Number(yearSelect.value));
+    })();
+  </script>
+</body>
+</html>
