@@ -1,0 +1,168 @@
+# ----------------------------------------
+# www.visit-trzic.com - GA4
+# Viri obiska-01_visit_trzic_mesecni_pregled.csv
+# 20260525-20260724
+# ----------------------------------------
+
+Year,Month,Session source / medium,Session default channel group,Sessions,Engaged sessions,Active users,New users,Key events,Engagement rate,Average engagement time per session
+,,,,11392,7927,8559,8188,0,0.6958391853932584,35.30222963483146,Grand total
+2026,06,google / organic,Organic Search,4032,2957,3119,2950,0,0.7333829365079365,37.06894841269841
+2026,07,google / organic,Organic Search,3570,2553,2568,2411,0,0.7151260504201681,41.68515406162465
+2026,05,google / organic,Organic Search,849,613,678,624,0,0.7220259128386337,26.280329799764427
+2026,06,(direct) / (none),Direct,735,324,586,573,0,0.44081632653061226,23.542857142857144
+2026,07,(direct) / (none),Direct,685,305,537,517,0,0.44525547445255476,16.32846715328467
+2026,05,(direct) / (none),Direct,126,64,98,96,0,0.5079365079365079,30.714285714285715
+2026,06,bing / organic,Organic Search,102,81,88,80,0,0.7941176470588235,47.6764705882353
+2026,07,bing / organic,Organic Search,92,69,76,73,0,0.75,51.119565217391305
+2026,07,slovenia.info / referral,Referral,72,41,43,42,0,0.5694444444444444,11.222222222222221
+2026,07,m.facebook.com / referral,Organic Social,58,11,55,55,0,0.1896551724137931,12.137931034482758
+2026,06,zgodovinska-mesta.si / referral,Referral,49,40,45,37,0,0.8163265306122449,31.040816326530614
+2026,06,m.facebook.com / referral,Organic Social,39,14,37,34,0,0.358974358974359,3.923076923076923
+2026,07,chatgpt.com / ai-assistant,AI Assistant,39,23,30,29,0,0.5897435897435898,22.487179487179485
+2026,07,facebook.com / referral,Organic Social,36,8,36,36,0,0.2222222222222222,0
+2026,07,lm.facebook.com / referral,Organic Social,36,30,32,31,0,0.8333333333333334,16.25
+2026,06,slovenia.info / referral,Referral,35,29,33,31,0,0.8285714285714286,18.885714285714286
+2026,06,duckduckgo / organic,Organic Search,33,20,24,24,0,0.6060606060606061,34.84848484848485
+2026,07,zgodovinska-mesta.si / referral,Referral,33,27,27,23,0,0.8181818181818182,24.363636363636363
+2026,06,chatgpt.com / ai-assistant,AI Assistant,29,20,21,21,0,0.6896551724137931,5.827586206896552
+2026,07,mountainfairytale.com / referral,Referral,29,23,13,10,0,0.7931034482758621,21.93103448275862
+2026,06,dobrca.si / referral,Referral,28,23,23,20,0,0.8214285714285714,69.07142857142857
+2026,06,trzic.si / referral,Referral,28,21,12,9,0,0.75,21.571428571428573
+2026,06,lm.facebook.com / referral,Organic Social,27,24,26,25,0,0.8888888888888888,0.5555555555555556
+2026,06,mountainfairytale.com / referral,Referral,24,16,16,15,0,0.6666666666666666,70.75
+2026,05,bing / organic,Organic Search,22,21,20,19,0,0.9545454545454546,91.13636363636364
+2026,06,facebook.com / referral,Organic Social,20,3,19,19,0,0.15,3.65
+2026,06,slovinsko.travel / referral,Referral,20,15,15,14,0,0.75,13.8
+2026,07,viaggichemangi.com / referral,Referral,20,18,19,19,0,0.9,42.5
+2026,05,dobrca.si / referral,Referral,19,11,10,10,0,0.5789473684210527,33.21052631578947
+2026,07,dobrca.si / referral,Referral,18,18,16,15,0,1,103.5
+2026,07,ecosia.org / organic,Organic Search,17,14,14,14,0,0.8235294117647058,6.882352941176471
+2026,06,ecosia.org / organic,Organic Search,16,14,13,13,0,0.875,17.5625
+2026,07,trzic.si / referral,Referral,16,10,10,8,0,0.625,94.3125
+2026,06,viaggichemangi.com / referral,Referral,15,14,15,15,0,0.9333333333333333,68.46666666666667
+2026,07,l.facebook.com / referral,Organic Social,15,10,12,11,0,0.6666666666666666,13.866666666666667
+2026,05,slovenia.info / referral,Referral,13,9,13,12,0,0.6923076923076923,135.84615384615384
+2026,07,duckduckgo / organic,Organic Search,13,9,9,9,0,0.6923076923076923,18.384615384615383
+2026,06,bled.si / referral,Referral,12,8,11,11,0,0.6666666666666666,3.1666666666666665
+2026,06,(not set),Unassigned,11,4,11,5,0,0.36363636363636365,53.90909090909091
+2026,06,trzic.info / referral,Referral,11,3,2,1,0,0.2727272727272727,16.181818181818183
+2026,07,mackadam.si / referral,Referral,11,5,7,7,0,0.45454545454545453,10.363636363636363
+2026,07,slovinsko.travel / referral,Referral,10,9,8,8,0,0.9,13.5
+2026,06,hribi.net / referral,Referral,9,6,7,6,0,0.6666666666666666,60.55555555555556
+2026,07,l.instagram.com / referral,Organic Social,9,7,8,8,0,0.7777777777777778,68.33333333333333
+2026,05,chatgpt.com / (not set),Unassigned,8,8,8,9,0,1,0
+2026,05,zgodovinska-mesta.si / referral,Referral,8,5,8,7,0,0.625,10.875
+2026,06,l.facebook.com / referral,Organic Social,8,6,8,7,0,0.75,6
+2026,06,l.instagram.com / referral,Organic Social,8,8,8,8,0,1,32.5
+2026,07,adeleinslovenia.com / referral,Referral,8,7,5,5,0,0.875,46.25
+2026,07,hribi.net / referral,Referral,8,7,8,8,0,0.875,71.5
+2026,06,search.brave.com / referral,Referral,7,6,6,6,0,0.8571428571428571,21.428571428571427
+2026,07,(not set),Unassigned,7,0,7,0,0,0,3.857142857142857
+2026,06,karavanke-slovenia.com / referral,Referral,6,3,1,0,0,0.5,9.833333333333334
+2026,06,slovenia-outdoor.com / referral,Referral,6,3,5,4,0,0.5,26.5
+2026,05,m.facebook.com / referral,Organic Social,5,2,5,4,0,0.4,24.6
+2026,06,aktivna-druzina.si / referral,Referral,5,5,5,3,0,1,111
+2026,05,trzic.si / referral,Referral,4,4,3,1,0,1,6.75
+2026,06,adeleinslovenia.com / referral,Referral,4,4,4,3,0,1,3.75
+2026,06,mackadam.si / referral,Referral,4,1,2,2,0,0.25,4.25
+2026,06,qwant.com / organic,Organic Search,4,4,2,2,0,1,143.75
+2026,06,search.nortonsafesearch.com / referral,Referral,4,2,4,4,0,0.5,17.25
+2026,06,statics.teams.cdn.office.net / referral,Referral,4,2,3,3,0,0.5,17.25
+2026,06,vandraj.si / referral,Referral,4,3,3,3,0,0.75,54.75
+2026,06,yahoo / organic,Organic Search,4,2,2,2,0,0.5,19.5
+2026,07,airbnb.at / referral,Referral,4,3,1,1,0,0.75,5.25
+2026,07,aktivna-druzina.si / referral,Referral,4,2,3,2,0,0.5,0
+2026,07,bled.si / referral,Referral,4,4,4,4,0,1,23.5
+2026,07,de.wikipedia.org / referral,Referral,4,3,3,2,0,0.75,58
+2026,07,slovenia-outdoor.com / referral,Referral,4,3,3,2,0,0.75,136
+2026,05,old.via-alpina.org / referral,Referral,3,2,2,2,0,0.6666666666666666,0
+2026,05,planet.qr-space.si / referral,Referral,3,2,2,2,0,0.6666666666666666,185.33333333333334
+2026,05,qwant.com / organic,Organic Search,3,2,2,2,0,0.6666666666666666,11.333333333333334
+2026,05,slovenia-outdoor.com / referral,Referral,3,2,2,2,0,0.6666666666666666,310.3333333333333
+2026,06,de.search.yahoo.com / referral,Organic Search,3,3,3,3,0,1,133.33333333333334
+2026,06,druzinski-izleti.si / referral,Referral,3,2,3,3,0,0.6666666666666666,18.333333333333332
+2026,07,claude.ai / ai-assistant,AI Assistant,3,1,1,1,0,0.3333333333333333,0
+2026,07,podstorzic.si / referral,Referral,3,3,3,3,0,1,4.333333333333333
+2026,07,trans-karavanke.pzs.si / referral,Referral,3,3,3,3,0,1,20.666666666666668
+2026,07,tripadvisor.nl / referral,Organic Social,3,2,2,2,0,0.6666666666666666,68.66666666666667
+2026,07,visitkranj.com / referral,Referral,3,1,2,1,0,0.3333333333333333,0
+2026,05,(not set),Unassigned,2,0,2,0,0,0,0.5
+2026,05,aktivna-druzina.si / referral,Referral,2,2,2,2,0,1,143.5
+2026,05,chatgpt.com / referral,Referral,2,2,2,2,0,1,17
+2026,05,duckduckgo / organic,Organic Search,2,2,2,2,0,1,0
+2026,05,ecosia.org / organic,Organic Search,2,2,2,2,0,1,0
+2026,05,facebook.com / referral,Organic Social,2,1,2,2,0,0.5,0
+2026,05,l.facebook.com / referral,Organic Social,2,2,2,1,0,1,46
+2026,05,m.youtube.com / referral,Organic Video,2,1,1,1,0,0.5,0
+2026,05,mountainfairytale.com / referral,Referral,2,1,2,2,0,0.5,1.5
+2026,05,trzic.info / referral,Referral,2,0,0,0,0,0,0
+2026,05,viaggichemangi.com / referral,Referral,2,1,2,2,0,0.5,0
+2026,06,brezovir.si / referral,Referral,2,2,2,2,0,1,12
+2026,06,chatgpt.com / (not set),Unassigned,2,2,2,2,0,1,33
+2026,06,de.wikipedia.org / referral,Referral,2,2,2,2,0,1,931
+2026,06,mail.google.com / referral,Referral,2,1,1,0,0,0.5,91.5
+2026,06,najdi / organic,Organic Search,2,1,1,1,0,0.5,0
+2026,06,planet.qr-space.si / referral,Referral,2,2,2,2,0,1,86
+2026,06,zelenica.info / referral,Referral,2,1,1,1,0,0.5,3.5
+2026,07,canva.com / referral,Referral,2,1,1,1,0,0.5,0
+2026,07,de.search.yahoo.com / referral,Organic Search,2,1,1,0,0,0.5,171
+2026,07,ferienwohnung-slowenien.ch / referral,Referral,2,2,2,2,0,1,39.5
+2026,07,goslovenie.nl / referral,Referral,2,2,2,2,0,1,73.5
+2026,07,old.via-alpina.org / referral,Referral,2,0,2,2,0,0,0
+2026,07,search.brave.com / referral,Referral,2,1,1,1,0,0.5,0
+2026,07,startpage.com / referral,Referral,2,2,2,2,0,1,0
+2026,07,yahoo / organic,Organic Search,2,0,2,2,0,0,0
+2026,05,bled.si / referral,Referral,1,1,1,1,0,1,0
+2026,05,drivemebaby.hu / referral,Referral,1,0,1,1,0,0,0
+2026,05,hribi.net / referral,Referral,1,0,1,1,0,0,0
+2026,05,lm.facebook.com / referral,Organic Social,1,1,1,1,0,1,0
+2026,05,mapy.com / referral,Referral,1,1,1,1,0,1,83
+2026,05,outdooractive.com / referral,Referral,1,0,0,0,0,0,0
+2026,05,podstorzic.si / referral,Referral,1,1,1,1,0,1,96
+2026,05,search.brave.com / referral,Referral,1,0,1,1,0,0,0
+2026,05,slovinsko.travel / referral,Referral,1,1,1,1,0,1,0
+2026,05,tasteslovenia.si / referral,Referral,1,1,1,1,0,1,79
+2026,05,trzic.se7en.si / referral,Referral,1,1,1,0,0,1,37
+2026,05,zelenica.info / referral,Referral,1,1,1,1,0,1,567
+2026,06,172.16.140.114:9123 / referral,Referral,1,1,1,1,0,1,0
+2026,06,aktivni.metropolitan.si / referral,Referral,1,1,1,1,0,1,47
+2026,06,apartments-storman.si / referral,Referral,1,1,1,1,0,1,642
+2026,06,at.search.yahoo.com / referral,Organic Search,1,1,1,0,0,1,72
+2026,06,camperstop.si / referral,Referral,1,1,1,1,0,1,487
+2026,06,chatgpt.com / referral,Referral,1,1,1,1,0,1,0
+2026,06,digital-mediaorbis.lightning.force.com / referral,Referral,1,1,1,0,0,1,52
+2026,06,drivemebaby.hu / referral,Referral,1,1,1,1,0,1,0
+2026,06,en.wikipedia.org / referral,Referral,1,1,1,1,0,1,25
+2026,06,fr.search.yahoo.com / referral,Organic Search,1,0,1,1,0,0,0
+2026,06,hervis.si / referral,Referral,1,1,1,1,0,1,12
+2026,06,kofce.si / referral,Referral,1,1,1,1,0,1,243
+2026,06,natura2000.gov.si / referral,Referral,1,1,1,1,0,1,11
+2026,06,podstorzic.si / referral,Referral,1,1,1,1,0,1,0
+2026,06,reddit.com / referral,Organic Social,1,1,1,1,0,1,102
+2026,06,tripadvisor.com / referral,Organic Social,1,1,1,1,0,1,0
+2026,06,uk.search.yahoo.com / referral,Organic Search,1,1,1,1,0,1,0
+2026,06,vilasofiatrzic.si / referral,Referral,1,0,0,0,0,0,0
+2026,06,visitkranj.com / referral,Referral,1,1,1,1,0,1,0
+2026,06,zivi-za-danes.com / referral,Referral,1,1,1,1,0,1,54
+2026,07,at.search.yahoo.com / referral,Organic Search,1,1,1,1,0,1,33
+2026,07,augoutdemma.be / referral,Referral,1,0,1,0,0,0,0
+2026,07,druzinski-izleti.si / referral,Referral,1,1,1,1,0,1,0
+2026,07,e-mobilitygorenjska.si / referral,Referral,1,1,1,0,0,1,59
+2026,07,emea.search.yahoo.com / referral,Organic Search,1,1,1,1,0,1,81
+2026,07,en.wikipedia.org / referral,Referral,1,1,1,1,0,1,0
+2026,07,gemini.google.com / ai-assistant,AI Assistant,1,1,1,1,0,1,0
+2026,07,hervis.si / referral,Referral,1,1,1,1,0,1,1213
+2026,07,iPROM_Social / social,Organic Social,1,1,1,1,0,1,0
+2026,07,it.search.yahoo.com / referral,Organic Search,1,0,1,1,0,0,0
+2026,07,izleti.turisticna-zveza.si / referral,Referral,1,1,1,1,0,1,4
+2026,07,kofce.si / referral,Referral,1,1,1,1,0,1,0
+2026,07,mapy.com / referral,Referral,1,1,1,0,0,1,0
+2026,07,najdi / organic,Organic Search,1,1,1,1,0,1,0
+2026,07,napotep.si / referral,Referral,1,1,1,1,0,1,71
+2026,07,planet.qr-space.si / referral,Referral,1,1,1,0,0,1,80
+2026,07,privacywall.org / referral,Referral,1,1,1,1,0,1,0
+2026,07,qwant.com / organic,Organic Search,1,1,1,1,0,1,0
+2026,07,slovenijaplaninari.pzs.si / referral,Referral,1,1,1,1,0,1,0
+2026,07,suche.t-online.de / referral,Referral,1,1,1,1,0,1,75
+2026,07,vilasofiatrzic.si / referral,Referral,1,1,1,1,0,1,115
+

@@ -1,0 +1,538 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Prometni utrip Tržiča – pregled in scenarijska analiza prometa, parkirišč, vremena ter občinskih kazalnikov." />
+  <title>AI analiza prometa v Tržiču v1.62</title>
+  <link rel="stylesheet" href="styles.css?v=1.62" />
+
+  <style>
+    .chart-mode-label{display:grid;gap:.3rem;min-width:175px;font-size:.78rem;font-weight:700;color:#52636d}
+    .chart-mode-label select{min-height:38px;padding:.45rem .65rem;border:1px solid #cfd9e2;border-radius:9px;background:#fff;color:#17313f;font:inherit}
+    .section-heading>p strong{color:#17313f}
+    @media (max-width:760px){.chart-title{align-items:flex-start;gap:.8rem}.chart-mode-label{width:100%;min-width:0}}
+  </style>
+<script src="../../VERSION.js"></script>
+  <script defer src="../../assets/js/apply-version.js"></script>
+</head>
+<body data-version-key="analitika" data-version-title="AI analiza prometa v Tržiču v{version}">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">OBČINA TRŽIČ · DEMONSTRACIJSKA ANALITIČNA PLATFORMA</p>
+      <h1>AI analiza prometa v Tržiču</h1>
+      <p class="subtitle">Od podatkov do razumljivih vprašanj, scenarijev in osnovnih napovedi.</p><p class="scope-note"><strong>Obseg podatkov:</strong> Števec prometa pri tovarni CABLEX na Cesti Ste Marie Aux Mines meri promet v obeh smereh; smer 1 pomeni V lokacijo, smer 0 pa IZ lokacije, parkirišča pa okolico mestnega jedra. Podatki ne predstavljajo celotne občine Tržič, ampak samo mesto Tržič!</p>
+    </div>
+    <div class="header-actions"><a class="home-link" href="../../index.html">← Vstopna stran</a><div class="version" data-version-label>v1.62</div></div>
+  </header>
+
+  <main>
+    <section class="notice">
+      <strong>Kako brati rezultate:</strong> aplikacija je prikaz možnosti, kaj lahko naredimo z občinskimi in drugimi javnimi podatki. Rezultati so scenarijske ocene in povezave v podatkih, ne prometna študija ali dokaz vzročnosti.
+    </section>
+
+    <section class="kpi-grid" id="kpiGrid" aria-label="Ključni kazalniki"></section>
+
+    <section class="pulse-panel" aria-label="Enotni podatkovni model">
+      <div class="pulse-main">
+        <p class="eyebrow">ENOTNI PODATKOVNI MODEL</p>
+        <h2>Utrip Tržiča</h2>
+        <div class="pulse-score"><strong id="pulseScore">–</strong><span id="pulseScale">indeks</span></div>
+        <div class="pulse-state"><strong id="pulseStatus">–</strong><span id="pulsePeriodLabel">–</span></div>
+        <div class="pulse-controls">
+          <label>Hitra izbira<select id="pulsePreset"><option value="12">Zadnjih 12 mesecev</option><option value="6">Zadnjih 6 mesecev</option><option value="3">Zadnji 3 meseci</option><option value="year">Tekoče leto</option><option value="all">Celotno obdobje</option></select></label>
+          <label>Od<select id="pulseFrom"></select></label><label>Do<select id="pulseTo"></select></label>
+          <button id="pulseApply" type="button">Prikaži utrip</button>
+        </div>
+        <p id="pulseExplanation" class="pulse-explanation"></p>
+        <div id="pulseComponents" class="model-summary-grid"></div>
+      </div>
+      <div class="pulse-side">
+        <div class="model-card"><span>Kakovost podatkov</span><strong id="dataQualityScore">–</strong><small id="dataQualityExplanation"></small></div>
+        <div class="model-card"><span>Zanesljivost modela</span><strong id="modelReliabilityScore">–</strong><small id="modelReliabilityExplanation"></small></div>
+        <div class="model-card wide"><span>Vključeni dejavniki</span><strong id="modelFactorCount">–</strong><small>promet, zasedenost, parkirnine, vreme, dogodki, zaposleni, prebivalci, turizem, EV in prekrški</small></div>
+      </div>
+    </section>
+
+    <section class="ask-panel">
+      <div>
+        <p class="eyebrow">AI SVETOVALEC</p>
+        <h2>Vprašaj Prometni utrip</h2>
+        <p class="section-copy">V tej različici svetovalec odgovarja samo na vprašanje »Kaj se je zgodilo dne …?«. Za izbrani datum združi razpoložljive podatke o prometu pri tovarni CABLEX, vremenu, praznikih, dogodkih, ocenjeni zasedenosti vseh parkirišč in parkirninah. Če podatka za ta dan ni, to jasno pove.</p>
+      </div>
+      <form id="questionForm" class="question-form date-question-form">
+        <label for="questionInput"><strong>Kaj se je zgodilo dne</strong></label>
+        <div class="date-question-row"><input id="questionInput" type="date" min="2000-01-01" max="2030-12-31" value="2025-07-15" /><button type="submit">Analiziraj vprašanje</button></div>
+      </form>
+      <div id="questionOutput" class="question-output empty">Vpiši vprašanje ali izberi primer.</div>
+    </section>
+
+    <section class="section-heading">
+      <div><p class="eyebrow">PAMETNA ANALIZA</p><h2>Vprašanja in scenariji</h2></div>
+      <p>Na levi spremeni predpostavko, na desni vidiš ocenjeni vpliv in razlago »Zakaj?«. <strong>Časovni pomen scenarijev:</strong> izbira obdobja pri »Utripu Tržiča« zgoraj ne spreminja sliderjev. Promet in vreme sta mesečna scenarija; delovno aktivni pomenijo običajen delovni dan; parkirnine uporabljajo leto 2026 do izvoza; učinek novih delovnih mest na prihodek je letni; turizem uporablja zadnjih 12 mesecev. Pri ostalih karticah je obdobje navedeno neposredno v rezultatu.</p>
+    </section>
+
+    <section class="scenario-grid">
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">01</span>
+          <h3>Kako povečanje prometa vpliva na parkirišča?</h3>
+          <p class="scenario-description">Simulacija poveže spremembo prometa pri CABLEX-u z mesečno zasedenostjo. Pri izbiri vseh parkirišč uporabi kapacitetno uteženo povprečje.</p>
+          <label for="trafficSlider">Sprememba prometa: <strong id="trafficSliderValue">+20,0 %</strong></label>
+          <input id="trafficSlider" type="range" min="-30" max="50" step="5" value="20" />
+          <label for="parkingSelect">Parkirišče</label><select id="parkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="trafficOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">02</span>
+          <h3>Kaj pomeni dobro ali slabo vreme za parkirišča?</h3>
+          <p class="scenario-description">Model poleg vremena upošteva sezono, količino prometa, število delovnih in vikend dni ter praznike. Model uporablja revidirane dnevne podatke zasedenosti; rezultat je še vedno scenarijska ocena, ne dokaz vzročnosti.</p>
+          <label for="weatherSlider">Vremenski scenarij: <strong id="weatherSliderValue">običajno</strong></label>
+          <input id="weatherSlider" type="range" min="-100" max="100" step="25" value="0" />
+          <label for="weatherParkingSelect">Parkirišče</label><select id="weatherParkingSelect"></select>
+          <p class="helper">Levo = bolj suho in ugodno, desno = več padavin ter ur slabega vremena.</p>
+        </div>
+        <div class="scenario-output" id="weatherOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">03</span>
+          <h3>Kako sprememba delovno aktivnih v Občini Tržič vpliva na promet?</h3>
+          <p class="scenario-description">SURS meri osebe, katerih delovno mesto je v Občini Tržič, ne glede na njihovo prebivališče. Sprememba vpliva predvsem na jutranje in popoldanske migracije; model ne predpostavlja, da vsak pride z avtomobilom.</p>
+          <label for="employeeSlider">Sprememba delovno aktivnih: <strong id="employeeSliderValue">+100</strong></label>
+          <input id="employeeSlider" type="range" min="-500" max="1000" step="50" value="100" />
+        </div>
+        <div class="scenario-output" id="employeeOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">04</span>
+          <h3>Kako sprememba delovno aktivnih vpliva na parkirišča?</h3>
+          <p class="scenario-description">Verižni scenarij: več zaposlenih → več vozil v konici → del teh vozil uporabi spremljana javna parkirišča.</p>
+          <label for="employeeParkingSlider">Sprememba delovno aktivnih: <strong id="employeeParkingSliderValue">+100</strong></label>
+          <input id="employeeParkingSlider" type="range" min="-500" max="1000" step="50" value="100" />
+          <label for="employeeParkingSelect">Parkirišče</label><select id="employeeParkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="employeeParkingOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">05</span>
+          <h3>Kaj če se v mesto Tržič priseli več prebivalcev?</h3>
+          <p class="scenario-description">Več prebivalcev ne pomeni enakega števila novih avtomobilov. Model uporablja razpon, ki posredno upošteva otroke, starejše, zaposlene, skupne vožnje, hojo, javni prevoz in različne potrebe gospodinjstev.</p>
+          <label for="populationSlider">Sprememba prebivalcev: <strong id="populationSliderValue">+500</strong></label>
+          <input id="populationSlider" type="range" min="-1500" max="2000" step="100" value="500" />
+          <label for="populationParkingSelect">Parkirišče</label><select id="populationParkingSelect"></select>
+        </div>
+        <div class="scenario-output" id="populationOutput"></div>
+      </article>
+
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">06</span>
+          <h3>Kako sprememba števila parkirnin vpliva na prihodek?</h3>
+          <p class="scenario-description">Simulacija uporablja dejansko število in znesek EasyPark parkirnin v letu 2026 do datuma izvoza. Predpostavlja enako strukturo kategorij, trajanje parkiranja in delež brezplačne prve ure.</p>
+          <label for="paymentSlider">Sprememba števila parkirnin: <strong id="paymentSliderValue">+10,0 %</strong></label>
+          <input id="paymentSlider" type="range" min="-30" max="50" step="5" value="10" />
+        </div>
+        <div class="scenario-output" id="paymentOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">07</span>
+          <h3>Kako več delovnih mest vpliva na prihodek od parkiranja?</h3>
+          <p class="scenario-description">Verižna ocena za vsa spremljana parkirišča: več delovnih mest → več vozil v konici → del vozil uporabi plačljiva parkirišča → dodatne parkirnine prek EasyParka ali parkomatov.</p>
+          <label for="jobsRevenueSlider">Sprememba delovnih mest: <strong id="jobsRevenueSliderValue">+100</strong></label>
+          <input id="jobsRevenueSlider" type="range" min="-500" max="1000" step="50" value="100" />
+        </div>
+        <div class="scenario-output" id="jobsRevenueOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">08</span>
+          <h3>Kako turizem vpliva na promet, parkirišča in parkirnine?</h3>
+          <p class="scenario-description">Scenarij uporablja 12-letni mesečni niz gostov in nočitev. Ker je v kraju Tržič nastanjen le manjši delež gostov, model vpliv na mestno jedro namenoma močno omeji.</p>
+          <label for="tourismSlider">Sprememba števila turistov: <strong id="tourismSliderValue">+20,0 %</strong></label>
+          <input id="tourismSlider" type="range" min="-50" max="100" step="5" value="20" />
+        </div>
+        <div class="scenario-output" id="tourismOutput"></div>
+      </article>
+
+      <article class="scenario-card">
+        <div class="scenario-control">
+          <span class="step">09</span>
+          <h3>Kako rast zaposlenih, turistov in prebivalcev vpliva na EV polnilnico?</h3>
+          <p class="scenario-description">Ocena velja samo za eno javno polnilnico na parkirišču Tržnica. Povezuje dodatna vozila z deležem električnih vozil in verjetnostjo uporabe javne polnilnice.</p>
+          <label for="evEmployeeSlider">Delovno aktivni: <strong id="evEmployeeSliderValue">+100</strong></label>
+          <input id="evEmployeeSlider" type="range" min="-500" max="1000" step="50" value="100" />
+          <label for="evTouristSlider">Turisti: <strong id="evTouristSliderValue">+20,0 %</strong></label>
+          <input id="evTouristSlider" type="range" min="-50" max="100" step="5" value="20" />
+          <label for="evPopulationSlider">Prebivalci mesta: <strong id="evPopulationSliderValue">+500</strong></label>
+          <input id="evPopulationSlider" type="range" min="-1500" max="2000" step="100" value="500" />
+        </div>
+        <div class="scenario-output" id="evOutput"></div>
+      </article>
+    </section>
+
+    <section class="hourly-panel">
+      <div><p class="eyebrow">REFERENČNI URNI PROFIL</p><h2>Kdaj so parkirišča najbolj zasedena?</h2><p>Profil temelji na enoletnem obdobju od 23. 7. 2025 do 23. 7. 2026 v 3-urnih intervalih. Je bistveno stabilnejši od prejšnjega sedemtedenskega vzorca, vendar ga še vedno ne predstavljamo kot večletni urni vzorec.</p></div>
+      <div class="hourly-controls"><label for="hourlyParkingSelect">Parkirišče</label><select id="hourlyParkingSelect"></select></div>
+      <div id="hourlyOutput" class="hourly-output"></div>
+    </section>
+
+    <section class="context-panel" aria-label="Občinski prostorski in mobilnostni kontekst">
+      <div class="context-head">
+        <div><p class="eyebrow">OBČINSKE EVIDENCE · KONTEKST</p><h2>Prostorski in mobilnostni okvir analiz</h2></div>
+        <p>Uporabljeni sta bili evidenca naselij po krajevnih skupnostih za leto 2024 in interna evidenca opremljenosti avtobusnih postajališč z dne 15. 1. 2018. Podatki pomagajo pravilno razumeti območje mesta Tržič in občinski javni prevoz, <strong>ne spreminjajo pa formul, uteži ali ocen modela</strong>.</p>
+      </div>
+      <div id="spatialContextGrid" class="context-grid"></div>
+      <p class="context-note"><strong>Varstvo podatkov in omejitve:</strong> naslovni zapisi, geokode in število prijavljenih po posameznem naslovu niso objavljeni. Evidenca postajališč je zgodovinski presek; brez koordinat je ni mogoče neposredno povezati s CABLEX, parkirišči ali posameznimi cestnimi odseki.</p>
+    </section>
+
+    <section class="knowledge-panel">
+      <div class="tab-buttons" role="tablist">
+        <button class="tab-button active" data-tab="modelTab" type="button">Povzetek modela</button>
+        <button class="tab-button" data-tab="factsTab" type="button">Zanimivosti</button>
+      </div>
+      <div id="modelTab" class="tab-content active"><p class="eyebrow">POVZETEK MODELA</p><h2>Kaj trenutno kažejo podatki?</h2><div id="insightList" class="insight-list"></div></div>
+      <div id="factsTab" class="tab-content"><p class="eyebrow">ZANIMIVOSTI</p><h2>Ugotovitve iz podatkov</h2><div id="factList" class="insight-list"></div></div>
+    </section>
+
+    <section class="charts-grid">
+      <article class="chart-card wide"><div class="chart-title"><div><p class="eyebrow">VEČLETNI PREGLED</p><h3>Promet in zasedenost parkirišč</h3></div></div><div class="chart-wrap"><canvas id="trendChart"></canvas></div><p class="chart-note"><strong>Opomba:</strong> Manjkajoče oziroma očitno nepopolne prometne meritve med 20. 5. in 19. 8. 2024 so zapolnjene s sezonsko interpolacijo. Na grafu so ocenjeni meseci označeni z večjimi trikotnimi točkami.</p></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">PARKIRIŠČA</p><h3>Povprečna zasedenost</h3></div></div><div class="chart-wrap"><canvas id="parkingChart"></canvas></div></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">HITROST · MEDIANA</p><h3>Mediana hitrosti po vrsti vozila</h3></div></div><div class="chart-wrap"><canvas id="speedChart"></canvas></div><p class="chart-note"><strong>Zakaj mediana:</strong> manj je občutljiva na posamezne skrajne ali napačne meritve kot povprečje.</p></article><article class="chart-card"><div class="chart-title"><div><p class="eyebrow">SURS</p><h3>Delovno aktivni po občini delovnega mesta</h3></div></div><div class="chart-wrap"><canvas id="employmentChart"></canvas></div></article><article class="chart-card"><div class="chart-title"><div><p class="eyebrow" id="paymentChartEyebrow">EASYPARK · LETO 2026</p><h3 id="paymentChartTitle">Število parkirnin po kategorijah (EasyPark)</h3></div><label class="chart-mode-label" for="paymentChartMode">Prikaz<select id="paymentChartMode"><option value="easypark">EasyPark</option><option value="hectronic">Parkomati HECTRONIC</option></select></label></div><div class="chart-wrap"><canvas id="paymentChart"></canvas></div><p class="chart-note" id="paymentChartNote"><strong>EasyPark:</strong> leto 2026 do datuma izvoza.</p></article>
+      <article class="chart-card wide"><div class="chart-title"><div><p class="eyebrow">PREKRŠKI</p><h3>Evidentirani prekrški po mesecih</h3></div></div><div class="chart-wrap"><canvas id="offensesTrendChart"></canvas></div><p class="chart-note"><strong>Opomba:</strong> Število prekrškov je odvisno tudi od obsega in usmerjenosti nadzora. Primerjava s prometom je opisna in ne dokazuje vzročne povezave.</p></article>
+      <article class="chart-card"><div class="chart-title"><div><p class="eyebrow">LOKACIJE · JULIJ 2019–JULIJ 2026</p><h3>Prekrški po ulicah</h3></div></div><div class="chart-wrap"><canvas id="offensesStreetChart"></canvas></div><p class="chart-note"><strong>Obdobje:</strong> julij 2019–julij 2026. Število je odvisno tudi od obsega in usmerjenosti nadzora.</p></article>
+    </section>
+
+    <section class="data-section">
+      <div><p class="eyebrow">PODATKOVNI VIRI</p><h2>Kaj je vključeno v podatkovni model?</h2></div>
+      <div class="source-grid">
+        <div><strong>Promet CABLEX</strong><span>dnevno, avgust 2023–julij 2026; manjkajoče obdobje 2024 je označeno in sezonsko interpolirano</span></div>
+        <div><strong>Parkirišča</strong><span>dnevno, 2023–2026; DTO in Sokolnica sta bila vključena pozneje</span></div>
+        <div><strong>Hitrost CABLEX</strong><span>dnevno po vrstah vozil ter mesečno po smereh; spodnji graf prikazuje mediano</span></div>
+        <div><strong>Vreme</strong><span>urno, približno eno leto, Open-Meteo</span></div>
+        <div><strong>Delovno aktivni po občini delovnega mesta</strong><span>SURS mesečno, 2020–2026 · delovna mesta v Občini Tržič</span></div>
+        <div><strong>Prazniki</strong><span>OPSI, 2000–2030</span></div>
+        <div><strong>Dogodki</strong><span>koledar Občine Tržič, 1. 11. 2023–10. 8. 2026 · 3.547 dnevnih zapisov; večdnevni dogodki so razširjeni na posamezne dni</span></div>
+        <div><strong>Prebivalci mesta Tržič</strong><span>SURS, 2017–2026 · samo naselje, ne celotna občina</span></div><div><strong>Naselja po krajevnih skupnostih</strong><span>interna občinska evidenca 2024 · v aplikaciji so uporabljeni samo agregati brez naslovnih koordinat</span></div><div><strong>Avtobusna postajališča</strong><span>interna evidenca prevoznika, stanje 15. 1. 2018 · zgodovinski kontekst opremljenosti</span></div><div><strong>Parkirnine</strong><span>EasyPark mesečno in št. parkirnin; HECTRONIC zneski po parkomatih</span></div><div><strong>Urni profil parkirišč</strong><span>23. 7. 2025–23. 7. 2026 · 3-urni intervali</span></div><div><strong>Turizem</strong><span>gostje in nočitve mesečno, 2018–2026; turistična taksa; kraji nastanitve</span></div><div><strong>EV polnilnica</strong><span>ena polnilnica na Tržnici · polnjenja in poraba energije</span></div><div><strong>Prekrški</strong><span>mesečno po ulicah, julij 2019–julij 2026 · Tržič in bližnja okolica; števec prometa pri tovarni CABLEX: Cesta Ste Marie Aux Mines</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span data-version-template="Prometni utrip Tržiča · analitična različica v{version}">Prometni utrip Tržiča · analitična različica v1.62</span><span>Za osvežitev uporabi Ctrl + F5</span></footer>
+  <script src="./data-js/analysis.js"></script>
+  <script src="./data-js/holidays.js"></script>
+  <script src="./data-js/events.js"></script>
+  <script src="./data-js/weather.js"></script>
+  <script src="./data-js/traffic-daily.js"></script>
+  <script src="./data-js/tourism.js"></script>
+  <script src="./data-js/ev-charger.js"></script>
+  <script src="./data-js/offenses.js"></script>
+  <script src="./data-js/spatial-context.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="app.js?v=1.62"></script>
+
+  <script>
+  (() => {
+    const data = window.PROMETNI_UTRIP_DATA || {};
+    const analysis = data.ANALYSIS;
+    const offenses = data.OFFENSES;
+    if (!analysis) return;
+
+    const formatNumber0 = new Intl.NumberFormat('sl-SI', { maximumFractionDigits: 0 });
+    const formatNumber1 = new Intl.NumberFormat('sl-SI', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const formatEuro = new Intl.NumberFormat('sl-SI', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0, maximumFractionDigits: 0 });
+
+    function latestEasyParkYearData() {
+      const rows = analysis.parkingPayments?.easyPark?.monthlyCounts || [];
+      const years = rows.map(r => String(r.month || '').slice(0, 4)).filter(Boolean).sort();
+      const year = years.at(-1) || '2026';
+      const grouped = {};
+      rows.filter(r => String(r.month || '').startsWith(year)).forEach(r => {
+        grouped[r.category] = (grouped[r.category] || 0) + (+r.transactions || 0);
+      });
+      const entries = Object.entries(grouped).map(([category, transactions]) => ({ category, transactions })).sort((a,b) => b.transactions-a.transactions);
+      const total = entries.reduce((s,r) => s+r.transactions, 0);
+      return { year, entries, total, top: entries[0] || {category:'–', transactions:0} };
+    }
+
+    function patchNarrativeText() {
+      const ep = latestEasyParkYearData();
+      const share = ep.total ? ep.top.transactions / ep.total * 100 : 0;
+      const facts = [...document.querySelectorAll('#factList .insight')];
+      if (facts[0]) {
+        const corrected = `<strong>ZD Tržič:</strong> v letu ${ep.year} do izvoza je bilo v kategoriji ${ep.top.category} evidentiranih ${formatNumber0.format(ep.top.transactions)} od ${formatNumber0.format(ep.total)} EasyPark parkirnin oziroma ${formatNumber1.format(share)} %. Preostanek predstavljajo druge EasyPark kategorije, ne parkomati HECTRONIC. Podatek kaže veliko uporabo območja, ne pa nujno najdaljšega parkiranja.`;
+        if (facts[0].innerHTML !== corrected) facts[0].innerHTML = corrected;
+      }
+      facts.forEach(el => {
+        let value = el.innerHTML;
+        value = value.replace('sedemtedenski 3-urni profil', 'enoletni 3-urni profil');
+        value = value.replace('tu je nameščen CABLEX', 'tu je nameščen števec prometa pri tovarni CABLEX');
+        if (value !== el.innerHTML) el.innerHTML = value;
+      });
+
+      [...document.querySelectorAll('#insightList .insight')].forEach(el => {
+        let value = el.innerHTML;
+        if (value.includes('<strong>Urni profil:</strong>')) {
+          value = `<strong>Urni profil:</strong> enoletni podatki po 3 urah zajemajo ${analysis.parkingHourly.period.from}–${analysis.parkingHourly.period.to}. Profil je uporaben za primerjavo dni v tednu in terminov, vendar ni meritev posameznega izbranega datuma.`;
+        }
+        if (value.includes('<strong>Parkirnine:</strong> EasyPark:')) {
+          value = `<strong>Parkirnine:</strong> EasyPark: ${ep.top.category} predstavlja ${formatNumber1.format(share)} % vseh evidentiranih EasyPark parkirnin v letu ${ep.year} do izvoza (${formatNumber0.format(ep.top.transactions)} od ${formatNumber0.format(ep.total)}). Preostanek so druge EasyPark kategorije; HECTRONIC je voden ločeno.`;
+        }
+        value = value.replace('merilno mesto CABLEX je na', 'števec prometa pri tovarni CABLEX je nameščen na');
+        if (value !== el.innerHTML) el.innerHTML = value;
+      });
+
+      const paymentOutput = document.getElementById('paymentOutput');
+      if (paymentOutput) {
+        const firstWhy = paymentOutput.querySelector('.why li');
+        if (firstWhy) {
+          const corrected = `Največ EasyPark parkirnin v letu ${ep.year} do izvoza ima kategorija ${ep.top.category}: ${formatNumber0.format(ep.top.transactions)}, kar je ${formatNumber1.format(share)} % od ${formatNumber0.format(ep.total)} parkirnin.`;
+          if (firstWhy.textContent !== corrected) firstWhy.textContent = corrected;
+        }
+      }
+    }
+
+    function installNarrativeObserver() {
+      const targets = ['factList','insightList','paymentOutput'].map(id => document.getElementById(id)).filter(Boolean);
+      const observer = new MutationObserver(() => patchNarrativeText());
+      targets.forEach(target => observer.observe(target, { childList:true, subtree:true }));
+      patchNarrativeText();
+    }
+
+    function installMedianSpeedChart() {
+      if (typeof Chart === 'undefined') return;
+      const canvas = document.getElementById('speedChart');
+      const chart = canvas ? Chart.getChart(canvas) : null;
+      if (!chart) return;
+      chart.data.datasets[0].data = analysis.trafficSpeed.vehicleTypes.map(r => r.medianSpeed);
+      chart.data.datasets[0].label = 'Mediana hitrosti (km/h)';
+      chart.update();
+    }
+
+    function hectronicLocationName(raw) {
+      const value = String(raw || '').toLowerCase();
+      if (value.includes('102')) return 'Ljubelj';
+      if (value.includes('101')) return 'Tržnica';
+      if (value.includes('103') || value.includes('104') || value.includes('105')) return 'Zdravstveni dom';
+      if (value.includes('107')) return 'Dovžanova soteska';
+      if (value.includes('108')) return 'BPT';
+      if (value.includes('106')) return 'Cankarjeva cesta';
+      if (value.includes('109')) return 'DTO';
+      return raw;
+    }
+
+    function renderPaymentChart(mode) {
+      if (typeof Chart === 'undefined') return;
+      const canvas = document.getElementById('paymentChart');
+      if (!canvas) return;
+      const old = Chart.getChart(canvas);
+      if (old) old.destroy();
+      const title = document.getElementById('paymentChartTitle');
+      const eyebrow = document.getElementById('paymentChartEyebrow');
+      const note = document.getElementById('paymentChartNote');
+      let labels, values, label, suffix, color;
+
+      if (mode === 'hectronic') {
+        const grouped = {};
+        (analysis.parkingPayments?.hectronic?.revenueByLocation || []).forEach(row => {
+          const name = hectronicLocationName(row.location);
+          if (!name || String(name).toLowerCase() === 'location name') return;
+          grouped[name] = (grouped[name] || 0) + (+row.revenueGross || 0);
+        });
+        const rows = Object.entries(grouped).map(([name,value]) => ({name,value})).sort((a,b)=>b.value-a.value);
+        labels = rows.map(r=>r.name); values = rows.map(r=>r.value); label = 'Prihodek z DDV'; suffix = ' €'; color = '#f09a22';
+        eyebrow.textContent = 'HECTRONIC · 9/2022–7/2026';
+        title.textContent = 'Prihodki po parkomatih HECTRONIC';
+        note.innerHTML = '<strong>HECTRONIC:</strong> po posameznih parkomatih je v viru na voljo prihodek, ne število transakcij. Trije parkomati pri ZD so združeni pod »Zdravstveni dom«.';
+      } else {
+        const ep = latestEasyParkYearData();
+        labels = ep.entries.map(r=>r.category); values = ep.entries.map(r=>r.transactions); label = 'Število parkirnin'; suffix = ''; color = '#69aaf5';
+        eyebrow.textContent = `EASYPARK · LETO ${ep.year}`;
+        title.textContent = 'Število parkirnin po kategorijah (EasyPark)';
+        note.innerHTML = `<strong>EasyPark:</strong> leto ${ep.year} do datuma izvoza. Prikazane so vse evidentirane kategorije.`;
+      }
+
+      new Chart(canvas, {
+        type:'bar',
+        data:{labels,datasets:[{label,data:values,backgroundColor:color}]},
+        options:{responsive:true,maintainAspectRatio:false,indexAxis:'y',scales:{x:{beginAtZero:true,grid:{color:'#edf1f5'}}},plugins:{legend:{display:false},tooltip:{callbacks:{label:(ctx)=> mode==='hectronic' ? formatEuro.format(ctx.raw) : formatNumber0.format(ctx.raw)}}}}
+      });
+    }
+
+    function installPaymentSelector() {
+      const selector = document.getElementById('paymentChartMode');
+      if (!selector) return;
+      selector.addEventListener('change', () => renderPaymentChart(selector.value));
+      renderPaymentChart(selector.value);
+    }
+
+    function rowDate(row) {
+      const raw = row?.date ?? row?.day ?? row?.timestamp ?? row?.time ?? row?.datetime;
+      return raw ? String(raw).slice(0,10) : '';
+    }
+
+    function metricFromFirstAvailable(container, date, arrayNames, fields) {
+      for (const name of arrayNames) {
+        const rows = container?.[name];
+        if (!Array.isArray(rows)) continue;
+        const matches = rows.filter(r => rowDate(r) === date && fields.some(f => Number.isFinite(+r?.[f])));
+        if (matches.length) {
+          return matches.reduce((sum,row) => sum + (fields.map(f => +row?.[f]).find(Number.isFinite) || 0), 0);
+        }
+      }
+      return null;
+    }
+
+    function dailyChannel(channel, date, label) {
+      const transactions = metricFromFirstAvailable(channel, date,
+        ['daily','dailyRecords','dailyTransactions','dailyCounts','transactionsDaily','recordsDaily'],
+        ['transactions','count','parkingCount','payments','tickets']);
+      const revenue = metricFromFirstAvailable(channel, date,
+        ['daily','dailyRecords','dailyRevenue','revenueDaily','dailyTransactions','recordsDaily'],
+        ['revenue','revenueGross','amount','totalRevenue','value']);
+      if (transactions == null && revenue == null) return null;
+      return {label, transactions: transactions || 0, revenue: revenue || 0};
+    }
+
+    dailyParkingPayments = function(date) {
+      const sources = [
+        dailyChannel(analysis.parkingPayments?.easyPark, date, 'EasyPark'),
+        dailyChannel(analysis.parkingPayments?.hectronic, date, 'HECTRONIC')
+      ].filter(Boolean);
+      if (!sources.length) return null;
+      return {
+        transactions: sources.reduce((s,x)=>s+x.transactions,0),
+        revenue: sources.reduce((s,x)=>s+x.revenue,0),
+        sources
+      };
+    };
+
+    function actualDailyParking(date) {
+      const candidates = [
+        analysis.parkingDaily,
+        analysis.parkingOccupancyDaily,
+        analysis.dailyParking,
+        analysis.parking?.daily,
+        data.PARKING_DAILY,
+        data.PARKING_OCCUPANCY_DAILY
+      ].filter(Array.isArray);
+      for (const rows of candidates) {
+        const matches = rows.filter(r => rowDate(r) === date);
+        if (!matches.length) continue;
+        const valid = matches.map(r => ({
+          value: +(r.occupancyPercent ?? r.occupancy ?? r.value ?? r.averageOccupancy),
+          capacity: +(r.capacity ?? r.parkingCapacity ?? 0)
+        })).filter(r => Number.isFinite(r.value));
+        if (!valid.length) continue;
+        const capacity = valid.reduce((s,r)=>s+(r.capacity>0?r.capacity:0),0);
+        const value = capacity ? valid.reduce((s,r)=>s+r.value*(r.capacity>0?r.capacity:0),0)/capacity : valid.reduce((s,r)=>s+r.value,0)/valid.length;
+        return { value, method:'dnevni podatek zasedenosti', isActual:true };
+      }
+      return null;
+    }
+
+    function profileParkingForDate(date) {
+      const actual = actualDailyParking(date);
+      if (actual) return actual;
+      const jsDay = new Date(date + 'T12:00:00').getDay();
+      const weekday = jsDay === 0 ? 6 : jsDay - 1;
+      const weekdayName = ['ponedeljek','torek','sreda','četrtek','petek','sobota','nedelja'][weekday];
+      const profiles = analysis.parkingHourly?.profiles || {};
+      const hourly = new Map();
+      let weightedSum=0, totalWeight=0;
+      Object.entries(profiles).forEach(([name, profile]) => {
+        const capacity = analysis.models?.parkingByName?.[name]?.capacity || 1;
+        const slots = (profile.slots || []).filter(s => s.weekday === weekday && Number.isFinite(+s.average));
+        if (!slots.length) return;
+        const avg = slots.reduce((s,r)=>s+(+r.average),0)/slots.length;
+        weightedSum += avg * capacity; totalWeight += capacity;
+        slots.forEach(slot => {
+          const rec = hourly.get(slot.hour) || {sum:0,weight:0};
+          rec.sum += (+slot.average) * capacity; rec.weight += capacity; hourly.set(slot.hour,rec);
+        });
+      });
+      if (!totalWeight) return monthlyParkingEstimate(date);
+      const peak = [...hourly.entries()].map(([hour,r])=>({hour,value:r.sum/r.weight})).sort((a,b)=>b.value-a.value)[0];
+      return {
+        value: weightedSum/totalWeight,
+        method:`enoletni 3-urni referenčni profil za ${weekdayName}`,
+        isActual:false,
+        weekdayName,
+        peakHour:peak?.hour,
+        peakValue:peak?.value,
+        period:analysis.parkingHourly.period
+      };
+    }
+
+    dateAnalysis = function(date) {
+      const holiday=(H.holidays||[]).find(x=>x.date===date);
+      const events=(E.events||[]).filter(x=>x.date===date);
+      const weather=weatherForDate(date);
+      const traffic=trafficForDate(date);
+      const dn=dayName(date);
+      const parking=profileParkingForDate(date);
+      const payments=dailyParkingPayments(date);
+      const hasDaily=(traffic?1:0)+(weather?1:0)+(payments?1:0)+(parking?.isActual?1:0);
+      let score=35+hasDaily*11+(holiday?3:0)+(events.length?4:0)+(parking?5:0); score=clamp(score,30,82);
+      const displayDate=date.split('-').reverse().join('. ');
+      let factual=`<span class="parsed">AI svetovalec · kaj se je zgodilo dne ${displayDate}</span><p class="answer"><strong>${displayDate} je bil ${dn}</strong>${holiday?` in praznik <strong>${holiday.name}</strong>`:''}.</p>`;
+      factual+=traffic?`<div class="date-metrics"><div><span>Promet pri tovarni CABLEX</span><strong>${nf0.format(traffic.totalVehicles)}</strong><small>vozil v in iz Tržiča na števcu na Cesti Ste Marie Aux Mines${traffic.isPartialDay?' · delni dan':''}</small></div>`:`<div class="date-metrics"><div><span>Promet pri tovarni CABLEX</span><strong>ni podatka</strong><small>dnevni niz se začne 15. 7. 2025</small></div>`;
+      factual+=weather?`<div><span>Vreme</span><strong>${nf1.format(weather.temp)} °C</strong><small>${nf1.format(weather.rain)} mm padavin · ${weather.category||'brez opisa'}</small></div>`:`<div><span>Vreme</span><strong>ni podatka</strong><small>datum ni v naloženem vremenskem obdobju</small></div>`;
+      if (parking) {
+        const detail = parking.isActual
+          ? `${parking.method}`
+          : `${parking.method}; vrh profila ob ${String(parking.peakHour ?? 0).padStart(2,'0')}:00 (${nf1.format(parking.peakValue)} %). To ni meritev izbranega datuma.`;
+        factual+=`<div><span>${parking.isActual?'Vsa parkirišča':'Referenčni profil parkirišč'}</span><strong>${nf1.format(parking.value)} %</strong><small>${detail}</small></div>`;
+      } else {
+        factual+=`<div><span>Vsa parkirišča</span><strong>ni podatka</strong><small>ni dnevnega ali referenčnega profila</small></div>`;
+      }
+      if (payments) {
+        const channels = payments.sources.map(s=>`${s.label}: ${nf0.format(s.transactions)} / ${money.format(s.revenue)}`).join(' · ');
+        factual+=`<div><span>Pobrane parkirnine</span><strong>${nf0.format(payments.transactions)}</strong><small>${money.format(payments.revenue)} · ${channels}</small></div></div>`;
+      } else {
+        factual+=`<div><span>Pobrane parkirnine</span><strong>ni dnevnega podatka</strong><small>v aktualnem source paketu so vključeni mesečni in drugi agregati, ne dnevni EasyPark/HECTRONIC niz</small></div></div>`;
+      }
+      factual+=events.length?`<p><strong>Dogodki:</strong> ${events.map(x=>x.title).join(', ')}.</p>`:`<p>V naloženem izvozu koledarja za obdobje 1. 11. 2023–10. 8. 2026 za ta datum ni evidentiranega dogodka. Odsotnost zapisa ne dokazuje, da dogodka ni bilo.</p>`;
+      const interpretation=[];
+      if(holiday)interpretation.push('praznik navadno zmanjša delovne migracije, vendar lahko poveča izletniški promet');
+      if(dn==='sobota'||dn==='nedelja')interpretation.push('vikend spremeni namen in čas poti');
+      if(weather&&weather.rain>1)interpretation.push('dež lahko poveča delež prihodov z avtomobilom, hkrati pa zmanjša obisk zunanjih dejavnosti');
+      if(events.length)interpretation.push('v koledarju je za ta dan evidentiran dogodek ali aktivni dan večdnevnega dogodka; brez podatka o obisku ni mogoče oceniti njegovega dejanskega prometnega učinka');
+      if(!interpretation.length)interpretation.push('datum nima prepoznanega posebnega prazničnega, vremenskega ali prireditvenega dejavnika');
+      factual+=`<p class="detail"><strong>Razlaga dneva:</strong> ${interpretation.join('; ')}. Brez popolnih dnevnih podatkov ne trdimo, da je posamezen dejavnik povzročil izmerjeno stanje.</p>`;
+      const parkingWhy = parking?.isActual
+        ? 'Zasedenost parkirišč je izračunana iz dnevnih zapisov za izbrani datum.'
+        : `Za parkirišča je v aplikaciji na voljo enoletni 3-urni profil ${analysis.parkingHourly.period.from}–${analysis.parkingHourly.period.to}, agregiran po dnevu v tednu in terminu. Zato je prikazan referenčni profil za ${parking?.weekdayName || dn}, ne mesečno povprečje in ne dejanska meritev izbranega datuma.`;
+      const paymentWhy = payments
+        ? 'Dnevne parkirnine so seštete ločeno po EasyParku in HECTRONIC-u; kanala nista predstavljena kot edinstvena vozila.'
+        : 'Dnevnega EasyPark/HECTRONIC niza v aktualnem source paketu ni. Mesečnih, tedenskih ali skupnih vrednosti aplikacija ne deli umetno na posamezne dneve.';
+      return factual+confidenceBox(score,'Ocena zanesljivosti temelji na tem, koliko dnevnih virov je za isti datum dejansko na voljo. Evidentiran dogodek izboljša kontekst dneva, ne pomeni pa potrjenega vpliva na promet ali parkiranje. Referenčni 3-urni profil parkirišč izboljša časovni kontekst, vendar ni meritev izbranega dne.')+whyBlock(['Števec prometa pri tovarni CABLEX na Cesti Ste Marie Aux Mines predstavlja vozila v obeh smereh: v mesto Tržič in iz mesta Tržič.',parkingWhy,paymentWhy,'Koledar dogodkov ne vsebuje podatka o obiskanosti, zato prisotnost dogodka obravnavamo kot možen kontekst, ne kot izmerjen vzrok spremembe.']);
+    };
+
+    answerQuestion = function(value) {
+      const out=document.getElementById('questionOutput');
+      const date=/^\d{4}-\d{2}-\d{2}$/.test(value)?value:parseDateFromQuestion(value||'');
+      out.classList.remove('empty');
+      if(!date){out.innerHTML='<strong>Izberi datum.</strong><p>Ta različica svetovalca podpira samo vprašanje »Kaj se je zgodilo dne …?«.</p>';return;}
+      out.innerHTML=dateAnalysis(date);
+    };
+
+    installMedianSpeedChart();
+    installPaymentSelector();
+    installNarrativeObserver();
+  })();
+  </script>
+</body>
+</html>
