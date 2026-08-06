@@ -1,0 +1,1 @@
+window.PROMETNI_ODSEKI_REGISTRY = {"version":"0.2","phase":"2. razvojna faza","sections":[{"id":"krize-retnje","title":"Odsek Križe / Retnje","status":"active","dataKey":"KRIZE_RETNJE"},{"id":"zvirce","title":"Odsek Zvirče","status":"active","dataKey":"ZVIRCE"}]};

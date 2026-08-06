@@ -1,0 +1,299 @@
+Aug 4, 2026 @ 13:55:13.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,176 id:419 length:324 speed:32 time:Aug 4, 2026 @ 13:55:13.000 type:TC25UTC _id:4CalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:54:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:87 id:419 length:400 speed:36 time:Aug 4, 2026 @ 13:54:14.000 type:TC25UTC _id:USalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:54:09.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:311 id:419 length:368 speed:36 time:Aug 4, 2026 @ 13:54:09.000 type:TC25UTC _id:3yalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:53:53.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:987 id:419 length:312 speed:38 time:Aug 4, 2026 @ 13:53:53.000 type:TC25UTC _id:3ialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:53:03.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:369 id:419 length:368 speed:37 time:Aug 4, 2026 @ 13:53:03.000 type:TC25UTC _id:3SalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:52:44.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:132 id:419 length:325 speed:35 time:Aug 4, 2026 @ 13:52:44.000 type:TC25UTC _id:3CalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:52:37.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:437 id:419 length:346 speed:18 time:Aug 4, 2026 @ 13:52:37.000 type:TC25UTC _id:2yalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:52:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:73 id:419 length:460 speed:49 time:Aug 4, 2026 @ 13:52:14.000 type:TC25UTC _id:UCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:52:10.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:638 id:419 length:455 speed:36 time:Aug 4, 2026 @ 13:52:10.000 type:TC25UTC _id:TyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:51:37.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:363 id:419 length:414 speed:49 time:Aug 4, 2026 @ 13:51:37.000 type:TC25UTC _id:TialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:51:18.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:106 id:419 length:398 speed:41 time:Aug 4, 2026 @ 13:51:18.000 type:TC25UTC _id:TSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:51:13.000	name:TC25 - Križe/Retnje category_id:3 category_name:Kombinirano vozilo direction:0 distance:1,234 id:419 length:657 speed:30 time:Aug 4, 2026 @ 13:51:13.000 type:TC25UTC _id:TCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:50:09.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:486 id:419 length:328 speed:39 time:Aug 4, 2026 @ 13:50:09.000 type:TC25UTC _id:2ialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:49:45.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:39 id:419 length:407 speed:47 time:Aug 4, 2026 @ 13:49:45.000 type:TC25UTC _id:SyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:49:42.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:76 id:419 length:385 speed:28 time:Aug 4, 2026 @ 13:49:42.000 type:TC25UTC _id:2SalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:49:38.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:667 id:419 length:332 speed:36 time:Aug 4, 2026 @ 13:49:38.000 type:TC25UTC _id:2CalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:48:51.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,896 id:419 length:436 speed:43 time:Aug 4, 2026 @ 13:48:51.000 type:TC25UTC _id:SialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:47:15.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,116 id:419 length:329 speed:28 time:Aug 4, 2026 @ 13:47:15.000 type:TC25UTC _id:1yalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:46:19.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:88 id:419 length:342 speed:30 time:Aug 4, 2026 @ 13:46:19.000 type:TC25UTC _id:1ialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:46:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:87 id:419 length:378 speed:30 time:Aug 4, 2026 @ 13:46:14.000 type:TC25UTC _id:1SalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:46:09.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:450 id:419 length:305 speed:36 time:Aug 4, 2026 @ 13:46:09.000 type:TC25UTC _id:1CalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:45:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:42 id:419 length:429 speed:46 time:Aug 4, 2026 @ 13:45:46.000 type:TC25UTC _id:SSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:45:28.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:24 id:419 length:380 speed:29 time:Aug 4, 2026 @ 13:45:28.000 type:TC25UTC _id:0yalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:45:26.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:299 id:419 length:424 speed:29 time:Aug 4, 2026 @ 13:45:26.000 type:TC25UTC _id:0ialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:45:10.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:32 id:419 length:414 speed:33 time:Aug 4, 2026 @ 13:45:10.000 type:TC25UTC _id:SCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:44:02.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:371 id:419 length:315 speed:24 time:Aug 4, 2026 @ 13:44:02.000 type:TC25UTC _id:0SalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:43:43.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:996 id:419 length:326 speed:33 time:Aug 4, 2026 @ 13:43:43.000 type:TC25UTC _id:0CalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:42:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:387 id:419 length:392 speed:35 time:Aug 4, 2026 @ 13:42:52.000 type:TC25UTC _id:RyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:42:32.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:144 id:419 length:426 speed:47 time:Aug 4, 2026 @ 13:42:32.000 type:TC25UTC _id:RialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:42:24.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:106 id:419 length:410 speed:41 time:Aug 4, 2026 @ 13:42:24.000 type:TC25UTC _id:RSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:42:18.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:931 id:419 length:432 speed:23 time:Aug 4, 2026 @ 13:42:18.000 type:TC25UTC _id:RCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:41:31.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,683 id:419 length:530 speed:33 time:Aug 4, 2026 @ 13:41:31.000 type:TC25UTC _id:zyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:40:05.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,024 id:419 length:289 speed:40 time:Aug 4, 2026 @ 13:40:05.000 type:TC25UTC _id:zialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:39:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:412 id:419 length:389 speed:42 time:Aug 4, 2026 @ 13:39:14.000 type:TC25UTC _id:zSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:38:34.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:583 id:419 length:436 speed:42 time:Aug 4, 2026 @ 13:38:34.000 type:TC25UTC _id:QyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:38:05.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,476 id:419 length:406 speed:35 time:Aug 4, 2026 @ 13:38:05.000 type:TC25UTC _id:QialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:36:50.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:66 id:419 length:452 speed:27 time:Aug 4, 2026 @ 13:36:50.000 type:TC25UTC _id:zCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:36:46.000	name:TC25 - Križe/Retnje category_id:6 category_name:Težje tovorno vozilo direction:0 distance:290 id:419 length:823 speed:31 time:Aug 4, 2026 @ 13:36:46.000 type:TC25UTC _id:QSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:36:30.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:997 id:419 length:469 speed:51 time:Aug 4, 2026 @ 13:36:30.000 type:TC25UTC _id:QCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:35:40.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:100 id:419 length:412 speed:42 time:Aug 4, 2026 @ 13:35:40.000 type:TC25UTC _id:PyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:35:18.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:313 id:419 length:309 speed:32 time:Aug 4, 2026 @ 13:35:18.000 type:TC25UTC _id:yyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:34:33.000	name:TC25 - Križe/Retnje category_id:6 category_name:Težje tovorno vozilo direction:1 distance:1,140 id:419 length:1,010 speed:14 time:Aug 4, 2026 @ 13:34:33.000 type:TC25UTC _id:yialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:33:32.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:2,438 id:419 length:340 speed:30 time:Aug 4, 2026 @ 13:33:32.000 type:TC25UTC _id:ySalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:31:29.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:47 id:419 length:306 speed:27 time:Aug 4, 2026 @ 13:31:29.000 type:TC25UTC _id:yCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:31:04.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:23 id:419 length:556 speed:28 time:Aug 4, 2026 @ 13:31:04.000 type:TC25UTC _id:xyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:31:02.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:27 id:419 length:351 speed:26 time:Aug 4, 2026 @ 13:31:02.000 type:TC25UTC _id:xialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:31:00.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:20 id:419 length:308 speed:24 time:Aug 4, 2026 @ 13:31:00.000 type:TC25UTC _id:xSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:30:58.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:23 id:419 length:315 speed:28 time:Aug 4, 2026 @ 13:30:58.000 type:TC25UTC _id:xCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:30:57.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:37 id:419 length:335 speed:25 time:Aug 4, 2026 @ 13:30:57.000 type:TC25UTC _id:wyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:30:54.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:893 id:419 length:520 speed:23 time:Aug 4, 2026 @ 13:30:54.000 type:TC25UTC _id:wialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:30:09.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:860 id:419 length:330 speed:30 time:Aug 4, 2026 @ 13:30:09.000 type:TC25UTC _id:wSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:29:25.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:273 id:419 length:470 speed:51 time:Aug 4, 2026 @ 13:29:25.000 type:TC25UTC _id:PialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:29:10.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:26 id:419 length:443 speed:36 time:Aug 4, 2026 @ 13:29:10.000 type:TC25UTC _id:PSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:29:08.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:169 id:419 length:287 speed:34 time:Aug 4, 2026 @ 13:29:08.000 type:TC25UTC _id:PCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:28:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:50 id:419 length:327 speed:29 time:Aug 4, 2026 @ 13:28:46.000 type:TC25UTC _id:wCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:28:43.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:796 id:419 length:440 speed:50 time:Aug 4, 2026 @ 13:28:43.000 type:TC25UTC _id:OyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:28:03.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:843 id:419 length:452 speed:39 time:Aug 4, 2026 @ 13:28:03.000 type:TC25UTC _id:OialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:27:20.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:96 id:419 length:545 speed:29 time:Aug 4, 2026 @ 13:27:20.000 type:TC25UTC _id:OSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:27:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:999 id:419 length:472 speed:38 time:Aug 4, 2026 @ 13:27:14.000 type:TC25UTC _id:OCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:26:23.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:109 id:419 length:426 speed:47 time:Aug 4, 2026 @ 13:26:23.000 type:TC25UTC _id:NyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:26:17.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:40 id:419 length:388 speed:30 time:Aug 4, 2026 @ 13:26:17.000 type:TC25UTC _id:NialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:26:15.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:86 id:419 length:373 speed:30 time:Aug 4, 2026 @ 13:26:15.000 type:TC25UTC _id:vyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:26:10.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:338 id:419 length:419 speed:46 time:Aug 4, 2026 @ 13:26:10.000 type:TC25UTC _id:NSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:25:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:207 id:419 length:398 speed:29 time:Aug 4, 2026 @ 13:25:52.000 type:TC25UTC _id:vialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:25:41.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:441 id:419 length:361 speed:27 time:Aug 4, 2026 @ 13:25:41.000 type:TC25UTC _id:vSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:25:19.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,393 id:419 length:359 speed:51 time:Aug 4, 2026 @ 13:25:19.000 type:TC25UTC _id:NCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:24:08.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:593 id:419 length:373 speed:36 time:Aug 4, 2026 @ 13:24:08.000 type:TC25UTC _id:vCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:23:38.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:88 id:419 length:497 speed:44 time:Aug 4, 2026 @ 13:23:38.000 type:TC25UTC _id:MyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:23:33.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:134 id:419 length:321 speed:29 time:Aug 4, 2026 @ 13:23:33.000 type:TC25UTC _id:uyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:23:06.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:285 id:419 length:403 speed:54 time:Aug 4, 2026 @ 13:23:06.000 type:TC25UTC _id:MialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:22:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:687 id:419 length:462 speed:41 time:Aug 4, 2026 @ 13:22:52.000 type:TC25UTC _id:MSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:22:16.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:101 id:419 length:460 speed:45 time:Aug 4, 2026 @ 13:22:16.000 type:TC25UTC _id:MCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:22:11.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:453 id:419 length:460 speed:43 time:Aug 4, 2026 @ 13:22:11.000 type:TC25UTC _id:LyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:21:48.000	name:TC25 - Križe/Retnje category_id:1 category_name:Enosledno vozilo direction:1 distance:384 id:419 length:278 speed:57 time:Aug 4, 2026 @ 13:21:48.000 type:TC25UTC _id:uialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:21:28.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:338 id:419 length:441 speed:55 time:Aug 4, 2026 @ 13:21:28.000 type:TC25UTC _id:LialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:21:11.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:14 id:419 length:334 speed:30 time:Aug 4, 2026 @ 13:21:11.000 type:TC25UTC _id:uSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:21:09.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:208 id:419 length:385 speed:36 time:Aug 4, 2026 @ 13:21:09.000 type:TC25UTC _id:LSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:20:58.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:307 id:419 length:454 speed:38 time:Aug 4, 2026 @ 13:20:58.000 type:TC25UTC _id:LCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:20:42.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:267 id:419 length:393 speed:21 time:Aug 4, 2026 @ 13:20:42.000 type:TC25UTC _id:uCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:20:28.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:52 id:419 length:342 speed:31 time:Aug 4, 2026 @ 13:20:28.000 type:TC25UTC _id:tyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:20:25.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:59 id:419 length:419 speed:34 time:Aug 4, 2026 @ 13:20:25.000 type:TC25UTC _id:tialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:20:22.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:199 id:419 length:402 speed:37 time:Aug 4, 2026 @ 13:20:22.000 type:TC25UTC _id:KyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:19:39.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:146 id:419 length:390 speed:40 time:Aug 4, 2026 @ 13:19:39.000 type:TC25UTC _id:KialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:19:31.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:548 id:419 length:361 speed:49 time:Aug 4, 2026 @ 13:19:31.000 type:TC25UTC _id:KSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:19:03.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:403 id:419 length:403 speed:33 time:Aug 4, 2026 @ 13:19:03.000 type:TC25UTC _id:tSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:18:42.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:246 id:419 length:344 speed:36 time:Aug 4, 2026 @ 13:18:42.000 type:TC25UTC _id:tCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:18:30.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:796 id:419 length:369 speed:37 time:Aug 4, 2026 @ 13:18:30.000 type:TC25UTC _id:syalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:17:49.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:963 id:419 length:330 speed:30 time:Aug 4, 2026 @ 13:17:49.000 type:TC25UTC _id:sialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:17:00.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:109 id:419 length:323 speed:36 time:Aug 4, 2026 @ 13:17:00.000 type:TC25UTC _id:sSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:16:54.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:420 id:419 length:407 speed:36 time:Aug 4, 2026 @ 13:16:54.000 type:TC25UTC _id:sCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:16:16.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:577 id:419 length:443 speed:43 time:Aug 4, 2026 @ 13:16:16.000 type:TC25UTC _id:KCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:15:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:150 id:419 length:359 speed:15 time:Aug 4, 2026 @ 13:15:46.000 type:TC25UTC _id:JyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:15:19.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,285 id:419 length:494 speed:50 time:Aug 4, 2026 @ 13:15:19.000 type:TC25UTC _id:JialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:14:13.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,079 id:419 length:326 speed:31 time:Aug 4, 2026 @ 13:14:13.000 type:TC25UTC _id:ryalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:13:19.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:69 id:419 length:374 speed:47 time:Aug 4, 2026 @ 13:13:19.000 type:TC25UTC _id:JSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:13:15.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:445 id:419 length:386 speed:48 time:Aug 4, 2026 @ 13:13:15.000 type:TC25UTC _id:JCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:12:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:772 id:419 length:448 speed:42 time:Aug 4, 2026 @ 13:12:52.000 type:TC25UTC _id:IyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:12:09.000	name:TC25 - Križe/Retnje category_id:3 category_name:Kombinirano vozilo direction:1 distance:478 id:419 length:711 speed:21 time:Aug 4, 2026 @ 13:12:09.000 type:TC25UTC _id:rialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:11:44.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:192 id:419 length:457 speed:38 time:Aug 4, 2026 @ 13:11:44.000 type:TC25UTC _id:rSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:11:33.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:85 id:419 length:315 speed:35 time:Aug 4, 2026 @ 13:11:33.000 type:TC25UTC _id:rCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:11:29.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:397 id:419 length:431 speed:43 time:Aug 4, 2026 @ 13:11:29.000 type:TC25UTC _id:IialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:11:08.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:24 id:419 length:476 speed:40 time:Aug 4, 2026 @ 13:11:08.000 type:TC25UTC _id:ISalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:11:06.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:614 id:419 length:488 speed:41 time:Aug 4, 2026 @ 13:11:06.000 type:TC25UTC _id:ICalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:10:35.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:543 id:419 length:444 speed:37 time:Aug 4, 2026 @ 13:10:35.000 type:TC25UTC _id:HyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:10:07.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:20 id:419 length:319 speed:34 time:Aug 4, 2026 @ 13:10:07.000 type:TC25UTC _id:qyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:10:05.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,161 id:419 length:357 speed:37 time:Aug 4, 2026 @ 13:10:05.000 type:TC25UTC _id:qialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:09:07.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:20 id:419 length:294 speed:36 time:Aug 4, 2026 @ 13:09:07.000 type:TC25UTC _id:qSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:08:59.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:282 id:419 length:321 speed:18 time:Aug 4, 2026 @ 13:08:59.000 type:TC25UTC _id:HialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:08:44.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:262 id:419 length:450 speed:29 time:Aug 4, 2026 @ 13:08:44.000 type:TC25UTC _id:qCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:08:30.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:602 id:419 length:341 speed:41 time:Aug 4, 2026 @ 13:08:30.000 type:TC25UTC _id:pyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:07:59.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:337 id:419 length:415 speed:35 time:Aug 4, 2026 @ 13:07:59.000 type:TC25UTC _id:HSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:07:42.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:249 id:419 length:336 speed:31 time:Aug 4, 2026 @ 13:07:42.000 type:TC25UTC _id:pialzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:07:29.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,406 id:419 length:402 speed:42 time:Aug 4, 2026 @ 13:07:29.000 type:TC25UTC _id:HCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:06:18.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,233 id:419 length:359 speed:36 time:Aug 4, 2026 @ 13:06:18.000 type:TC25UTC _id:pSalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:451 id:419 length:383 speed:48 time:Aug 4, 2026 @ 13:04:52.000 type:TC25UTC _id:GyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:29.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:88 id:419 length:441 speed:49 time:Aug 4, 2026 @ 13:04:29.000 type:TC25UTC _id:GialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:24.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:108 id:419 length:404 speed:32 time:Aug 4, 2026 @ 13:04:24.000 type:TC25UTC _id:pCalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:18.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:80 id:419 length:332 speed:34 time:Aug 4, 2026 @ 13:04:18.000 type:TC25UTC _id:oyalzJ8BXM2rAje5HVAt _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:14.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:224 id:419 length:367 speed:44 time:Aug 4, 2026 @ 13:04:14.000 type:TC25UTC _id:GSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:04:02.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,693 id:419 length:431 speed:41 time:Aug 4, 2026 @ 13:04:02.000 type:TC25UTC _id:GCalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:02:36.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:308 id:419 length:397 speed:44 time:Aug 4, 2026 @ 13:02:36.000 type:TC25UTC _id:FyalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:02:20.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,690 id:419 length:426 speed:26 time:Aug 4, 2026 @ 13:02:20.000 type:TC25UTC _id:FialzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 13:00:54.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,655 id:419 length:418 speed:41 time:Aug 4, 2026 @ 13:00:54.000 type:TC25UTC _id:FSalzJ8BXM2rAje5HU8s _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:54:57.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,072 id:419 length:338 speed:32 time:Aug 4, 2026 @ 12:54:57.000 type:TC25UTC _id:miZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:54:02.000	name:TC25 - Križe/Retnje category_id:1 category_name:Enosledno vozilo direction:1 distance:133 id:419 length:265 speed:24 time:Aug 4, 2026 @ 12:54:02.000 type:TC25UTC _id:mSZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:53:55.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:82 id:419 length:351 speed:38 time:Aug 4, 2026 @ 12:53:55.000 type:TC25UTC _id:mCZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:53:51.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:88 id:419 length:287 speed:30 time:Aug 4, 2026 @ 12:53:51.000 type:TC25UTC _id:lyZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:53:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,280 id:419 length:380 speed:34 time:Aug 4, 2026 @ 12:53:46.000 type:TC25UTC _id:liZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:52:38.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:260 id:419 length:388 speed:52 time:Aug 4, 2026 @ 12:52:38.000 type:TC25UTC _id:5yZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:52:25.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:490 id:419 length:324 speed:40 time:Aug 4, 2026 @ 12:52:25.000 type:TC25UTC _id:lSZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:52:00.000	name:TC25 - Križe/Retnje category_id:3 category_name:Kombinirano vozilo direction:0 distance:183 id:419 length:688 speed:41 time:Aug 4, 2026 @ 12:52:00.000 type:TC25UTC _id:5iZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:51:49.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:420 id:419 length:441 speed:36 time:Aug 4, 2026 @ 12:51:49.000 type:TC25UTC _id:5SZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:51:28.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:406 id:419 length:364 speed:27 time:Aug 4, 2026 @ 12:51:28.000 type:TC25UTC _id:lCZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:51:00.000	name:TC25 - Križe/Retnje category_id:6 category_name:Težje tovorno vozilo direction:1 distance:767 id:419 length:977 speed:12 time:Aug 4, 2026 @ 12:51:00.000 type:TC25UTC _id:kyZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:50:19.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,570 id:419 length:532 speed:31 time:Aug 4, 2026 @ 12:50:19.000 type:TC25UTC _id:5CZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:48:59.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:1,563 id:419 length:541 speed:31 time:Aug 4, 2026 @ 12:48:59.000 type:TC25UTC _id:kiZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:47:40.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:877 id:419 length:405 speed:27 time:Aug 4, 2026 @ 12:47:40.000 type:TC25UTC _id:kSZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:46:55.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:163 id:419 length:421 speed:50 time:Aug 4, 2026 @ 12:46:55.000 type:TC25UTC _id:4yZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:46:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:990 id:419 length:565 speed:37 time:Aug 4, 2026 @ 12:46:46.000 type:TC25UTC _id:4iZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:45:56.000	name:TC25 - Križe/Retnje category_id:3 category_name:Kombinirano vozilo direction:0 distance:184 id:419 length:599 speed:36 time:Aug 4, 2026 @ 12:45:56.000 type:TC25UTC _id:4SZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:45:46.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:1,046 id:419 length:426 speed:47 time:Aug 4, 2026 @ 12:45:46.000 type:TC25UTC _id:4CZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:44:53.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:20 id:419 length:309 speed:26 time:Aug 4, 2026 @ 12:44:53.000 type:TC25UTC _id:kCZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:44:52.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:356 id:419 length:446 speed:46 time:Aug 4, 2026 @ 12:44:52.000 type:TC25UTC _id:3yZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:44:33.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:93 id:419 length:473 speed:48 time:Aug 4, 2026 @ 12:44:33.000 type:TC25UTC _id:3iZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:44:28.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:60 id:419 length:442 speed:37 time:Aug 4, 2026 @ 12:44:28.000 type:TC25UTC _id:3SZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:44:24.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:567 id:419 length:373 speed:30 time:Aug 4, 2026 @ 12:44:24.000 type:TC25UTC _id:jyZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:43:55.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:121 id:419 length:425 speed:48 time:Aug 4, 2026 @ 12:43:55.000 type:TC25UTC _id:3CZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:43:48.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:263 id:419 length:357 speed:29 time:Aug 4, 2026 @ 12:43:48.000 type:TC25UTC _id:jiZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:43:10.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:1 distance:91 id:419 length:338 speed:32 time:Aug 4, 2026 @ 12:43:10.000 type:TC25UTC _id:jSZuzJ8BXM2rAje5L0l5 _index:vivozitetc25 _score: - _type:_doc
+
+Aug 4, 2026 @ 12:43:05.000	name:TC25 - Križe/Retnje category_id:2 category_name:Osebni avtomobil direction:0 distance:236 id:419 length:372 speed:56 time:Aug 4, 2026 @ 12:43:05.000 type:TC25UTC _id:2yZuzJ8BXM2rAje5L0d4 _index:vivozitetc25 _score: - _type:_doc

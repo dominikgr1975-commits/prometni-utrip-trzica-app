@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prometni odseki Tržiča – analiza hitrosti, prometnih tokov in vrst vozil na posameznih cestnih odsekih.">
+  <title>Prometni odseki Tržiča</title>
+  <link rel="stylesheet" href="../../assets/css/shared.css">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="../../VERSION.js"></script>
+  <script defer src="../../assets/js/apply-version.js"></script>
+  <script src="./data-js/sections.js"></script>
+  <script src="./data-js/krize-retnje.js"></script>
+  <script src="./data-js/zvirce.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body data-version-key="prometni-odseki" data-version-title="Prometni odseki Tržiča v{version}">
+<header class="section-hero">
+  <div class="shell">
+    <nav class="nav">
+      <a class="brand brand-link" href="../../index.html">
+        <img src="../../assets/images/grb_veliki.jpg" alt="Grb Občine Tržič">
+        <div><span>Občina Tržič</span><strong>Prometni odseki Tržiča</strong></div>
+      </a>
+      <div class="status" data-version-template="2. razvojna faza · v{version} · {releaseLabel}">2. razvojna faza · v0.2 · 5. avgust 2026</div>
+    </nav>
+
+    <div class="hero-grid">
+      <div class="hero-copy-road">
+        <p class="eyebrow">POSAMEZNI ODSEKI · HITROST · PROMETNA VARNOST</p>
+        <h1>Prometni odseki Tržiča</h1>
+        <p class="lead" id="heroLead">Primerjava prometnih tokov, hitrosti, prekoračitev in sestave vozil na posameznih merilnih odsekih.</p>
+        <div class="snapshot" id="heroSnapshot">● Podatki niso v realnem času</div>
+      </div>
+
+      <aside class="location-panel" aria-label="Lokacija merilnega odseka">
+        <span class="panel-kicker" id="panelKicker">PROMETNI ODSEK</span>
+        <h2 id="locationTitle">–</h2>
+        <p id="locationDescription">–</p>
+        <div class="road-scheme" aria-label="Smeri merjenja">
+          <div class="place" id="schemeLeft">–</div>
+          <div class="scheme-line">
+            <span class="arrow left">←</span>
+            <span class="device">TC25</span>
+            <span class="arrow right">→</span>
+          </div>
+          <div class="place" id="schemeRight">–</div>
+        </div>
+        <div class="direction-caption"><span id="directionCaptionLeft">–</span><span id="directionCaptionRight">–</span></div>
+        <a class="map-link" id="mapLink" href="#" target="_blank" rel="noopener noreferrer">Odpri lokacijo na zemljevidu <span>↗</span></a>
+      </aside>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="controls-section">
+  <div class="shell">
+    <div class="control-panel">
+      <label><span>Prometni odsek</span><select id="sectionSelect" aria-label="Izberi prometni odsek"></select></label>
+      <label><span>Obdobje</span><select id="periodSelect" aria-label="Izberi obdobje"></select></label>
+      <label><span>Smer</span><select id="directionSelect" aria-label="Izberi smer"></select></label>
+      <div class="period-status"><span>Primerljivi podatki</span><strong id="periodStatus">–</strong></div>
+    </div>
+    <div class="data-warning" id="dataWarning"></div>
+  </div>
+</section>
+
+<section class="section section-tight">
+  <div class="shell">
+    <div class="section-heading compact">
+      <div><p class="eyebrow">GLAVNI KAZALNIKI</p><h2>Promet in hitrosti v izbranem obdobju</h2></div>
+      <p>Kartice se preračunajo glede na odsek, obdobje in smer. Uporabljeni so samo popolni dnevi.</p>
+    </div>
+    <div class="kpi-grid-road">
+      <article class="kpi-road"><span>Skupaj vozil</span><strong id="kpiTotal">–</strong><small id="kpiTotalNote">–</small></article>
+      <article class="kpi-road"><span>Povprečno na dan</span><strong id="kpiDaily">–</strong><small>vozil na popoln dan</small></article>
+      <article class="kpi-road"><span>Povprečna hitrost</span><strong id="kpiAvgSpeed">–</strong><small>prometno uteženo</small></article>
+      <article class="kpi-road"><span>P85 intervalov</span><strong id="kpiP85">–</strong><small>utežena intervalna ocena</small></article>
+      <article class="kpi-road danger"><span>Najvišja hitrost</span><strong id="kpiMax">–</strong><small>največja evidentirana vrednost</small></article>
+      <article class="kpi-road warning"><span>Nad 50 km/h</span><strong id="kpiOver50">–</strong><small id="kpiOver50Note">–</small></article>
+    </div>
+  </div>
+</section>
+
+<section class="section insight-section">
+  <div class="shell">
+    <div class="section-heading compact light-heading">
+      <div><p class="eyebrow">OPISNI POVZETEK</p><h2>Kaj podatki kažejo?</h2></div>
+      <p>Povzetek je ustvarjen z jasnimi pravili iz izbranih meritev in lokacijskega konteksta. Ne predstavlja avtomatske odločitve o radarju.</p>
+    </div>
+    <div class="insight-grid" id="insightGrid"></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">GRAF 1</p><h2>Koliko vozil prekoračuje in za koliko?</h2></div>
+      <p>Prikazan je delež vozil do in nad 50 km/h ter podrobna razdelitev prekoračitev. Pri številu vozil je zaradi redkih ekstremov uporabljena logaritemska lestvica.</p>
+    </div>
+    <div class="chart-card-road">
+      <div class="chart-toolbar">
+        <div id="complianceBars" class="compliance-grid"></div>
+        <div class="segmented" role="group" aria-label="Način prikaza porazdelitve hitrosti">
+          <button type="button" data-speed-mode="count" class="active">Število vozil</button>
+          <button type="button" data-speed-mode="share">Delež vseh vozil</button>
+        </div>
+      </div>
+      <div class="svg-scroll"><div id="speedDistributionChart" class="chart-host" role="img" aria-label="Porazdelitev prekoračitev hitrosti"></div></div>
+      <p class="chart-note" id="speedChartNote"></p>
+    </div>
+  </div>
+</section>
+
+<section class="section soft-section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">GRAF 2</p><h2>Kdaj in s katerimi vozili poteka promet?</h2></div>
+      <p>Izvorni izvoz je razdeljen na 12-urne intervale. Graf zato prikazuje povprečni tedenski profil po dnevih in polovicah dneva, ne dejanskega urnega profila.</p>
+    </div>
+    <div class="chart-card-road">
+      <div class="chart-toolbar simple">
+        <div class="chart-explainer" id="profileExplainer">Primerjava smeri po 12-urnih intervalih.</div>
+        <div class="segmented" role="group" aria-label="Način prikaza prometnega profila">
+          <button type="button" data-profile-mode="directions" class="active">Smeri</button>
+          <button type="button" data-profile-mode="types">Vrste vozil</button>
+        </div>
+      </div>
+      <div class="svg-scroll"><div id="trafficProfileChart" class="chart-host" role="img" aria-label="Dvanajsturni tedenski profil prometa"></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-heading">
+      <div><p class="eyebrow">PODROBNA PRIMERJAVA</p><h2>Prekoračitve po smereh</h2></div>
+      <p>Absolutno število pokaže obseg, delež pa omogoča pošteno primerjavo smeri. Dodano je povprečno število prekoračitev na dan.</p>
+    </div>
+    <div class="table-card">
+      <table>
+        <thead><tr><th>Prag</th><th id="thresholdDirection1">Direction 1</th><th id="thresholdDirection0">Direction 0</th><th>Skupaj</th></tr></thead>
+        <tbody id="thresholdTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="section context-section">
+  <div class="shell">
+    <div class="section-heading compact">
+      <div><p class="eyebrow">PROMETNOVARNOSTNI KONTEKST</p><h2>Zakaj sama najvišja hitrost ni dovolj</h2></div>
+      <p>Meritve se razlagajo skupaj z značilnostmi lokacije. Lokacijski kontekst ne nadomešča uradne prometnovarnostne študije.</p>
+    </div>
+    <div class="context-grid" id="contextGrid"></div>
+    <div class="complaint-note" id="residentReport" hidden></div>
+  </div>
+</section>
+
+<section class="section methodology-section">
+  <div class="shell">
+    <div class="section-heading compact">
+      <div><p class="eyebrow">METODOLOGIJA IN OMEJITVE</p><h2>Kako so kazalniki izračunani</h2></div>
+      <p>Ključna pravila so vidna neposredno v aplikaciji, podrobnosti pa so v README-ju in dokumentaciji paketa.</p>
+    </div>
+    <div class="method-grid" id="methodGrid"></div>
+  </div>
+</section>
+
+<section class="section sources-section">
+  <div class="shell">
+    <div class="section-heading compact"><div><p class="eyebrow">VIRI</p><h2>Sledljivost podatkov</h2></div></div>
+    <div class="source-grid-road" id="sourceGrid"></div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="shell"><span>Utrip Tržiča · Občina Tržič</span><span data-version-template="Prometni odseki v{version} · {releaseLabel}">Prometni odseki v0.2 · 5. avgust 2026</span></div>
+</footer>
+</body>
+</html>
